@@ -15,7 +15,7 @@ if __name__ == '__main__':
 
     phrases: dict = fop.read_phrases(phrases_file_path)
     repetitions: dict = fop.read_json_from_file(repetitions_file_path)
-    can_work, assesment_error_message = dop.data_assessment(phrases, repetitions)
+    can_work, assessment_error_message = dop.data_assessment(phrases, repetitions)
 
     statistics: dict = fop.read_json_from_file(user_statistics_file_path)
 
@@ -36,5 +36,5 @@ if __name__ == '__main__':
             statistics = dop.update_statistics(statistics, current_phrase, best_translation)
             fop.save_json_to_file(statistics_file_name, statistics)
     else:
-        print(assesment_error_message)
+        print(assessment_error_message)
         exit()
