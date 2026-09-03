@@ -206,7 +206,7 @@ class DataOperations:
         """Cleanup user input"""
         MAX_STRING_SIZE: int = 200
         comma_pattern: Pattern[str] = re.compile(r'(,){2,}')
-        white_list: str = " ?!.,:;'"  # Allow symbols (+ alpha-numeric)
+        white_list: str = " ?!.,:;'¿¡"  # Allow symbols (+ alpha-numeric)
 
         user_input = user_input[:MAX_STRING_SIZE]  # Length limit
         user_input = user_input.strip()  # Remove leading and trailing whitespaces
