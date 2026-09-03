@@ -7,7 +7,7 @@ from data_level import DataOperations as dop
 
 class UiOperations:
     @staticmethod
-    def user_session(phrase: str, repetition: dict) -> (float, str):
+    def user_session(phrase: str, repetition: dict) -> tuple[float, str]:
         """Console user interface"""
         user_input: str = input(f'Enter phrase \"{phrase}\" in Spanish: ' + os.linesep)
         distance, best_translation = dop.find_max_string_similarity(user_input, repetition['translations'])

@@ -18,7 +18,7 @@ class DataOperations:
     level_mediocre: float = 0.65
 
     @staticmethod
-    def data_assessment(phrases: dict, repetitions: dict) -> (bool, str):
+    def data_assessment(phrases: dict, repetitions: dict) -> tuple[bool, str]:
         """Check data before work"""
         if not isinstance(phrases, dict):
             print('Cannot parse phrase file')
@@ -34,7 +34,7 @@ class DataOperations:
             return True, 'No data assessment errors'
 
     @staticmethod
-    def merge(phrases: dict, repetitions: dict) -> (bool, str):
+    def merge(phrases: dict, repetitions: dict) -> tuple[bool, str]:
         """Merge new phrases into general dictionary"""
         no_added_message: str = 'No new phrases'
         new_phrases_num: int = 0
