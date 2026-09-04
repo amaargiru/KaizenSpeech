@@ -1,8 +1,11 @@
 import os
 
-from colorama import Fore
+from colorama import Fore, just_fix_windows_console
 
 from data_level import DataOperations as dop
+
+# Enable ANSI escape sequences in the classic Windows console (no-op on other platforms / modern terminals)
+just_fix_windows_console()
 
 
 class UiOperations:
