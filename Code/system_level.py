@@ -26,8 +26,8 @@ class FileOperations:
         phrase_mapping: dict = {}
 
         try:
-            with open(file_path, 'r', encoding='utf-8') as phrf:
-                for string in phrf:
+            with open(file_path, 'r', encoding='utf-8') as phrase_file:
+                for string in phrase_file:
                     if string[0] != '#' and '||' in string:  # No comment line and contains native-english separator
                         phrases_pair = list(map(str.strip, string.split('||')))
 

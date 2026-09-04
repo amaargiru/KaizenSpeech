@@ -132,7 +132,7 @@ class DataOperations:
         return statistics
 
     @staticmethod
-    def find_max_string_similarity(user_input: str, translations: str | List[str]) -> (float, str):
+    def find_max_string_similarity(user_input: str, translations: str | List[str]) -> tuple[float, str]:
         """Compares user_input against each string in translations"""
         max_distance: float = 0
 
@@ -196,7 +196,7 @@ class DataOperations:
 
         # 'Unminify' reference phrase and restore transformation shifts
         for i, corr in enumerate(corr_map):
-            if corr is False:
+            if not corr:
                 correction_map[complex_reference.transformation_matrix[i]] = False
 
         return correction_map
@@ -204,14 +204,13 @@ class DataOperations:
     @staticmethod
     def _cleanup_user_input(user_input: str) -> str:
         """Cleanup user input"""
-        MAX_STRING_SIZE: int = 200
+        max_string_size: int = 200
         comma_pattern: Pattern[str] = re.compile(r'(,){2,}')
         white_list: str = " ?!.,:;'¿¡"  # Allow symbols (+ alpha-numeric)
 
-        user_input = user_input[:MAX_STRING_SIZE]  # Length limit
+        user_input = user_input[:max_string_size]
         user_input = user_input.strip()  # Remove leading and trailing whitespaces
         user_input = ''.join(ch for ch in user_input if ch.isalnum() or ch in white_list)  # Delete all unwanted symbols
-        user_input = user_input.replace('\t', ' ')  # Replace tabs with spaces
         user_input = ' '.join(user_input.split())  # Replace multiple spaces with one
         user_input = re.sub(comma_pattern, ',', user_input)  # Replace multiple commas with one
 
