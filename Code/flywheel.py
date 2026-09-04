@@ -1,4 +1,4 @@
-#!/usr/bin/python3.10
+#!/usr/bin/python3.12
 
 from data_level import DataOperations as dop
 from system_level import FileOperations as fop
