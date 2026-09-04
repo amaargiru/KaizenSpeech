@@ -147,7 +147,7 @@ class DataOperations:
         translations = [(t, DataOperations._compact(t.lower())) for t in translations]
 
         for translation, compact_translation in translations:
-            current_distance = jellyfish.jaro_distance(user_input, compact_translation)
+            current_distance = jellyfish.jaro_similarity(user_input, compact_translation)
 
             if current_distance > max_distance:
                 max_distance = current_distance
