@@ -26,15 +26,30 @@ if __name__ == '__main__':
         if is_merged:
             fop.save_json_to_file(repetitions_file_path, repetitions)
 
-        while True:
-            current_phrase: str = dop.determine_next_phrase(repetitions)
-            user_result, best_translation = uop.user_session(current_phrase, repetitions[current_phrase])
+        print('Type "/exit" or press Ctrl+C to quit')
 
-            dop.update_repetitions(repetitions, current_phrase, user_result)
-            fop.save_json_to_file(repetitions_file_path, repetitions)
+        try:
+            while True:
+                current_phrase: str = dop.determine_next_phrase(repetitions)
+                user_result, best_translation = uop.user_session(current_phrase, repetitions[current_phrase])
 
-            statistics = dop.update_statistics(statistics, current_phrase, best_translation)
-            fop.save_json_to_file(statistics_file_name, statistics)
+                if user_result is None:  # '/exit' command received
+                    break
+
+                dop.update_repetitions(repetitions, current_phrase, user_result)
+                fop.save_json_to_file(repetitions_file_path, repetitions)
+
+                statistics = dop.update_statistics(statistics, current_phrase, best_translation)
+                fop.save_json_to_file(statistics_file_name, statistics)
+
+        except KeyboardInterrupt:
+            pass  # Ctrl+C pressed - exit politely (nothing is lost: data is saved after every attempt)
+
+        # Re-save data to guarantee file consistency in case of interruption in the middle of writing
+        fop.save_json_to_file(repetitions_file_path, repetitions)
+        fop.save_json_to_file(statistics_file_name, statistics)
+
+        print('Session finished. All data saved.')
     else:
         print(assessment_error_message)
         exit()

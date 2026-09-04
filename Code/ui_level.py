@@ -10,9 +10,13 @@ just_fix_windows_console()
 
 class UiOperations:
     @staticmethod
-    def user_session(phrase: str, repetition: dict) -> tuple[float, str]:
+    def user_session(phrase: str, repetition: dict) -> tuple[float | None, str]:
         """Console user interface"""
         user_input: str = input(f'Enter phrase \"{phrase}\" in Spanish: ' + os.linesep)
+
+        if user_input.strip().lower() == '/exit':  # User wants to end the session
+            return None, ''
+
         distance, best_translation = dop.find_max_string_similarity(user_input, repetition['translations'])
         diff = dop.find_user_mistakes(user_input, best_translation)
 
