@@ -8,28 +8,28 @@
 What is it? || Que es?
 It is || Lo es | Lo está
 So what? || Y qué?
-I know || Lo se | Ya se | Yo sé
-I don't know || No se
+I know || Lo se | Ya se | Yo sé | Ya lo se | Yo lo sé
+I don't know || No se | No lo se | Yo no sé | Yo no lo sé | No Io sé
 For what? || Para qué?
 Yes, yes || Si, si
 Yes || Que sí
 Good || Qué bien | Qué bueno
 Good, good || Bien, bien
 Yes, good || Sí, bien
-That's it || Eso es | Es eso | Ya está
+That's it || Eso es | Es eso | Ya está | Ese es | Eso es todo
 That's why || Por eso
 Yes, that || Sí, eso
 Not that || Eso no
-Not me || Yo no
-I do || Yo sí
-And me || Y yo
-Like me || Como yo
+Not me || Yo no | Ni yo | A mí no
+I do || Yo sí | Lo hago | Eso hago | A mí sí | Yo lo hago
+And me || Y yo | Y a mí
+Like me || Como yo | Al igual que yo
 Over here || Por aquí
-Here it is || Aquí está | Aquí es
+Here it is || Aquí está | Aquí es | Aquí lo tiene | Aquí lo tienes
 It's here || Está aquí | Es aquí
 Not here || Aquí no | No aquí
 And here || Y aquí
-One more || Una más
+One more || Una más | Uno más
 And this || Y esto
 It's all || Es todo
 All good || Todo bien
@@ -39,60 +39,60 @@ Not everything || No todo
 Not anymore || Ya no
 Now, now || Ya, ya
 Yes, already || Sí, ya
-I'm fine || Estoy bien
+I'm fine || Estoy bien | Yo estoy bien
 I'm here || Estoy aquí
-I am || Lo estoy | Lo soy
-Very good || Muy bien | Muy bueno
+I am || Lo estoy | Lo soy | Lo estoy haciendo
+Very good || Muy bien | Muy bueno | Muy buena
 Not now || Ahora no | No ahora
 Now yes || Ahora sí
 For now || Por ahora
 Yes, now || Sí, ahora
-Here we go || Aquí vamos
+Here we go || Aquí vamos | Ahí vamos | Allá vamos
 Yes, let's go || Sí, vamos
-Let's go || Ya vamos
+Let's go || Ya vamos | Vamos allá | Vamos a ir
 Now let's go || Ahora, vamos
 Come on, now || Vamos, ahora
-That's right || Así es
-Something like that || Algo así
+That's right || Así es | Eso mismo
+Something like that || Algo así | Algo por el estilo
 It is so || Es así
 Not like that || Así no
-It's good || Es bueno | Está bueno
+It's good || Es bueno | Está bueno | Es buena | Está buena
 Well, yes || Bueno, sí
 Well, well || Bueno, bueno | Bueno, bien
 Yes, well || Sí, bueno
 Well, let's go || Bueno, vamos
 There are more || Hay más
 Got it || Lo tengo
-I have you || Te tengo
+I have you || Te tengo | Te tengo a ti
 I have it || La tengo
 I have something || Tengo algo
 I have them || Los tengo
 It's him || Es él
 You're fine || Estás bien
-Here you are || Aquí estás | Aquí tiene
+Here you are || Aquí estás | Aquí tiene | Aquí tienen
 You are here || Estás aquí
 You don't || Tú no
 Like you || Como tú
 Yes, you || Sí, tú
-And you || Y tú
+And you || Y tú | Y a ti
 You're welcome || De nada
-Not at all || Para nada
+Not at all || Para nada | En absoluto
 Nothing more || Nada más
 For nothing || Por nada
-Not good || Nada bueno
+Not good || Nada bueno | No es bueno
 Nothing || En nada
-Of course || Cómo no
-How are you? || Cómo estás?
+Of course || Cómo no | Desde luego | Por supuesto | Pues claro | Claro que si
+How are you? || Cómo estás? | Qué tal?
 How is he? || Cómo está?
 Or not || O no
-I can't || No puedo
+I can't || No puedo | Yo no puedo
 I can || Yo puedo
 Yes I can || Sí puedo
-I love you || Te quiero
-I don't want to || No quiero
+I love you || Te quiero | Yo te quiero | Te quiero a ti | Te amo
+I don't want to || No quiero | No quiero hacerlo
 I want it || Lo quiero
-Yes, I do || Sí, quiero
-I love her || La quiero
+Yes, I do || Sí, quiero | Sí, lo tengo | Sí, la tengo | Sí, lo creo | Sí, ya lo creo
+I love her || La quiero | La amo
 It's her || Es ella
 So it was || Así fue
 It was || Lo fue | Lo era
@@ -103,7 +103,7 @@ Thank you, thank you || Gracias, gracias
 But thank you || Pero gracias
 And thank you || Y gracias
 Once || Una vez
-Only one || Sólo una
+Only one || Sólo una | Sólo uno
 Just that || Sólo eso
 Just me || Sólo yo
 It's me || Soy yo
@@ -113,35 +113,34 @@ Like everyone || Como todos
 Because yes || Porque sí
 Here you go || Aquí tienes
 You have it || Lo tienes
-I think so || Eso creo
-I don't think so || No creo
+I think so || Eso creo | Creo que sí | Ya lo creo | Yo creo que sí | Me parece que sí
+I don't think so || No creo | No lo creo | No me parece | Yo no lo creo | Me parece que no
 I believe you || Te creo | Le creo
 I believe it || Lo creo
-You know || Lo sabes | Ya sabes | Tú sabes
+You know || Lo sabes | Ya sabes | Tú sabes | Ya lo sabe | Usted lo sabe
 You know what? || Sabes qué?
 I was || Lo estaba
-I'm leaving || Me voy
-I'm going || Yo voy | Voy yo
+I'm leaving || Me voy | Ya me voy | Me marcho
+I'm going || Yo voy | Voy yo | Yo me voy | Voy a ir
 Now I'm going || Ahora voy
-Here I go || Aquí voy | Ahí voy
+Here I go || Aquí voy | Ahí voy | Allá voy
 It's you || Eres tú | Es usted
-You are good || Eres bueno
+You are good || Eres bueno | Eres buena
 You are || Lo eres
 It can be || Puede ser
-That's it || Ese es
 For you || Para usted | Para ti | Por ti
 Well then || Bien, entonces
 Hello, hello || Hola, hola
 Yes, hello || Sí, hola
 Home || A casa
 At home || En casa
-It's true || Es verdad
-Really || De verdad
+It's true || Es verdad | Es cierto
+Really || De verdad | De veras
 The truth || La verdad
-Indeed || En verdad
+Indeed || En verdad | En efecto
 Who is it? || Quién es?
-Who are you? || Quién eres?
-Both of them || Los dos
+Who are you? || Quién eres? | Quién es usted?
+Both of them || Los dos | A los dos
 Oh yeah || Oh, sí
 Oh, thank you || Oh, gracias
 Oh come on || Oh, vamos
@@ -158,7 +157,7 @@ Thank you, sir || Gracias, señor
 Good sir || Bien, señor
 Hello sir || Hola, señor
 My lord || Mi señor
-Sorry || Lo siento
+Sorry || Lo siento | Lo sentimos
 Not much || No mucho
 Yes, a lot || Sí, mucho
 A long time || Mucho tiempo
@@ -169,74 +168,69 @@ Much better || Mucho mejor
 The best || El mejor
 Better not || Mejor no
 It is better || Es mejor
-You too || Tú también | Usted también
-Oh my || Oh, Dios
+You too || Tú también | Usted también | A ti también
+Oh my || Oh, Dios | Oh, vaya
 By God || Por Dios
-My God || Mi Dios
+My God || Mi Dios | Dios mío | Vaya por Dios
 We have it || Lo tenemos | La tenemos
 We have time || Tenemos tiempo
 Here they are || Aquí están
 They are fine || Están bien
-They are here || Están aquí
+They are here || Están aquí | Ya están aquí
 To you || A ti
 From you || De ti
-You can't || No puedes
+You can't || No puedes | No se puede
 You can || Tú puedes
-Yes you can || Sí puedes
-Come on, man || Vamos, hombre
+Yes you can || Sí puedes | Sí que puedes
+Come on, man || Vamos, hombre | Vamos, viejo
 Oh man || Oh, hombre
 Thanks, man || Gracias, hombre
 Yes, man || Sí, hombre
 A man || Un hombre
-Let's see || A ver
+Let's see || A ver | Vamos a ver
 As always || Como siempre
 Forever || Para siempre
 Not always || No siempre
 Until now || Hasta ahora
 There it is || Ahí está | Allí está
 There you go || Ahí tienes | Ahí tiene
-Over there || Por ahí | Por allí
+Over there || Por ahí | Por allí | Por allá
 There you are || Ahí estás
 There they are || Ahí están | Allí están
-Here we go || Ahí vamos
 It's there || Está ahí
 There it goes || Ahí va
 Two years || Dos años
-Not me || Ni yo
 A little || Un poco
 Tonight || Esta noche
 One, two || Uno, dos
-Only one || Sólo uno
-One more || Uno más
 One day || Un día
 Well done || Bien hecho
-It's done || Está hecho
+It's done || Está hecho | Ya está hecho
 We are good || Estamos bien
 Here we are || Aquí estamos
-We are here || Estamos aquí
+We are here || Estamos aquí | Ya estamos aquí | Ya llegamos
 Again || Otra vez | De nuevo
 Agreed || De acuerdo
-I remember || Me acuerdo
+I remember || Me acuerdo | Lo recuerdo
 I have a job || Tengo trabajo
 So do we || Nosotros también
 For us || Por nosotros
 All of us || Todos nosotros
 It seems so || Eso parece
 So it seems || Así parece
-Look at this || Mira esto
-Look at that || Mira eso
+Look at this || Mira esto | Mire esto | Miren esto
+Look at that || Mira eso | Miren eso
 Look, look || Mira, mira
 Look here || Mira aquí
 My father || Mi padre
 Yes, father || Sí, padre
 Thank you, father || Gracias, padre
 Your father || Tu padre
-Whatever || Como sea
+Whatever || Como sea | Lo que sea
 Right now || Ahora mismo | Ya mismo
-Right here || Aquí mismo
+Right here || Aquí mismo | Justo aquí
 The same || Lo mismo | El mismo
-That's right || Eso mismo
-Right there || Ahí mismo
+Right there || Ahí mismo | Justo ahí
 Nobody || A nadie
 No one can || Nadie puede
 With nobody || Con nadie
@@ -245,14 +239,13 @@ They are || Son ellos
 All of them || Todos ellos
 Not to mention || Ni hablar
 You're doing well || Vas bien
-Maybe || Tal vez
-How are you? || Qué tal?
+Maybe || Tal vez | A lo mejor
 I'm out || Estoy fuera
 What's up? || Qué pasa?
 The money || El dinero
 I have money || Tengo dinero
-Yes, of course || Sí, claro
-Oh sure || Oh, claro
+Yes, of course || Sí, claro | Sí, cómo no | Sí, desde luego | Sí, por supuesto
+Oh sure || Oh, claro | Ah, claro
 It is clear || Está claro
 Sure, yes || Claro, sí
 One moment || Un momento
@@ -263,11 +256,11 @@ Your mother || Tu madre
 Yes, mother || Sí, madre
 There is place || Ha lugar
 Yes, sure || Sí, seguro
-I'm sure || Estoy seguro
+I'm sure || Estoy seguro | Estoy segura
 Are you sure? || Estás seguro?
 Who knows || Quién sabe
 Wait, wait || Espera, espera
-Wait here || Espera aquí
+Wait here || Espera aquí | Espere aquí
 Oh wait || Oh, espera
 It's new || Es nuevo
 Another thing || Otra cosa
@@ -283,9 +276,8 @@ A friend || Un amigo
 My friend || Mi amigo
 Big deal || Gran cosa
 A woman || Una mujer
-My wife || Mi mujer
-See you later || Hasta luego
-Of course || Desde luego
+My wife || Mi mujer | Mi esposa
+See you later || Hasta luego | Te veo luego | Te veo después | Te veo más tarde | Nos vemos luego | Nos vemos después | Luego nos vemos | Nos vemos más tarde
 Thanks, Mom || Gracias, mamá
 Come on, mom || Vamos, mamá
 Two days || Dos días
@@ -295,50 +287,44 @@ Yes, Dad || Sí, papá
 Three years || Tres años
 Three days || Tres días
 Not today || Hoy no
-It's good || Es buena | Está buena
-Very good || Muy buena
-You are good || Eres buena
 I need you || Te necesito
 I need it || Lo necesito
 I need money || Necesito dinero
-I told you || Te dije
+I told you || Te dije | Te lo dije
 So I said || Eso dije
-I like it || Me gusta
+I like it || Me gusta | A mí me gusta
 Do you like it? || Te gusta?
 So it will be || Así será
 Good work || Buen trabajo
-Good morning || Buen día
+Good morning || Buen día | Buenos días
 Hey, hey || Oye, oye
 Hey, buddy || Oye, amigo
 Hey you || Oye, tú
-Not really || No realmente | Realmente no
+Not really || No realmente | Realmente no | La verdad, no | En realidad no | De verdad que no | La verdad que no
 Good thing || Menos mal
 Not yet || Aún no | Todavía no | No todavía
-My God || Dios mío
 It's mine || Es mío
-You can do it || Puedes hacerlo
-I can do it || Puedo hacerlo
+You can do it || Puedes hacerlo | Tú puedes hacerlo
+I can do it || Puedo hacerlo | Yo puedo hacerlo
 I want to do it || Quiero hacerlo
 We can do it || Podemos hacerlo
 I'm going with you || Voy contigo
 I am with you || Estoy contigo
-Here you are || Aquí tienen
 You're right || Tienes razón
 He's right || Tiene razón
 He was right || Tenía razón
 Not so much || No tanto
-Sometimes || A veces
+Sometimes || A veces | Algunas veces
 Twice || Dos veces
-He did || Lo hizo
-Come here || Ven aquí
-Come with me || Ven conmigo
+He did || Lo hizo | Él lo hizo
+Come here || Ven aquí | Venga aquí | Ven acá
+Come with me || Ven conmigo | Venga conmigo
 Come, come || Ven, ven
 Seriously || En serio
 It's late || Es tarde
 Later || Más tarde
 It's time || Es hora
 One hour || Una hora
-It's true || Es cierto
 Yes, right || Sí, cierto
 Oh right || Oh, cierto
 Very true || Muy cierto
@@ -352,26 +338,25 @@ I am a policeman || Soy policía
 The police || La policía
 It shouldn't || No debería
 All of you || Todos ustedes
-Hi guys || Hola, chicos
-Come on, guys || Vamos, chicos
+Hi guys || Hola, chicos | Hola, muchachos
+Come on, guys || Vamos, chicos | Vamos, muchachos
 Thanks guys || Gracias, chicos
 Still nothing || Todavía nada
 Someday || Algún día
-What are you doing? || Qué haces?
+What are you doing? || Qué haces? | Qué estás haciendo?
 Hello, friends || Hola, amigos
-I see || Ya veo
+I see || Ya veo | Ya lo veo
 I see it || Lo veo | La veo
 I see you || Te veo
 I see them || Los veo
 My, my || Vaya, vaya
-Oh my || Oh, vaya
 Wow, thank you || Vaya, gracias
 I thought so || Eso pensé
 My brother || Mi hermano
 Thank you, brother || Gracias, hermano
 Hello, brother || Hola, hermano
 I knew it || Lo sabía
-I didn't know || No sabía
+I didn't know || No sabía | Yo no lo sabía
 Hello, honey || Hola, cariño
 Thanks, honey || Gracias, cariño
 Yes, honey || Sí, cariño
@@ -379,7 +364,6 @@ Oh, honey || Oh, cariño
 Anything || Cualquier cosa
 Ah yes || Ah, sí
 Ah, hi || Ah, hola
-Oh sure || Ah, claro
 Ah, thank you || Ah, gracias
 Ah, good || Ah, bien
 Ah well || Ah, bueno
@@ -389,16 +373,16 @@ It is us || Somos nosotros
 I must || Debo hacerlo
 Good boy || Buen chico
 Come on, boy || Vamos, chico
-It's over || Ya pasó
-What happened? || Qué pasó?
-I did || Lo hice
-Maybe not || Quizá no | Quizás no
-Maybe yes || Quizá sí
+It's over || Ya pasó | Se acabó
+What happened? || Qué pasó? | Qué ha pasado?
+I did || Lo hice | Yo lo hice
+Maybe not || Quizá no | Quizás no | Puede que no | Tal vez no
+Maybe yes || Quizá sí | Puede que sí | Tal vez sí
 It's great || Es genial
 Oh great || Oh, genial
 It was great || Fue genial
 Yeah, great || Sí, genial
-That would be great || Sería genial
+That would be great || Sería genial | Eso sería genial
 It will be great || Será genial
 Goodbye, honey || Adiós, cariño
 Bye, dad || Adiós, papá
@@ -407,8 +391,7 @@ Goodbye, sir || Adiós, señor
 Thank you, bye || Gracias, adiós
 Goodbye, friend || Adiós, amigo
 Yes, bye || Sí, adiós
-Of course || Por supuesto | Pues claro
-Thank you very much || Muchas gracias
+Thank you very much || Muchas gracias | Muchísimas gracias | Te lo agradezco mucho
 Many things || Muchas cosas
 Many times || Muchas veces
 Yes, ma'am || Sí, señora
@@ -420,19 +403,19 @@ Quick, quick || Rápido, rápido
 I'm inside || Estoy dentro
 Almost now || Ya casi
 You see it? || Lo ves?
-I don't understand || No entiendo
-I understand || Lo entiendo | Ya entiendo
+I don't understand || No entiendo | No lo entiendo | Yo no lo entiendo | No comprendo | No lo comprendo
+I understand || Lo entiendo | Ya entiendo | Lo comprendo | Ya entendí
 I understand you || Te entiendo
-Yes, I understand || Sí, entiendo
+Yes, I understand || Sí, entiendo | Sí, lo entiendo
 The door || La puerta
 One week || Una semana
 You first || Tú primero
-I hope so || Eso espero
+I hope so || Eso espero | Espero que sí | Espero que así sea
 Come on, kids || Vamos, niños
 Good luck || Buena suerte
 You are lucky || Tienes suerte
 What luck || Qué suerte
-See you soon || Hasta pronto
+See you soon || Hasta pronto | Nos vemos pronto
 Very soon || Muy pronto
 I am happy || Estoy feliz
 Two minutes || Dos minutos
@@ -440,7 +423,7 @@ Three minutes || Tres minutos
 I would || Me gustaría
 How long || Cuánto tiempo
 My daughter || Mi hija
-I saw it || Lo vi | La vi
+I saw it || Lo vi | La vi | Yo lo vi
 I saw you || Te vi
 Hello, sweetheart || Hola, corazón
 Leave that || Deja eso
@@ -449,13 +432,9 @@ Nothing important || Nada importante
 Yes, boss || Sí, jefe
 Hello, boss || Hola, jefe
 Thanks, boss || Gracias, jefe
-Right here || Justo aquí
-Right there || Justo ahí
 It's fair || Es justo
-I will || Lo haré
+I will || Lo haré | Yo lo haré | Lo haré yo | Así lo haré
 I'll do that || Eso haré
-My wife || Mi esposa
-Good morning || Buenos días
 You must || Debes hacerlo
 Here it comes || Aquí viene | Ahí viene
 It's coming || Ya viene
@@ -463,17 +442,14 @@ Someone is coming || Alguien viene
 Yes, go ahead || Sí, adelante
 Five minutes || Cinco minutos
 Five years || Cinco años
-Come on, man || Vamos, viejo
 Thanks, old man || Gracias, viejo
 With care || Con cuidado
 Closer || Más cerca
 It is close || Está cerca
 We are close || Estamos cerca
 Good evening || Buenas noches
-Come with me || Venga conmigo
 Come on now || Venga ya
-Come here || Venga aquí
-Let me see || Déjame ver
+Let me see || Déjame ver | Déjeme ver
 Let me go || Déjame ir
 Pretty good || Bastante bien
 At last || Por fin | Al fin
@@ -486,35 +462,28 @@ Good point || Buen punto
 Keep it up || Sigue así
 Keep going || Sigue adelante
 Keep talking || Sigue hablando
-Here we go || Allá vamos
-Let's go || Vamos allá
-Here I go || Allá voy
-Over there || Por allá
 There he goes || Allá va
-I do || Lo hago | Eso hago
 It's upstairs || Está arriba
 You did || Lo hiciste
 What do you say? || Qué dices?
 Take this || Toma esto
 Let me think || Déjame pensar
 It was me || Fui yo
-It's the same || Es igual
+It's the same || Es igual | Es lo mismo
 To work || A trabajar
-Sometimes || Algunas veces
 Let me in || Déjame entrar
 I'm ready || Estoy listo | Estoy lista
 All set || Todo listo
 It's ready || Está listo
-I don't know || No lo se | Yo no sé
 Yes, it is || Si, lo es | Sí, lo está | Sí, así es
-Yes, I know || Si, lo se | Sí, ya sé
+Yes, I know || Si, lo se | Sí, ya sé | Sí, ya lo sé
 Yes, yes, yes || Si, si, si
-Yes, that's fine || Sí, está bien
+Yes, that's fine || Sí, está bien | Sí, así está bien
 Good, good, good || Bien, bien, bien
 All right, yes || Está bien, sí
 That's fine || Eso está bien
 It's not that || No es eso
-Yes, that's it || Sí, eso es
+Yes, that's it || Sí, eso es | Sí, eso es todo
 What is that? || Qué es eso?
 But I do || Pero yo sí
 It's this way || Es por aquí
@@ -525,19 +494,16 @@ He is around here || Está por aquí
 More than that || Más que eso
 What is this? || Qué es esto?
 This is fine || Esto está bien
-That's it || Eso es todo
-Everything is fine || Todo está bien
+Everything is fine || Todo está bien | Todo va bien
 It's all good || Está todo bien
 Not quite || No del todo
 This is it || Esto es todo
 It's all here || Está todo aquí
 Yes, all good || Sí, todo bien
 Everything is here || Todo está aquí
-I know || Ya lo se | Yo lo sé
-And that's it || Y ya está
+And that's it || Y ya está | Y eso es todo
 Yes, I'm fine || Sí, estoy bien
-I'm fine || Yo estoy bien
-I'm on it || Estoy en eso
+I'm on it || Estoy en eso | Estoy en ello
 I'm fine now || Ya estoy bien
 I am here || Yo estoy aquí
 But I'm fine || Pero estoy bien
@@ -549,18 +515,16 @@ I'm very good || Estoy muy bien
 All right, let's go || Muy bien, vamos
 Let's go this way || Vamos por aquí
 Not so || No es así
-That's good || Así está bien | Eso es bueno
+That's good || Así está bien | Eso es bueno | Esa es buena
 Yes, something like that || Sí, algo así
 And so it is || Y así es
-Well that's fine || Bueno, está bien
+Well that's fine || Bueno, está bien | Bueno, eso está bien
 This is good || Esto es bueno
-Not good || No es bueno
 Well, well, well || Bueno, bueno, bueno
-Well that's it || Bueno, ya está
+Well that's it || Bueno, ya está | Bueno, eso es todo
 Well, very good || Bueno, muy bien
 There is something else || Hay algo más
 I already have it || Ya lo tengo | Ya la tengo
-Yes, I do || Sí, lo tengo | Sí, la tengo | Sí, lo creo
 I've got you || Ya te tengo
 It's not him || No es él
 He's fine || Él está bien
@@ -570,22 +534,18 @@ Now I know || Ahora lo sé
 I know everything || Lo sé todo
 I know that || Eso lo sé
 What do I know? || Yo qué sé
-I know it is || Sé que sí
+I know it is || Sé que sí | Sé que lo es
 You and me || Tú y yo
 But you do || Pero tú sí
-Nothing at all || Nada de nada
+Nothing at all || Nada de nada | Nada en absoluto
 Nothing of that || De eso nada
 We're leaving now || Ya nos vamos
 I don't know how || No sé cómo
-Yes, of course || Sí, cómo no
 Or something like that || O algo así
 But I can't || Pero no puedo
-I can't || Yo no puedo
 Now I can't || Ahora no puedo
 It has to be || Tiene que ser
-Here it is || Aquí lo tiene | Aquí lo tienes
 I don't want that || No quiero eso
-I love you || Yo te quiero
 She's fine || Ella está bien
 She is here || Ella está aquí
 It's not her || No es ella
@@ -609,24 +569,17 @@ That's how I am || Así soy yo
 Thank you all || Gracias a todos
 They are not || No lo son
 You already have it || Ya lo tienes
-I don't think so || No lo creo
-I think so || Creo que sí | Ya lo creo
-I think not || Creo que no
-Yes, I think so || Sí, eso creo
+I think not || Creo que no | Yo creo que no
+Yes, I think so || Sí, eso creo | Sí, creo que sí
 You know it || Tú lo sabes
 You already know || Ya lo sabes
-You don't know || No lo sabes
+You don't know || No lo sabes | Tú no lo sabes
 You know it does || Sabes que sí
 How do you know? || Cómo lo sabes?
-I'm leaving || Ya me voy
-I'm going || Yo me voy | Voy a ir
 I'm going for him || Voy por él
 Yes, you are || Sí, lo eres
 You are very good || Eres muy bueno
 It can't be || No puede ser
-You can't || No se puede
-Maybe yes || Puede que sí
-Maybe not || Puede que no
 Yes, it can be || Sí, puede ser
 That's me || Ese soy yo | Esa soy yo
 That's him || Ese es él
@@ -634,34 +587,30 @@ It's for you || Es para usted | Es para ti
 Thank you || Gracias a usted | Gracias a ti
 All right then || Muy bien, entonces
 Hello everyone || Hola a todos
-Let's go home || Vamos a casa
+Let's go home || Vamos a casa | Vámonos a casa
 I'm home || Estoy en casa
 In my house || En mi casa
 It's my home || Es mi casa
 To my house || A mi casa
 You are home || Estás en casa
-I'm going home || Voy a casa
-Not true || No es verdad
-Yes, it is true || Sí, es verdad
+I'm going home || Voy a casa | Me voy a casa
+Not true || No es verdad | No es cierto
+Yes, it is true || Sí, es verdad | Sí, es cierto
 It's the truth || Es la verdad
-That is true || Eso es verdad
-Not really || La verdad, no
+That is true || Eso es verdad | Eso es cierto
 Yes, really || Sí, de verdad
 But it's true || Pero es verdad
-I know who you are || Sé quién eres
+I know who you are || Sé quién eres | Yo sé quién eres
 I know who it is || Sé quién es
-Who are you? || Quién es usted?
-Both of them || A los dos
 All the time || Todo el tiempo
 Oh, she's fine || Oh, está bien
 Oh yeah yeah || Oh, sí, sí
 Oh, very good || Oh, muy bien
 I know where she is || Sé dónde está
-Everything is fine || Todo va bien
 I'm doing well || Me va bien
 Yes, please || Sí, por favor
-Oh please || Oh, por favor
-Come on, please || Vamos, por favor
+Oh please || Oh, por favor | Ay, por favor
+Come on, please || Vamos, por favor | Venga, por favor
 Two, please || Dos, por favor
 Very good, sir || Muy bien, señor
 This way, sir || Por aquí, señor
@@ -671,10 +620,7 @@ All right, sir || Está bien, señor | De acuerdo, señor
 I feel good || Me siento bien
 I love you very much || Te quiero mucho
 Not for me || No para mí | Para mí no
-Not me || A mí no
-And me || Y a mí
 It's for me || Es para mí
-I do || A mí sí
 This is better || Así está mejor
 That's better || Eso está mejor
 I better go || Mejor me voy
@@ -684,24 +630,18 @@ It's better this way || Es mejor así
 Better than ever || Mejor que nunca
 He's the best || Es el mejor
 I feel better || Me siento mejor
-Maybe || A lo mejor
 Way to go || Así se hace
 A long time ago || Hace mucho tiempo
-What do you mean? || Qué quieres decir?
+What do you mean? || Qué quieres decir? | A que te refieres?
 And you too || Y tú también
 For me too || Para mí también
 Thank goodness || Gracias a Dios
-Oh my God || Oh, mi Dios
-Oh my gosh || Oh, por Dios
+Oh my God || Oh, mi Dios | Ay, Dios mío
+Oh my gosh || Oh, por Dios | Oh, Dios mío
 Please, God || Por favor, Dios
-They are here || Ya están aquí
 Good for you || Bien por ti
-You too || A ti también
-And you || Y a ti
-Yes you can || Sí que puedes
-Sorry, man || Lo siento, hombre
+Sorry, man || Lo siento, hombre | Lo siento, tío
 I am a man || Soy un hombre
-Let's see || Vamos a ver
 I can't see || No puedo ver
 I'll see || Voy a ver
 It's my life || Es mi vida
@@ -712,17 +652,15 @@ Both || Las dos cosas
 There you have it || Ahí lo tienes
 It's all there || Está todo ahí
 I was there || Yo estaba ahí | Yo estaba allí
-I have to go || Tengo que ir
+I have to go || Tengo que ir | Me tengo que ir | Tengo que irme
 I can't go || No puedo ir
-We have to go || Tenemos que ir
-Let's go || Vamos a ir
-You have to go || Tienes que ir
+We have to go || Tenemos que ir | Nos tenemos que ir | Tenemos que irnos
+You have to go || Tienes que ir | Te tienes que ir | Tienes que irte
 A little more || Un poco más
 Just a little || Sólo un poco
 Little by little || Poco a poco
 It is night || Es de noche
 All day || Todo el día
-It's done || Ya está hecho
 It is a fact || Es un hecho
 In fact, yes || De hecho, sí
 Very well done || Muy bien hecho
@@ -730,26 +668,22 @@ I have || Lo he hecho
 Yes, we are fine || Sí, estamos bien
 Well, here we are || Bueno, aquí estamos
 And here we are || Y aquí estamos
-We are here || Ya estamos aquí
 Not again || Otra vez no | No otra vez
 Thanks again || Gracias otra vez | Gracias de nuevo
 Hello again || Hola otra vez | Hola de nuevo
 I agree || Estoy de acuerdo
-I don't remember || No me acuerdo
+I don't remember || No me acuerdo | No recuerdo | No lo recuerdo
 Yes, all right || Sí, de acuerdo
-Yes, I remember || Sí, me acuerdo
+Yes, I remember || Sí, me acuerdo | Sí, lo recuerdo
 We agree || Estamos de acuerdo
 It's my job || Es mi trabajo
 I have a lot of work || Tengo mucho trabajo
 It's his job || Es su trabajo
-I don't think so || No me parece
 Yes, it seems so || Sí, eso parece
 What do you think? || Qué te parece?
 I am his father || Soy su padre
-I am your father || Soy tu padre
-Whatever || Lo que sea
+I am your father || Soy tu padre | Yo soy tu padre
 So be it || Que así sea
-It's the same || Es lo mismo
 I'm going right now || Ahora mismo voy
 I am nobody || No soy nadie
 What does it mean? || Qué quiere decir?
@@ -758,28 +692,23 @@ I can't speak || No puedo hablar
 Let's talk || Vamos a hablar
 I just want to talk || Sólo quiero hablar
 Where are you going? || A dónde vas?
-Maybe not || Tal vez no
 Yes, maybe || Sí, tal vez
-Maybe yes || Tal vez sí
-Get out of here || Fuera de aquí
+Get out of here || Fuera de aquí | Vete de aquí | Largo de aquí | Sal de aquí
 After you || Después de ti | Después de usted
 It's a lot of money || Es mucho dinero
 I have the money || Tengo el dinero
 Everyone || Todo el mundo
-Of course not || Claro que no
-Of course || Claro que si
+Of course not || Claro que no | Desde luego que no | Por supuesto que no | Pues claro que no
 Sure you can || Claro que puedes
 Sure I can || Claro que puedo
-Yes, yes, of course || Sí, sí, claro
+Yes, yes, of course || Sí, sí, claro | Sí, sí, por supuesto
 Just a moment || Sólo un momento
 One moment, sir || Un momento, señor
 For the moment || Por el momento
 Another time || En otro momento
 In a moment || En un momento
-It is time || Es el momento | Es la hora
+It is time || Es el momento | Es la hora | Ya es la hora
 I am her mother || Soy su madre
-What are you doing? || Qué estás haciendo?
-I am || Lo estoy haciendo
 What is he doing? || Qué está haciendo?
 Look at this place || Mira este lugar
 Sure you do || Seguro que sí
@@ -789,10 +718,9 @@ That's for sure || Eso es seguro
 You better || Más te vale
 You never know || Nunca se sabe | Uno nunca sabe
 Nobody knows || Nadie lo sabe
-You know || Ya lo sabe | Usted lo sabe
 She knows || Ella lo sabe
 He knows || Él lo sabe
-Wait a minute || Espera un momento
+Wait a minute || Espera un momento | Espera un minuto | Espere un momento | Espere un minuto | Esperen un minuto | Esperen un momento
 One more thing || Una cosa más
 Only one thing || Sólo una cosa
 He's my son || Es mi hijo
@@ -801,7 +729,6 @@ Sorry, friend || Lo siento, amigo
 I am your friend || Soy tu amigo
 All right, friend || Está bien, amigo | Muy bien, amigo
 She is a woman || Es una mujer
-Yes, of course || Sí, desde luego
 Well, see you later || Bueno, hasta luego
 Mom, please || Mamá, por favor
 I love you, Mom || Te quiero, mamá
@@ -813,22 +740,19 @@ Dad, please || Papá, por favor
 One, two, three || Uno, dos, tres | Un, dos, tres
 At three || A las tres
 Three, two, one || Tres, dos, uno
-That's good || Esa es buena
 I need the money || Necesito el dinero
 I need more time || Necesito más tiempo
-I told you || Te lo dije
-I didn't say that || No dije eso
+I didn't say that || No dije eso | Yo no dije eso | No he dicho eso
 I told him || Se lo dije
-I didn't say anything || No dije nada
-I never said that || Nunca dije eso
-I already told you || Ya te dije
+I didn't say anything || No dije nada | Yo no dije nada | No he dicho nada
+I never said that || Nunca dije eso | Yo nunca dije eso
+I already told you || Ya te dije | Ya te lo dije | Ya se lo dije
 I like it that way || Así me gusta
 I like that || Eso me gusta | Me gusta eso
 I really like it || Me gusta mucho
 Yes, I like it || Sí, me gusta
-Good morning, sir || Buen día, señor
+Good morning, sir || Buen día, señor | Buenos días, señor
 Hey, hey, hey || Oye, oye, oye
-Oh my gosh || Oh, Dios mío
 It's not mine || No es mío
 That's mine || Eso es mío
 All night || Toda la noche
@@ -836,18 +760,15 @@ All my life || Toda mi vida
 I have to || Tengo que hacerlo
 Let's do it || Vamos a hacerlo
 You have to || Tienes que hacerlo
-I don't want to || No quiero hacerlo
 We have to || Tenemos que hacerlo
 He had to || Tenía que hacerlo
-I'm going to do it || Voy a hacerlo
-I can do it || Yo puedo hacerlo
-You can do it || Tú puedes hacerlo
+I'm going to do it || Voy a hacerlo | Lo voy a hacer
 I've seen it || Lo he visto
-I have seen it || La he visto
+I have seen it || La he visto | Yo lo he visto
 I have seen you || Te he visto
-I want to talk to you || Quiero hablar contigo
+I want to talk to you || Quiero hablar contigo | Quiero hablar con usted
 I need to talk to you || Necesito hablar contigo
-He wants to talk to you || Quiere hablar contigo
+He wants to talk to you || Quiere hablar contigo | Quiere hablar con usted
 I wanted to talk to you || Quería hablar contigo
 I want to be with you || Quiero estar contigo
 I want to go with you || Quiero ir contigo
@@ -857,46 +778,38 @@ He is right || Él tiene razón
 I love you so much || Te quiero tanto
 Yes, sometimes || Sí, a veces
 Yes, he did || Sí, lo hizo
-He did || Él lo hizo
 Come with us || Ven con nosotros
-Come this way || Ven por aquí
+Come this way || Ven por aquí | Venga por aquí
 Come see || Ven a ver
 Come with papa || Ven con papá
 This is serious || Esto es serio
-I'm serious || Es en serio
+I'm serious || Es en serio | Estoy hablando en serio | Hablo en serio
 Yes, seriously || Sí, en serio
 You are serious || Va en serio
-It's getting late || Se hace tarde
+It's getting late || Se hace tarde | Se está haciendo tarde
 It was about time || Ya era hora
 It's about time || Ya es hora
-Not true || No es cierto
-Yes, it is true || Sí, es cierto
-That is true || Eso es cierto
 Hello, my love || Hola, mi amor
 Looks good || Se ve bien
-Go home || Ve a casa
+Go home || Ve a casa | Vete a tu casa | Vete a casa
 Go get him || Ve por él
 Go get her || Ve por ella
 Go with her || Ve con ella
-What happened? || Qué ha pasado?
 It's the police || Es la policía
 It should be here || Debería estar aquí
 Sorry, guys || Lo siento, chicos
 All right, guys || Muy bien, chicos
-What are you doing here? || Qué haces aquí?
+What are you doing here? || Qué haces aquí? | Qué estás haciendo aquí?
 I'm going out || Voy a salir
 I have to go out || Tengo que salir
 Let's go out || Vamos a salir
 I can't go out || No puedo salir
-I see || Ya lo veo
-See you later || Te veo luego | Te veo después
 Oh, I see || Oh, ya veo
-See you tomorrow || Te veo mañana
-Yes, I see || Sí, ya veo
+See you tomorrow || Te veo mañana | Nos vemos mañana
+Yes, I see || Sí, ya veo | Sí, ya lo veo
 Yes, I see it || Sí, lo veo
 My, my, my || Vaya, vaya, vaya
-Don't go || No se vaya
-My God || Vaya por Dios
+Don't go || No se vaya | No vayas | No te vayas | No se vayan
 You are my brother || Eres mi hermano
 I already knew || Ya lo sabía
 Yes, I knew || Sí, lo sabía
@@ -912,23 +825,20 @@ Ah, it's you || Ah, eres tú
 Oh yeah, sure || Ah, sí, claro
 Ah, sorry || Ah, lo siento
 Same here || Lo mismo digo
-I'm telling you || Te lo digo
+I'm telling you || Te lo digo | Te lo digo yo | Te lo estoy diciendo
 That's what I say || Eso digo yo
 We are a family || Somos una familia
 I owe you one || Te debo una
 To one side || A un lado
-I didn't || No lo hice
-I did || Yo lo hice
+I didn't || No lo hice | Yo no lo hice
 I already did || Ya lo hice
 Yes, I did || Sí, lo hice
 And I did || Y lo hice
-That's great || Eso es genial
+That's great || Eso es genial | Eso es fantástico | Eso es estupendo | Eso es grandioso
 This is great || Esto es genial
-That would be great || Eso sería genial
 Yes, it's great || Sí, es genial
 All right, bye || De acuerdo, adiós | Está bien, adiós | Muy bien, adiós
 Goodbye everyone || Adiós a todos
-Yes, of course || Sí, por supuesto
 Oh, of course || Oh, por supuesto
 Thank you, thank you very much || Gracias, muchas gracias
 Thank you very much sir || Muchas gracias, señor
@@ -946,23 +856,17 @@ That was quick || Eso fue rápido
 I guess so || Supongo que sí
 I was leaving || Ya me iba
 He is in there || Está ahí dentro
-You look good || Te ves bien
+You look good || Te ves bien | Se te ve bien | Tienes buen aspecto
 You look great || Te ves genial
-I don't understand || No lo entiendo
-Yes, I understand || Sí, lo entiendo
 Now I understand || Ahora lo entiendo
 I get it || Ya lo entiendo
 I hope not || Espero que no
-I hope so || Espero que sí
-Sorry, man || Lo siento, tío
 Happy New Year || Feliz Año Nuevo
 I am so happy || Estoy tan feliz
 Thanks for coming || Gracias por venir
-Not really || En realidad no
 Actually, yes || En realidad, sí
-I saw it || Yo lo vi
 Yes, I saw it || Sí, lo vi
-You said so || Tú lo dijiste
+You said so || Tú lo dijiste | Tú lo has dicho
 It is very important || Es muy importante
 Not important || No es importante
 This is important || Esto es importante
@@ -970,16 +874,14 @@ That is important || Eso es importante
 Sorry, boss || Lo siento, jefe
 Just in time || Justo a tiempo
 I won't || No lo haré
-I will || Yo lo haré | Lo haré yo | Así lo haré
 Yes, I will || Sí, lo haré
-Good morning, sir || Buenos días, señor
 Good morning, ma'am || Buenos días, señora
 Good morning, darling || Buenos días, cariño
 It's coming this way || Viene hacia aquí
 We are at hand || Estamos a mano
 Go ahead, please || Adelante, por favor
 Sorry, old man || Lo siento, viejo
-No way || De ninguna manera
+No way || De ninguna manera | De ningún modo
 Nowhere || A ninguna parte
 Watch out for that || Cuidado con eso
 Good evening, sir || Buenas noches, señor
@@ -989,20 +891,17 @@ Good evening, ma'am || Buenas noches, señora
 Good evening, Mom || Buenas noches, mamá
 Good evening, son || Buenas noches, hijo
 Well, good night || Bueno, buenas noches | Bien, buenas noches
-Come this way || Venga por aquí
-Come on, please || Venga, por favor
 Let me see that || Déjame ver eso
-Enough is enough || Ya es suficiente
+Enough is enough || Ya es suficiente | Ya basta
 That is enough || Eso es suficiente
 Not enough || No lo suficiente
 Enough was enough || Ya fue suficiente
 We are a team || Somos un equipo
 It is very big || Es muy grande
 The one that follows || El que sigue
-I'm going there || Voy para allá
+I'm going there || Voy para allá | Ya voy para allá
 Let's go there || Vamos para allá
 I don't || No lo hago
-I do || Yo lo hago
 I always do || Siempre lo hago
 You didn't || No lo hiciste
 It is what it is || Es lo que es | Es lo que hay
@@ -1014,8 +913,6 @@ Yes, that's good || Sí, eso está bien
 It's for your good || Es por tu bien
 That is why he is here || Por eso está aquí
 It's more than that || Es más que eso
-And that's it || Y eso es todo
-Yes, that's it || Sí, eso es todo
 Yes, everything is fine || Sí, todo está bien
 But that's it || Pero eso es todo
 Well, that's it || Bien, eso es todo
@@ -1030,19 +927,13 @@ Everything is fine now || Todo está bien ahora
 All right, here we go || Muy bien, aquí vamos
 So that's it || Así que es eso
 That's how it is || Así es como es
-Yes, that's fine || Sí, así está bien
-Well that's it || Bueno, eso es todo
-Well that's fine || Bueno, eso está bien
 Got it, got it || Lo tengo, lo tengo
 I have it, I have it || La tengo, la tengo
-Yes, I know || Sí, ya lo sé
 I already know that || Eso ya lo sé
 I know what it is || Sé lo que es
-I don't know || Yo no lo sé
 Yes, yes, I know || Sí, sí, lo sé
 I know very well || Lo sé muy bien
 I know it's here || Sé que está aquí
-I know it is || Sé que lo es
 I know you are here || Sé que estás aquí
 And what do I know? || Y yo qué sé
 It has to be him || Tiene que ser él
@@ -1062,14 +953,9 @@ That's it, thank you || Eso es todo, gracias
 From time to time || De vez en cuando
 Just you and me || Sólo tú y yo
 I love you all || Los quiero a todos
-You don't have to || No tienes por qué
+You don't have to || No tienes por qué | No tienes que hacerlo | No tiene que hacerlo
 You have to do something || Tienes que hacer algo
-Yes, I think so || Sí, creo que sí
-I think so || Yo creo que sí
-I think not || Yo creo que no
-I don't think so || Yo no lo creo
 I think I have it || Creo que lo tengo
-Yes, I do || Sí, ya lo creo
 I think I know || Creo que lo sé
 I think I have something || Creo que tengo algo
 I think that's it || Creo que ya está
@@ -1084,9 +970,7 @@ And you know it || Y tú lo sabes
 Now you know || Ahora ya lo sabes
 You know why || Tú sabes por qué
 I know you know || Sé que lo sabes
-You don't know || Tú no lo sabes
 I'm leaving here || Me voy de aquí
-I'm going to do it || Lo voy a hacer
 Yes you are || Sí que lo eres
 You can't do that || No puede hacer eso | No puedes hacer eso
 This cannot be || Esto no puede ser
@@ -1095,16 +979,13 @@ You can't do this || No puede hacer esto | No puedes hacer esto
 Yes, that's me || Sí, ese soy yo
 This is for you || Esto es para usted | Esto es para ti
 I have something for you || Tengo algo para usted | Tengo algo para ti
-I'm going home || Me voy a casa
 This is my house || Esta es mi casa
 You are at home || Estás en tu casa
 This is your house || Esta es tu casa
 Let's go to my house || Vamos a mi casa
 I really do || De verdad que sí
-Not really || De verdad que no | La verdad que no
 But it is the truth || Pero es la verdad
 I'm fine, really || Estoy bien, de verdad
-I know who you are || Yo sé quién eres
 I know who she is || Ya sé quién es
 It's now or never || Es ahora o nunca
 Thank you for your time || Gracias por su tiempo
@@ -1129,15 +1010,13 @@ That was a long time ago || Eso fue hace mucho
 I have something to say || Tengo algo que decir
 I cannot say || No lo puedo decir
 I can't say anything || No puedo decir nada
-I love you too || Yo también te quiero
+I love you too || Yo también te quiero | Yo también te amo
 I think so too || Yo también lo creo
 Oh thank goodness || Oh, gracias a Dios
 We have to do something || Tenemos que hacer algo
 We have a lot to do || Tenemos mucho que hacer
 And I to you || Y yo a ti
-I love you || Te quiero a ti
 That's for you || Eso es para ti
-I have you || Te tengo a ti
 You can't do anything || No puedes hacer nada
 From man to man || De hombre a hombre
 You have to see this || Tienes que ver esto
@@ -1150,15 +1029,12 @@ That's the way it is || Así son las cosas
 We have things to do || Tenemos cosas que hacer
 This is how things are || Así están las cosas
 I know you're there || Sé que estás ahí
-I have to go || Me tengo que ir
-We have to go || Nos tenemos que ir
-I want to go home || Quiero ir a casa
+I want to go home || Quiero ir a casa | Quiero volver a casa | Quiero irme a casa
 I'm going to go || Me voy a ir
-You have to go || Te tienes que ir
 You can't go || No te puedes ir
 Sorry about before || Siento lo de antes
-It will be fine || Va a estar bien
-I'll be fine || Voy a estar bien
+It will be fine || Va a estar bien | Estará bien
+I'll be fine || Voy a estar bien | Estaré bien
 We will be fine || Vamos a estar bien
 You can't be here || No puedes estar aquí
 It has to be here || Tiene que estar aquí
@@ -1181,11 +1057,8 @@ This is my job || Este es mi trabajo
 That is your job || Ese es tu trabajo
 That is their job || Ese es su trabajo
 You have work to do || Tienes trabajo que hacer
-I don't think so || Me parece que no
-I think so || Me parece que sí
 Look who's here || Mira quién está aquí
 Look what I have || Mira lo que tengo
-I am your father || Yo soy tu padre
 It belongs to my father || Es de mi padre
 That is my father || Ese es mi padre
 Yeah, whatever || Sí, lo que sea
@@ -1198,11 +1071,9 @@ It's always the same || Siempre es lo mismo
 I am one of them || Soy uno de ellos
 I want to talk to him || Quiero hablar con él
 I can't speak now || No puedo hablar ahora
-I want to talk to you || Quiero hablar con usted
 Now I can't speak || Ahora no puedo hablar
 I want to talk to her || Quiero hablar con ella
-He wants to talk to you || Quiere hablar con usted
-You'll be fine || Vas a estar bien
+You'll be fine || Vas a estar bien | Estarás bien | Te pondrás bien
 What are you going to do? || Qué vas a hacer?
 Or maybe not || O tal vez no
 Outside my house || Fuera de mi casa
@@ -1212,7 +1083,7 @@ That's a lot of money || Eso es mucho dinero
 Here's the money || Aquí está el dinero
 Like everyone else || Como todo el mundo
 Yes, of course I do || Sí, claro que sí
-Of course it is || Claro que lo es | Desde luego que sí
+Of course it is || Claro que lo es | Desde luego que sí | Por supuesto que sí | Pues claro que sí
 Of course I know || Claro que lo sé
 Of course I am || Claro que lo estoy | Claro que lo soy
 Of course you are || Claro que lo eres
@@ -1227,7 +1098,6 @@ Tomorrow night || Mañana por la noche
 He had to do something || Tenía que hacer algo
 It belonged to my mother || Era de mi madre
 You're doing fine || Lo estás haciendo bien
-What are you doing here? || Qué estás haciendo aquí?
 This is the place || Este es el lugar
 I'm sure it does || Estoy seguro que sí
 I'm sure of that || Estoy seguro de eso
@@ -1254,9 +1124,8 @@ You are my best friend || Eres mi mejor amigo
 He's my best friend || Es mi mejor amigo
 I don't know, friend || No lo sé, amigo
 It's a great day || Es un gran día
-Of course not || Desde luego que no
 I love my mom || Quiero a mi mamá
-If you say so || Si usted lo dice
+If you say so || Si usted lo dice | Si tú lo dices
 To three || A la de tres
 One, two and three || Uno, dos y tres
 That's all for today || Es todo por hoy
@@ -1265,13 +1134,8 @@ I need to talk to him || Necesito hablar con él
 I need to speak to you || Necesito hablar con usted
 I need to talk to her || Necesito hablar con ella
 I need to speak to someone || Necesito hablar con alguien
-I already told you || Ya te lo dije | Ya se lo dije
-I didn't say that || Yo no dije eso | No he dicho eso
-I didn't say anything || Yo no dije nada | No he dicho nada
 I didn't tell him || No se lo dije
 Is what I said || Es lo que dije
-I never said that || Yo nunca dije eso
-I like it || A mí me gusta
 I like being here || Me gusta estar aquí
 I like this place || Me gusta este lugar
 There must be something || Tiene que haber algo
@@ -1291,7 +1155,6 @@ This is our house || Esta es nuestra casa
 My God, my God || Dios mío, Dios mío
 This is not mine || Esto no es mío
 Each of them || Cada uno de ellos
-You don't have to || No tienes que hacerlo | No tiene que hacerlo
 Someone has to do it || Alguien tiene que hacerlo
 I know you can do it || Sé que puedes hacerlo
 I don't have to || No tengo que hacerlo
@@ -1304,7 +1167,6 @@ Yes, I have seen it || Sí, lo he visto
 I've never seen her || Nunca la he visto
 No one has seen it || Nadie lo ha visto
 I have not seen him || No le he visto
-I have seen it || Yo lo he visto
 If you don't mind || Si no te importa | Si no le importa
 Who cares? || A quién le importa?
 I have to talk to you || Tengo que hablar contigo
@@ -1324,21 +1186,17 @@ Come here, come here || Ven aquí, ven aquí
 Come see this || Ven a ver esto
 Come here a moment || Ven aquí un momento
 This is very serious || Esto es muy serio
-It's getting late || Se está haciendo tarde
 It's a bit late || Es un poco tarde
 Maybe later || Tal vez más tarde
 I was late || Se me hizo tarde
-It is time || Ya es la hora
 You are correct || Estás en lo cierto | Está en lo cierto
 Yes, that is true || Sí, eso es cierto
 That is very true || Eso es muy cierto
 For God's sake || Por amor de Dios
-You said so || Tú lo has dicho
 I've told you || Te lo he dicho
 You already said it || Ya lo has dicho
 Now it is too late || Ahora es demasiado tarde
 It looks great || Se ve muy bien
-You look good || Se te ve bien
 Nothing can be seen || No se ve nada
 It's been a long time || Ha pasado mucho tiempo
 It's been a while || Ha pasado un tiempo
@@ -1350,14 +1208,11 @@ You are on your own || Estás por tu cuenta
 I still don't know || Todavía no lo sé
 You do very well || Lo haces muy bien
 I want to get out of here || Quiero salir de aquí
-Yes, I see || Sí, ya lo veo
-See you later || Te veo más tarde
-See you tonight || Te veo esta noche
+See you tonight || Te veo esta noche | Nos vemos esta noche
 I can see that || Eso ya lo veo
 Good luck to you || Que te vaya bien
 I want him to go || Quiero que se vaya
 Is what I thought || Es lo que pensé
-I didn't know || Yo no lo sabía
 Everything is fine, darling || Todo está bien, cariño
 It could be anything || Podría ser cualquier cosa
 I mean it || Lo digo en serio
@@ -1365,20 +1220,18 @@ Because I say so || Porque yo lo digo
 Because I said so || Porque lo digo yo
 I tell you the truth || Te digo la verdad
 Is what I say || Es lo que digo
-I'm telling you || Te lo digo yo
 I must go home || Debo ir a casa
 I don't owe you anything || No te debo nada
 I have to get out of here || Debo salir de aquí
 He's a good boy || Es un buen chico
 You're a good boy || Eres un buen chico
-That's my boy || Ese es mi chico
+That's my boy || Ese es mi chico | Ese es mi muchacho
 I'm on your side || Estoy de tu lado
 On the other side || Por el otro lado
 They can't do that || No pueden hacer eso
 This is the first time || Es la primera vez
 It's my first time || Es mi primera vez
 I don't know what happened || No sé qué pasó
-I didn't || Yo no lo hice
 But I didn't || Pero no lo hice
 I did it for you || Lo hice por ti
 I did it myself || Lo hice yo mismo
@@ -1386,18 +1239,13 @@ Maybe yes, maybe not || Quizá sí, quizá no
 Well that's great || Bueno, eso es genial
 I think he's great || Creo que es genial
 It's going to be great || Va a ser genial
-Of course not || Por supuesto que no | Pues claro que no
-Of course it is || Por supuesto que sí | Pues claro que sí
 Of course, of course || Por supuesto, por supuesto
-Yes, yes, of course || Sí, sí, por supuesto
 Of course you can || Por supuesto que puedes
 Thank you all very much || Muchas gracias a todos
 Thank you very much for everything || Muchas gracias por todo
-I want to go home || Quiero volver a casa
 Out of my way || Fuera de mi camino
 What are you talking about? || De que estas hablando?
 That's what I'm talking about || De eso estoy hablando
-I'm serious || Estoy hablando en serio
 It's a good story || Es una buena historia
 What is your name? || Cuál es tu nombre? | Cuál es su nombre?
 Yes, I suppose so || Sí, supongo que sí
@@ -1406,9 +1254,7 @@ I suppose you are right || Supongo que tiene razón
 In an hour || Dentro de una hora
 You look very good || Te ves muy bien
 You are a good person || Eres una buena persona
-I don't understand || Yo no lo entiendo
 It won't happen || No va a pasar
-I hope so || Espero que así sea
 It means a lot to me || Significa mucho para mí
 I know what it means || Sé lo que significa
 Good luck with that || Buena suerte con eso
@@ -1422,7 +1268,7 @@ You have to come with me || Tienes que venir conmigo
 She is my daughter || Ella es mi hija
 I know what I saw || Sé lo que vi
 With all my heart || Con todo mi corazón
-Let it go || Deja que se vaya
+Let it go || Deja que se vaya | Déjalo ir
 You said it yourself || Tú mismo lo dijiste
 That's the important thing || Eso es lo importante
 This is very important || Esto es muy importante
@@ -1462,7 +1308,6 @@ This is a good point || Es un buen punto
 That is my point || Ese es mi punto
 You are going to be late || Vas a llegar tarde
 One, two, three, four || Uno, dos, tres, cuatro | Un, dos, tres, cuatro
-I'm going there || Ya voy para allá
 Call the police || Llama a la policía
 I know what I'm doing || Sé lo que hago
 I do what I can || Hago lo que puedo
@@ -1477,15 +1322,13 @@ You did a good job || Hiciste un buen trabajo
 Look what you did || Mira lo que hiciste
 I know what you did || Sé lo que hiciste
 I know you did || Sé que lo hiciste
-If you say so || Si tú lo dices
 I understand what you are saying || Entiendo lo que dices
 You always say the same thing || Siempre dices lo mismo
 I don't know what to think || No sé qué pensar
-I'll think about it || Lo voy a pensar
+I'll think about it || Lo voy a pensar | Lo pensaré
 It is the last time || Es la última vez
 I'll do what I can || Haré lo que pueda
 I don't think I can || No creo que pueda
-Like me || Al igual que yo
 I never saw anything like it || Nunca vi nada igual
 I've had enough || Ya he tenido suficiente
 I'm going to work || Me voy a trabajar
@@ -1494,7 +1337,6 @@ It's just a game || Es sólo un juego
 This is your chance || Esta es tu oportunidad
 This is your last chance || Es tu última oportunidad
 It is a great opportunity || Es una gran oportunidad
-Go home || Vete a tu casa
 I can live with that || Puedo vivir con eso
 I will do my best || Haré todo lo posible
 I don't know exactly || No lo sé exactamente
@@ -1503,468 +1345,147 @@ I'm sure of it || Estoy seguro de ello
 They are all gone || Todos se han ido
 They have all left || Se han ido todos
 She is gone || Ella se ha ido
-I'm telling you || Te lo estoy diciendo
 I am telling the truth || Estoy diciendo la verdad
-Sorry || Lo siento
-Very good || Muy bien | Muy bueno
-Agreed || De acuerdo
-Please || Por favor
-Good evening || Buenas noches
-Of course || Por supuesto | Pues claro
-That's right || Así es
-My God || Dios mío
-Good morning || Buenos días
-I'm fine || Estoy bien
-Thank you very much || Muchas gracias
-That's it || Eso es | Es eso | Ya está
-I can't || No puedo
-One moment || Un momento
-Come here || Ven aquí
-Yes, of course || Sí, claro
-You're right || Tienes razón
-You're welcome || De nada
-I see || Ya veo
-I love you || Te amo
-I love you || Te quiero
-It's true || Es verdad
-I will || Lo haré
-Over here || Por aquí
-It's true || Es cierto
 See you || Nos vemos
-Good luck || Buena suerte
-It's me || Soy yo
-See you later || Hasta luego
-Seriously || En serio
-Look at this || Mira esto
-There it is || Ahí está | Allí está
-Thank you, sir || Gracias, señor
-Here it is || Aquí está | Aquí es
-Oh yeah || Oh, sí
-Ah yes || Ah, sí
-I don't understand || No entiendo
-It's over || Se acabó
-Got it || Lo tengo
-I'm leaving || Me voy
-Here you go || Aquí tienes
-Good || Qué bien | Qué bueno
-He's right || Tiene razón
-Maybe || Tal vez
-Oh my || Oh, Dios
-Yes, ma'am || Sí, señora
 Good afternoon || Buenas tardes
-Be careful || Ten cuidado
-I like it || Me gusta
+Be careful || Ten cuidado | Tenga cuidado | Tengan cuidado
 With permission || Con permiso
-Not me || Yo no
 I promise || Lo prometo
-Here we go || Aquí vamos
-I understand || Lo entiendo | Ya entiendo
-Good work || Buen trabajo
 I must go || Debo irme
-Yes, thank you || Sí, gracias
-Well done || Bien hecho
-Come with me || Ven conmigo
-Really || De verdad
-Hello, honey || Hola, cariño
-Of course || Desde luego
 It's incredible || Es increíble
-By God || Por Dios
-Not yet || Aún no | Todavía no | No todavía
-Nice to meet you || Mucho gusto
-I knew it || Lo sabía
-Let me see || Déjame ver
-I hope so || Eso espero
-Come here || Ven acá
-A little || Un poco
-Good, good || Bien, bien
-Good morning || Buen día
+Nice to meet you || Mucho gusto | Encantado de conocerte | Gusto en conocerte | Un placer conocerte | Un gusto conocerte | Encantada de conocerte | Encantado de conocerlo | Gusto en conocerlo | Encantado de conocerla | Encantado de conocerle | Es un placer conocerte | Me alegro de conocerte | Mucho gusto en conocerte | Es un placer conocerlo
 Oh, God || Ay, Dios
-Look at that || Mira eso
-I'm here || Estoy aquí
-Enough is enough || Ya basta
-I think so || Eso creo
-I do || Yo sí
-It is || Lo es | Lo está
-Not much || No mucho
-It's great || Es genial
-You too || Tú también | Usted también
-Not at all || Para nada
-Not at all || En absoluto
 Merry Christmas || Feliz Navidad
-I know || Lo se | Ya se | Yo sé
-It's him || Es él
-Right now || Ahora mismo | Ya mismo
 I swear || Lo juro
-Not now || Ahora no | No ahora
 Stay here || Quédate aquí
-Really || De veras
-Wait, wait || Espera, espera
-Not anymore || Ya no
-Again || Otra vez | De nuevo
-I don't think so || No creo
 I would love to || Me encantaría
 One second || Un segundo
 Give me that || Dame eso
 As you wish || Como quieras | Como quiera
 It is possible || Es posible
-It's all || Es todo
-I did || Lo hice
-With care || Con cuidado
-It's here || Está aquí | Es aquí
-Something like that || Algo así
-I don't want to || No quiero
-Well, thank you || Bien, gracias | Bueno, gracias
-Yes, sure || Sí, seguro
-Hello, Dad || Hola, papá
 Not exactly || No exactamente
-Until tomorrow || Hasta mañana
-Good boy || Buen chico
-I'll be fine || Estaré bien
-I don't know || No se
-Hi guys || Hola, chicos
 One minute || Un minuto
-You can't || No puedes
-It can be || Puede ser
 You were right || Tenías razón
-Here we go || Allá vamos
-It's beautiful || Es hermoso | Es preciosa
+It's beautiful || Es hermoso | Es preciosa | Es precioso
 I'm hungry || Tengo hambre
-All good || Todo bien
-Thank you very much || Muchísimas gracias
-It is important || Es importante
-It is enough || Es suficiente
-You're fine || Estás bien
 Hurry up || Date prisa
 Deal done || Trato hecho
-You know || Lo sabes | Ya sabes | Tú sabes
 I'll try || Lo intentaré
-Nothing more || Nada más
-I'm sure || Estoy seguro
-Let's see || A ver
 Now I'm coming back || Ahora vuelvo
-We are good || Estamos bien
-Not to mention || Ni hablar
-We'll see || Ya veremos
+We'll see || Ya veremos | Ya lo veremos
 Happy birthday || Feliz cumpleaños
-It's good || Es bueno | Está bueno
-It's late || Es tarde
-Whatever || Como sea
-It seems so || Eso parece
 Sounds good || Suena bien
-Take this || Toma esto
-Well yes || Pues sí
-Oh, thank you || Oh, gracias
-Wait here || Espera aquí
-It will be fine || Estará bien
-I have you || Te tengo
-Tonight || Esta noche
-Well, yes || Bueno, sí
-There you go || Ahí tienes | Ahí tiene
-Too late || Demasiado tarde
-You'll be fine || Estarás bien
-What's up? || Qué pasa?
 We must go || Debemos irnos
-Here we are || Aquí estamos
-Sometimes || A veces
-For nothing || Por nada
 It's perfect || Es perfecto
-I'm ready || Estoy listo | Estoy lista
 It's wonderful || Es maravilloso
-It's beautiful || Es precioso
 A pleasure || Un placer
-Oh come on || Oh, vamos
-Over there || Por ahí | Por allí
-Well, well || Bueno, bueno | Bueno, bien
-Here it comes || Aquí viene | Ahí viene
-It's you || Eres tú | Es usted
-I am || Lo estoy | Lo soy
 Very nice || Muy bonito
-You'll see || Ya verás
+You'll see || Ya verás | Ya lo verás
 It's fantastic || Es fantástico
 You're late || Llegas tarde
-Yes, yes || Si, si
-Much better || Mucho mejor
-I have it || La tengo
-Thank you, thank you || Gracias, gracias
-Let's go || Vamos allá
-I need you || Te necesito
 We will || Lo haremos
-It's mine || Es mío
-Thank you, friend || Gracias, amigo
-I know you || Te conozco
-Anything || Cualquier cosa
+I know you || Te conozco | Yo te conozco
 I'll call you || Te llamaré
-Here they are || Aquí están
-Oh good || Oh, bien
 Stay there || Quédate ahí
-I remember || Lo recuerdo
 Good God || Dios santo
-You can do it || Puedes hacerlo
-My, my || Vaya, vaya
 Good heavens || Santo cielo | Cielo santo
 How nice || Qué bonito | Qué amable
-Thanks, honey || Gracias, cariño
-I can do it || Puedo hacerlo
-As always || Como siempre
 It's easy || Es fácil
-Yes, well || Sí, bueno
 I'm busy || Estoy ocupado
-It's her || Es ella
-Now yes || Ahora sí
-See you soon || Hasta pronto
-I understand you || Te entiendo
-I believe you || Te creo | Le creo
-Could be || Podría ser
-There you are || Ahí estás
-Come on, guys || Vamos, chicos
-We have it || Lo tenemos | La tenemos
 I hear you || Te escucho
-Hello, friend || Hola, amigo
-Thanks, Dad || Gracias, papá
-I'm sure || Estoy segura
-Yes, good || Sí, bien
 Ongoing || En marcha
-Come with me || Venga conmigo
-Come on, man || Vamos, hombre
-Hi guys || Hola, muchachos
 I'll go with you || Iré contigo
-Forever || Para siempre
-And me || Y yo
 It was over || Se terminó
 I am pregnant || Estoy embarazada
-There they are || Ahí están | Allí están
-I'm going with you || Voy contigo
-Come on, guys || Vamos, muchachos
-Not really || No realmente | Realmente no
 I know him || Lo conozco
-I don't understand || No comprendo
-I saw it || Lo vi | La vi
 How cute || Qué lindo
-Home || A casa
 Have a seat || Toma asiento | Tome asiento | Tomen asiento
 Good question || Buena pregunta
-Good girl || Buena chica
-Pretty good || Bastante bien
-Twice || Dos veces
-Right here || Aquí mismo
-Come on, friend || Vamos, amigo
-Thank you, ma'am || Gracias, señora
 It will be fun || Será divertido
-Yes, let's go || Sí, vamos
 I found it || Lo encontré | La encontré
-It was me || Fui yo
-Me || A mí
 Enough already || Basta ya
 Not necessarily || No necesariamente
-I see it || Lo veo | La veo
-Until now || Hasta ahora
-Right here || Justo aquí
 How interesting || Qué interesante
 She is beautiful || Es hermosa
-At last || Por fin | Al fin
 I'll be back || Ya regreso | Ya vuelvo
-Both of them || Los dos
-For now || Por ahora
-Not here || Aquí no | No aquí
-Goodbye, honey || Adiós, cariño
 Very kind || Muy amable
 It makes sense || Tiene sentido
 Stay with me || Quédate conmigo
-He was right || Tenía razón
 I tried || Lo intenté
 It was good || Estuvo bien
 Anytime || Cuando quieras | Cuando quiera
-To you || A ti
 I give up || Me rindo
-Here we go || Ahí vamos
-The truth || La verdad
-It's there || Está ahí
-Oh hi || Oh, hola
-Yes, Dad || Sí, papá
 Have a good trip || Buen viaje
-Yes, a lot || Sí, mucho
-Not today || Hoy no
-Five minutes || Cinco minutos
 Good news || Buenas noticias
-Thanks, Mom || Gracias, mamá
-It's coming || Ya viene
 It's fun || Es divertido
-You don't understand || No entiendes
+You don't understand || No entiendes | No lo entiendes | Tú no entiendes | Tú no lo entiendes | Es que no entiendes
 Holy God || Santo Dios
-I'm going || Yo voy | Voy yo
-There it goes || Ahí va
-You don't || Tú no
-Yes, I understand || Sí, entiendo
-Listen to this || Escucha esto
-That is correct || Es correcto
-They are fine || Están bien
-Later || Más tarde
+That is correct || Es correcto | Eso es correcto
 I forgot || Lo olvidé | Me olvidé
-Look at this || Mire esto | Miren esto
 It's yours || Es tuyo | Es tuya
 What a surprise || Qué sorpresa
 Don't start || No empieces
 I congratulate you || Te felicito
 On the contrary || Al contrario
 Hi babe || Hola, nena
-I'll think about it || Lo pensaré
-They are here || Están aquí
-Be careful || Tenga cuidado
 It's nice || Es bonito | Es agradable
-Here you are || Aquí estás | Aquí tiene
-The same || Lo mismo | El mismo
-We are here || Ya llegamos
 Be good || Pórtate bien
-Well, let's go || Bueno, vamos
-That's right || Eso mismo
 We'll be fine || Estaremos bien
-Look at that || Miren eso
-Hey, hey || Oye, oye
 Very interesting || Muy interesante
 We did || Lo hicimos
-Indeed || En efecto
-I thought so || Eso pensé
-I don't remember || No recuerdo
-Like me || Como yo
-I understand || Lo comprendo | Ya entendí
-You did || Lo hiciste
-He did || Lo hizo
 I like you || Me gustas
 I'll go || Yo iré | Me iré | Iré yo
-My father || Mi padre
 Calmly || Con calma
 We know || Lo sabemos
 You are amazing || Eres increíble
-To work || A trabajar
-You first || Tú primero
 You tell me || Dímelo tú
 Do something || Haz algo
-Bye, dad || Adiós, papá
-We are friends || Somos amigos
 Probably not || Probablemente no
 On screen || En pantalla
-Once || Una vez
-Not me || Ni yo
-Here you are || Aquí tienen
-Faster || Más rápido
-Right there || Justo ahí
 Don't talk || No hables
-That's why || Por eso
 Say something || Di algo
 Oh boy || Ay, caray
 Thank you, my dear || Gracias, querida
-Or not || O no
 I'm working || Estoy trabajando
 Don't ask || No preguntes
-Good sir || Bien, señor
-Oh sure || Oh, claro
-So it seems || Así parece
-It is so || Es así
-What are you doing? || Qué haces?
-Not so much || No tanto
-Like you || Como tú
 Nice try || Buen intento
-I would || Me gustaría
-Of course || Cómo no
-Leave that || Deja eso
-Who is it? || Quién es?
-Hello sir || Hola, señor
-It's over || Ya pasó
-We are here || Estamos aquí
 It is different || Es diferente
 Don't look || No mires
-My son || Mi hijo
-My wife || Mi esposa
-It's done || Está hecho
-Wait here || Espere aquí
-I love her || La amo
-Nobody || A nadie
-Two minutes || Dos minutos
-Hello, hello || Hola, hola
 The following || El siguiente
-I'm leaving || Me marcho
-I need it || Lo necesito
-You are lucky || Tienes suerte
-You are here || Estás aquí
-To all || A todos
-Turn around || Date vuelta
+Turn around || Date vuelta | Date la vuelta
 Yes, captain || Sí, capitán
-I do || Lo hago | Eso hago
-Come on now || Venga ya
-Bye, mom || Adiós, mamá
 Put this on || Ponte esto
-Well said || Bien dicho
-All set || Todo listo
-Yes, hello || Sí, hola
-It's good || Es buena | Está buena
 It's closed || Está cerrado | Está cerrada
 I forgive you || Te perdono
-Let me go || Déjame ir
-Yes, go ahead || Sí, adelante
 No comment || Sin comentarios
-Come here || Venga aquí
-You know what? || Sabes qué?
-Yes, honey || Sí, cariño
 It's cute || Es lindo
 I'm impressed || Estoy impresionado | Estoy impresionada
 It will || Lo hará
 I try || Lo intento | Eso intento
 How wonderful || Qué maravilla
-How are you? || Cómo estás?
-My God || Mi Dios
-It won't work || No funcionará
+It won't work || No funcionará | No va a funcionar
 Now go || Ahora vete
-Ah, hi || Ah, hola
-Good thing || Menos mal
 I'll be right back || Volveré enseguida | Enseguida regreso | Regreso enseguida | Vuelvo enseguida | Enseguida vuelvo
 I can feel it || Puedo sentirlo
 I invite || Yo invito
 They are coming || Ya vienen
-You can || Tú puedes
 Absolutely nothing || Absolutamente nada
-With pleasure || Con gusto
-I can || Yo puedo
-I am a policeman || Soy policía
+With pleasure || Con gusto | Con mucho gusto
 He's sleeping || Está durmiendo
 Nice shot || Buen tiro
-What happened? || Qué pasó?
 Stand up || De pie
-Hello, friends || Hola, amigos
-Oh sure || Ah, claro
-Ah, thank you || Ah, gracias
-Come on, man || Vamos, viejo
-Maybe not || Quizá no | Quizás no
 I'll be there || Allí estaré | Ahí estaré | Estaré allí
-My love || Mi amor
 I love them || Me encantan
 Hello, girls || Hola, chicas
-You have it || Lo tienes
 Oh dear || Oh, cielos | Ay, cielos
-It's time || Es hora
-My mother || Mi madre
-Where is he? || Dónde está?
 He is amazing || Es asombroso
 Stay still || Quédate quieto
-What's up || Qué va
-You look beautiful || Estás preciosa
-Oh great || Oh, genial
+You look beautiful || Estás preciosa | Te ves hermosa
 Marry me || Cásate conmigo
-Don't go || No vayas
-Let me see || Déjeme ver
-Here I go || Allá voy
 Your turn || Tu turno
-If you want || Si quieres
-Yes, boss || Sí, jefe
-Yes, you || Sí, tú
-Let it go || Déjalo ir
-Come on, boy || Vamos, chico
-A friend || Un amigo
-Now I'm going || Ahora voy
 Stronger || Más fuerte
-Be careful || Tengan cuidado
 I'm thinking || Estoy pensando
 Hurry || De prisa
-Come on, quick || Vamos, rápido
 My apologies || Mis disculpas
 Absolutely not || Absolutamente no
 I'm in a hurry || Tengo prisa
@@ -1973,835 +1494,309 @@ I'm waiting || Estoy esperando
 I'm late || Llego tarde
 I love it || Lo amo | Me encanta
 Tell me something || Dime algo
-Very good || Muy buena
 I'm listening || Estoy escuchando
 You decide || Tú decides
 OMG || Madre mía
-Sorry || Lo sentimos
-You did it || Lo lograste
+You did it || Lo lograste | Tú lo hiciste
 You do it || Hazlo tú
 Yes, exactly || Sí, exacto
-I am with you || Estoy contigo
 It was you || Fuiste tú
 Make way || Abran paso
 I was joking || Estaba bromeando
 You win || Tú ganas
-Good point || Buen punto
 So they say || Eso dicen
 You will || Lo harás
-It's your turn || Te toca
+It's your turn || Te toca | Es tu turno | Te toca a ti
 I should go || Debería irme
 It's pretty || Es bonita
 A little bit || Un poquito
-One, two || Uno, dos
-Only one || Sólo una
 Let me see it || Déjame verlo
 It was fun || Fue divertido
-Over there || Por allá
-It is us || Somos nosotros
-It's the same || Es igual
-Right there || Ahí mismo
 One question || Una pregunta
-Nothing important || Nada importante
-So do we || Nosotros también
-Closer || Más cerca
-That's it || Eso es todo
-I don't think so || No lo creo
-Of course not || Claro que no
-I have to go || Tengo que irme
-I don't understand || No lo entiendo
-I think so || Creo que sí | Ya lo creo
-Everything is fine || Todo está bien
-Oh my gosh || Oh, Dios mío
-Wait a minute || Espera un momento
-Wait a minute || Espera un minuto
-I don't know || No lo se | Yo no sé
-Thank goodness || Gracias a Dios
-It can't be || No puede ser
 I promise you || Te lo prometo | Se lo prometo
-Thanks for coming || Gracias por venir
-Yes, of course || Sí, por supuesto
-Not true || No es cierto
-Whatever || Lo que sea
-Wait a second || Espera un segundo
-I won't || No lo haré
-No way || De ninguna manera
-I guess so || Supongo que sí
-I agree || Estoy de acuerdo
-I told you || Te lo dije
-Yes, I'm fine || Sí, estoy bien
-Oh my God || Ay, Dios mío
-Trust me || Confía en mí
-I think not || Creo que no
-More or less || Más o menos
-Not true || No es verdad
-Yes, that's fine || Sí, está bien
-That's fine || Eso está bien
-We have to go || Tenemos que irnos
-We have to talk || Tenemos que hablar
+Wait a second || Espera un segundo | Espere un segundo
+Trust me || Confía en mí | Confíe en mí
 He's gone || Se ha ido
-Yes, please || Sí, por favor
-It's not that || No es eso
 I'll take care of it || Yo me encargo | Yo me encargaré | Yo me ocuparé
 It's a pleasure || Es un placer
 Not necessary || No es necesario
-Don't go || No te vayas | No se vayan
-Let's get out of here || Vámonos de aquí
-Sure you do || Seguro que sí
-Open the door || Abre la puerta
+Let's get out of here || Vámonos de aquí | Salgamos de aquí | Larguémonos de aquí | Vayámonos de aquí
+Open the door || Abre la puerta | Abra la puerta | Abran la puerta
 Not possible || No es posible
-One, two, three || Uno, dos, tres | Un, dos, tres
-I'm serious || Hablo en serio
-Not so || No es así
-I'm going there || Voy para allá
-It was an accident || Fue un accidente
-I will || Yo lo haré | Lo haré yo | Así lo haré
-Let's get out of here || Salgamos de aquí | Larguémonos de aquí | Vayámonos de aquí
-Let's see || Vamos a ver
-Good morning, sir || Buenos días, señor
-Yes, it's me || Sí, soy yo
-Yes, it is true || Sí, es cierto
-That's great || Eso es genial
-Well that's fine || Bueno, está bien
-Good evening, sir || Buenas noches, señor
-I didn't || No lo hice
-You look good || Te ves bien
-Yes, that's it || Sí, eso es
+It was an accident || Fue un accidente | Ha sido un accidente
 Close the door || Cierra la puerta
 I appreciate it || Te lo agradezco | Se lo agradezco
-It's all good || Está todo bien
-I don't remember || No me acuerdo
-Very good, sir || Muy bien, señor
-Everything will be fine || Todo estará bien
-See you later || Nos vemos luego | Nos vemos después | Luego nos vemos
-I already have it || Ya lo tengo | Ya la tengo
-Wait a minute || Espere un momento | Espere un minuto
+Everything will be fine || Todo estará bien | Todo irá bien | Todo saldrá bien
 Close your eyes || Cierra los ojos
-Yes, it is true || Sí, es verdad
-Get out of here || Vete de aquí
-It's the truth || Es la verdad
-Yes, you are right || Sí, tienes razón | Sí, tiene razón
-I don't remember || No lo recuerdo
-I want to talk to you || Quiero hablar contigo
-I hope not || Espero que no
-See you tomorrow || Nos vemos mañana
-Go home || Vete a casa
-This is better || Así está mejor
-That is correct || Eso es correcto
 Don't say anything || No digas nada
 I swear to you || Te lo juro | Se lo juro
-Same here || Lo mismo digo
-Of course || Claro que si
-That is true || Eso es cierto
-Not really || En realidad no
-Get out of here || Fuera de aquí
-Thanks for everything || Gracias por todo
 This is incredible || Esto es increíble
-You never know || Nunca se sabe | Uno nunca sabe
-Not very well || No muy bien
-Very good, thank you || Muy bien, gracias
-Hello everyone || Hola a todos
-Turn around || Date la vuelta
-It's very good || Está muy bien | Es muy bueno | Está muy bueno
-It was about time || Ya era hora
-Yes, very good || Sí, muy bien
 Give me your hand || Dame la mano | Dame tu mano
 Give me a kiss || Dame un beso
-I see || Ya lo veo
-It is very important || Es muy importante
-I need to talk to you || Necesito hablar contigo
 I can't breathe || No puedo respirar
 It's an order || Es una orden
-You don't understand || No lo entiendes | Tú no entiendes
-That is true || Eso es verdad
-Nice to meet you || Encantado de conocerte | Gusto en conocerte | Un placer conocerte | Un gusto conocerte | Encantada de conocerte | Encantado de conocerlo | Gusto en conocerlo
-You'll see || Ya lo verás
-I like it that way || Así me gusta
-You and me || Tú y yo
-Everything will be fine || Todo irá bien | Todo saldrá bien
-What is that? || Qué es eso?
-Yes, all right || Sí, de acuerdo
-Just in time || Justo a tiempo
-That's good || Así está bien | Eso es bueno
 I'll tell you something || Te diré algo | Le diré algo
-I like that || Eso me gusta | Me gusta eso
-You know it || Tú lo sabes
-It's my job || Es mi trabajo
 I'll tell you || Se lo diré | Te lo diré
-I'm leaving || Ya me voy
-One more time || Una vez más
 Goodbye || Hasta la vista
-I have to || Tengo que hacerlo
-One more thing || Una cosa más
-This is great || Esto es genial
 It will be a pleasure || Será un placer
-Let's go home || Vamos a casa
-You already know || Ya lo sabes
-I did || Yo lo hice
-I already did || Ya lo hice
-Enough is enough || Ya es suficiente
-I don't know || No Io sé
 I'm going in || Voy a entrar
-Everything is fine || Todo va bien
-A little more || Un poco más
-I don't || No lo hago
 On the left || A la izquierda
-All the time || Todo el tiempo
-What is this? || Qué es esto?
-Sorry, honey || Lo siento, cariño
-Not quite || No del todo
-I didn't say that || No dije eso
-I feel good || Me siento bien
-Yes, I think so || Sí, eso creo
-I told him || Se lo dije
-That's better || Eso está mejor
 I don't know him || No lo conozco | No le conozco
-Oh my God || Oh, mi Dios
-Whatever you want || Lo que quieras
-Looks good || Se ve bien
-Yes, I did || Sí, lo hice
+Whatever you want || Lo que quieras | Lo que tú quieras
 Tell me the truth || Dime la verdad
-It was a pleasure || Fue un placer
+It was a pleasure || Fue un placer | Ha sido un placer
 He's very kind || Es muy amable
 Take a look || Echa un vistazo
 Not a word || Ni una palabra
-And you too || Y tú también
 Take it easy || Tómalo con calma | Tómelo con calma | Tómatelo con calma
-What are you doing? || Qué estás haciendo?
-Way to go || Así se hace
-Good for you || Bien por ti
-Sorry, friend || Lo siento, amigo
 I can't wait || No puedo esperar
 Let me ask you something || Déjame preguntarte algo
-A long time ago || Hace mucho tiempo
-Maybe not || Tal vez no
-Not so fast || No tan rápido
-I've seen it || Lo he visto
-I hope so || Espero que sí
 I have an appointment || Tengo una cita
-Nobody knows || Nadie lo sabe
-She's fine || Ella está bien
-With pleasure || Con mucho gusto
-I'm on it || Estoy en ello
 Welcome home || Bienvenido a casa | Bienvenida a casa
-You don't know || No lo sabes
-There you have it || Ahí lo tienes
-No way || De ningún modo
-My, my, my || Vaya, vaya, vaya
 To order || A la orden
 Open your mouth || Abre la boca
-I'm going out || Voy a salir
-It's the same || Es lo mismo
-Yes, I will || Sí, lo haré
-Thank you all || Gracias a todos
-Please sit down || Por favor, siéntese | Por favor, siéntense
+Please sit down || Por favor, siéntese | Por favor, siéntense | Por favor, siéntate
 Take your time || Tómate tu tiempo | Tómese su tiempo
 You won't || No lo harás
-You have to go || Tienes que irte
-Oh please || Oh, por favor
 He'll be fine || Se pondrá bien
-We'll see || Ya lo veremos
-That's me || Ese soy yo | Esa soy yo
 It's very nice || Es muy bonito | Es muy lindo | Es muy agradable
-All right, let's go || Muy bien, vamos
-Come with us || Ven con nosotros
 I just arrived || Acabo de llegar
-Oh, she's fine || Oh, está bien
-Let's do it || Vamos a hacerlo
-You are very kind || Eres muy amable
-I better go || Mejor me voy
-Good, good, good || Bien, bien, bien
+You are very kind || Eres muy amable | Es usted muy amable
 I have to hang up || Tengo que colgar
-I didn't say anything || No dije nada
-Good evening, darling || Buenas noches, cariño
-You have to || Tienes que hacerlo
-I have to go || Tengo que ir
-See you later || Te veo luego | Te veo después
-He's my son || Es mi hijo
-Nothing at all || Nada de nada
 Give me a minute || Dame un minuto
 Get out of there || Sal de ahí
 To the right || A la derecha
 It's very simple || Es muy sencillo
-Oh, I see || Oh, ya veo
 Sleep well || Que duermas bien
 I've been thinking || He estado pensando
-I don't think so || No me parece
 It's all yours || Es todo tuyo | Es toda tuya
-Not for me || No para mí | Para mí no
-I love you very much || Te quiero mucho
-Not important || No es importante
 Ladies and gentlemen || Damas y caballeros
-I'm fine || Yo estoy bien
 At his command || A sus órdenes
-There is something else || Hay algo más
 I had to || Tuve que hacerlo
-I'm on it || Estoy en eso
 I want to show you something || Quiero mostrarte algo | Quiero enseñarte algo
 God bless you || Dios te bendiga | Dios lo bendiga | Dios los bendiga
-Good to see you || Me alegra verte
-Yes, I remember || Sí, lo recuerdo
+Good to see you || Me alegra verte | Es bueno verte | Qué bueno verte | Me alegro de verte | Me alegro de verle
 I need a drink || Necesito un trago
-You'll be fine || Te pondrás bien
-Happy New Year || Feliz Año Nuevo
 I trust you || Confío en ti
-She is right || Ella tiene razón
-I'm on my way || Voy en camino | Estoy en camino
 It won't be necessary || No será necesario
-Yes, of course || Sí, desde luego
-It's not him || No es él
-I can't see || No puedo ver
-The usual || Lo de siempre
-I already knew || Ya lo sabía
-Nothing at all || Nada en absoluto
-Good morning, ma'am || Buenos días, señora
 Let me tell you something || Déjame decirte algo
-What do you mean? || Qué quieres decir?
 Have fun || Que te diviertas | Que se diviertan
-Not me || A mí no
-Wait a second || Espere un segundo
-Good to see you || Es bueno verte | Qué bueno verte
 Open your eyes || Abre los ojos
 I don't know her || No la conozco
-Yes, it is || Si, lo es | Sí, lo está | Sí, así es
 I imagined it || Me lo imaginaba
-Sure you can || Claro que puedes
-This is important || Esto es importante
-I'm going || Yo me voy | Voy a ir
 I'm going to throw up || Voy a vomitar
 Tell me about it || Dímelo a mí
 I have a question || Tengo una pregunta
-It's about time || Ya es hora
 I have to work || Tengo que trabajar
 You are safe || Estás a salvo
-He's fine || Él está bien
 Don't || No lo haga
-But I can't || Pero no puedo
-I'm fine, thank you || Estoy bien, gracias
-Oh please || Ay, por favor
-Just a little || Sólo un poco
-Get out of here || Largo de aquí | Sal de aquí
 It's a gift || Es un regalo
-This is good || Esto es bueno
 It's a secret || Es un secreto
 Give me a second || Dame un segundo
-Not good || No es bueno
-It's for the best || Es lo mejor
-I owe you one || Te debo una
 Thanks for asking || Gracias por preguntar
 I'll talk to him || Hablaré con él
 I assure you || Te lo aseguro | Se lo aseguro
 It's a surprise || Es una sorpresa
 It's a miracle || Es un milagro
-Let's go home || Vámonos a casa
-Don't even think about it || Ni lo pienses
-I'll call you later || Te llamo luego | Luego te llamo | Te llamo después
-Yes, I'm sure || Sí, estoy seguro
-Nothing of that || De eso nada
-That's great || Eso es fantástico | Eso es estupendo | Eso es grandioso
-Let's go there || Vamos para allá
-You look great || Te ves genial
-Not this time || Esta vez no | No esta vez
-It's done || Ya está hecho
-Every day || Todos los días
+Don't even think about it || Ni lo pienses | Ni siquiera lo pienses | Ni se te ocurra
+I'll call you later || Te llamo luego | Luego te llamo | Te llamo después | Te llamaré luego | Te llamaré más tarde | Te llamo más tarde
 Please come in || Pase, por favor | Por favor, pase
-Good, very good || Bien, muy bien
-After you || Después de ti | Después de usted
-Sorry, ma'am || Lo siento, señora
 She is very pretty || Es muy bonita
 Let's eat || Vamos a comer
 Give me the keys || Dame las llaves
 Good afternoon, sir || Buenas tardes, señor
-I really like it || Me gusta mucho
-You didn't || No lo hiciste
-Good evening, Dad || Buenas noches, papá
-Oh my gosh || Oh, por Dios
-Come on, please || Vamos, por favor
-Wait a minute || Esperen un minuto | Esperen un momento
-All right then || Muy bien, entonces
-Yes, it's him || Sí, es él
-So be it || Que así sea
 It's up to you || Depende de ti
 Let's take a look || Echemos un vistazo
 I brought you something || Te traje algo
 I didn't go || Yo no fui
 I'll see you tomorrow || Te veré mañana
 They are gone || Se han ido
-Yes, I understand || Sí, lo entiendo
-I can't || Yo no puedo
-I'm home || Estoy en casa
-Nice to see you || Qué gusto verte | Gusto en verte | Gusto de verte
-Yes, something like that || Sí, algo así
-It's your turn || Es tu turno
-It is a fact || Es un hecho
+Nice to see you || Qué gusto verte | Gusto en verte | Gusto de verte | Encantado de verte | Me da gusto verte | Es un placer verte
 Over and out || Cambio y fuera
-Yes, I do || Sí, lo tengo | Sí, la tengo | Sí, lo creo
-To one side || A un lado
 Lower your voice || Baja la voz
-Let me see that || Déjame ver eso
-Please sit down || Por favor, siéntate
-Open the door || Abra la puerta | Abran la puerta
 Good to know || Es bueno saberlo
-See you soon || Nos vemos pronto
 Let's go inside || Vamos a entrar
 We will be in touch || Estaremos en contacto
 Just a minute || Sólo un minuto
-I'll see || Voy a ver
-Yes, he did || Sí, lo hizo
-Yes, you are || Sí, lo eres
-Thank you, thank you very much || Gracias, muchas gracias
 Thanks for calling || Gracias por llamar
-You look beautiful || Te ves hermosa
 I don't hear anything || No oigo nada
 Give me the phone || Dame el teléfono
-I saw it || Yo lo vi
-You are the best || Eres el mejor | Eres la mejor
-You look good || Tienes buen aspecto
 Just in case || Por si acaso
 You are a genius || Eres un genio
-This is serious || Esto es serio
-Surely not || Seguro que no
-I don't want to || No quiero hacerlo
-Yes, I know || Si, lo se | Sí, ya sé
-I do || Yo lo hago
 I take care of it || Yo me ocupo
-Just a moment || Sólo un momento
-You can't || No se puede
 I'm going to the bathroom || Voy al baño
-Good evening, ma'am || Buenas noches, señora
 With his permission || Con su permiso
 What's going on? || Que esta pasando?
-Go home || Ve a casa
 Talk to him || Habla con él
-He wants to talk to you || Quiere hablar contigo
-Ah, I see || Ah, ya veo
-See you tomorrow || Te veo mañana
-Thank you very much sir || Muchas gracias, señor
 In a minute || En un minuto
 It's very easy || Es muy fácil
-Hey, hey, hey || Oye, oye, oye
-Good evening, Mom || Buenas noches, mamá
-For me too || Para mí también
 He turns around || Da la vuelta
 Yes, the Majesty of him || Sí, Su Majestad
 Don't even dream of it || Ni lo sueñes
-Now I know || Ahora lo sé
-I can't go || No puedo ir
-This way, sir || Por aquí, señor
-Well, well, well || Bueno, bueno, bueno
-I know who you are || Sé quién eres
-You may be right || Quizá tengas razón
-I'm serious || Es en serio
-Trust me || Confíe en mí
-Yes, I see || Sí, ya veo
+You may be right || Quizá tengas razón | Tal vez tengas razón | Puede que tengas razón
 You deserve it || Te lo mereces
-I'll see you later || Te veré luego | Te veré después
+I'll see you later || Te veré luego | Te veré después | Te veré más tarde
 Attention please || Atención, por favor
-It's this way || Es por aquí
-This is it || Esto es todo
 I was looking for you || Te estaba buscando
-Nice to meet you || Encantado de conocerla | Encantado de conocerle
-I don't understand || No lo comprendo
 That was good || Eso estuvo bien
-Yes, here it is || Sí, aquí está
-In fact, yes || De hecho, sí
 Don't say it || No lo digas
-I don't know how || No sé cómo
-Sorry, Dad || Lo siento, papá
 I won't say anything || No diré nada
 You did well || Lo hiciste bien
 Give me the money || Dame el dinero
 Thanks for bringing me || Gracias por traerme
-That's right, sir || Así es, señor
 Yes, you did || Sí, lo hiciste
 I can't say || No puedo decirlo
-You better || Más te vale
 Everyone knows it || Todos lo saben
-It's getting late || Se hace tarde
 That's easy || Eso es fácil
-You too || A ti también
-That was it || Eso fue todo
-And me || Y a mí
 Things change || Las cosas cambian
-I know everything || Lo sé todo
-Yes, seriously || Sí, en serio
 Give me a hug || Dame un abrazo
 It's your decision || Es tu decisión
 I can imagine || Me lo imagino
-I know that || Eso lo sé
 Don't be sorry || No lo sientas
-I'll call you later || Te llamaré luego
 Let's dance || Vamos a bailar
 Logbook || Cuaderno de bitácora
 You have my word || Tienes mi palabra | Tiene mi palabra
 Just like me || Igual que yo
 Good morning, gentlemen || Buenos días, caballeros
-It's for me || Es para mí
 I have good news || Tengo buenas noticias
 This is how they speak || Así se habla
 I changed my mind || Cambié de opinión | Cambié de idea
-She is here || Ella está aquí
-Just once || Sólo una vez
 They won't || No lo harán
 That would be nice || Eso estaría bien
 I stay || Yo me quedo
-It's not mine || No es mío
-Yes, maybe || Sí, tal vez
-We have to || Tenemos que hacerlo
-You know it does || Sabes que sí
-I know || Ya lo se | Yo lo sé
-Don't go || No se vaya
 We made a deal || Hicimos un trato
-Yes, she is here || Sí, está aquí
-Yes, she was || Sí, lo fue
 That's wonderful || Eso es maravilloso
-I know you || Yo te conozco
-I can't speak || No puedo hablar
-Not again || Otra vez no | No otra vez
 I'll talk to her || Hablaré con ella
-Yes, I like it || Sí, me gusta
 You have to believe me || Tienes que creerme
-It's better this way || Es mejor así
-I have to go back || Tengo que volver
 This is different || Esto es diferente
 You sons of bitches || Hijos de puta
 It is very rare || Es muy raro
 Get in the car || Sube al auto | Sube al coche
-Maybe yes || Puede que sí
 On one condition || Con una condición
 It's a lot of fun || Es muy divertido
-It's for you || Es para usted | Es para ti
-I am || Lo estoy haciendo
-Nice to see you || Encantado de verte
 Just like you || Igual que tú
 Do it for me || Hazlo por mí
 Good evening, dear || Buenas noches, querida
-I'm talking to you || Te estoy hablando
 Think about it || Piensa en ello
 Everything is possible || Todo es posible
 It's moving || Se está moviendo
 Change of plans || Cambio de planes
 All standing || Todos de pie
-At any time || En cualquier momento
-What do I know? || Yo qué sé
 Stay where you are || Quédate donde estás
 Let's make a deal || Hagamos un trato
 Place your bets || Hagan sus apuestas
 You did the right thing || Hiciste lo correcto
 I was waiting for you || Te estaba esperando
-That is enough || Eso es suficiente
 Please go || Por favor, vete
 That sounds good || Eso suena bien
-You did it || Tú lo hiciste
-Better than ever || Mejor que nunca
-We're leaving now || Ya nos vamos
-Everyone || Todo el mundo
-I'm very good || Estoy muy bien
 To bed || A la cama
-I know, honey || Lo sé, cariño
 He just arrived || Acaba de llegar
-Yes, my lord || Sí, mi señor
 Thank you for inviting me || Gracias por invitarme
 We'll see each other || Ya nos veremos
 Say it again || Dilo otra vez
 I'll be in touch || Estaré en contacto
-I have to go || Me tengo que ir
-Of course not || Por supuesto que no | Pues claro que no
-Of course it is || Por supuesto que sí | Pues claro que sí
-Good to see you || Me alegro de verte
-I mean it || Lo digo en serio
-I love you too || Yo también te quiero
-I can't do that || No puedo hacer eso
-One moment, please || Un momento, por favor
-You'll be fine || Vas a estar bien
-I'm going home || Me voy a casa
-Yes, I think so || Sí, creo que sí
 It's a long story || Es una larga historia
-I have to talk to you || Tengo que hablar contigo
-Yes, I know || Sí, ya lo sé
-I love you too || Yo también te amo
 I'm starving || Me muero de hambre
-Very good, very good || Muy bien, muy bien
-This way, please || Por aquí, por favor
 Do what you want || Haz lo que quieras
-I think so || Yo creo que sí
-Yes, I suppose so || Sí, supongo que sí
-I can't do this || No puedo hacer esto
-It's been a long time || Ha pasado mucho tiempo
-I already told you || Ya te lo dije | Ya se lo dije
-You are absolutely right || Tienes toda la razón | Tiene toda la razón
-Please, please || Por favor, por favor
 That's what I mean || A eso me refiero
 Not that I know of || No que yo sepa
-We have to do something || Tenemos que hacer algo
-That's very good || Eso está muy bien | Eso es muy bueno
 I am proud of you || Estoy orgulloso de ti
-You don't have to || No tienes que hacerlo | No tiene que hacerlo
-It was a pleasure || Ha sido un placer
-It will be fine || Va a estar bien
-Yes it is || Sí que lo es
-I want to go home || Quiero irme a casa
 I have to tell you something || Tengo que decirte algo
-That's life || Así es la vida
-And I to you || Y yo a ti
 I'll see what I can do || Veré qué puedo hacer
-You look very good || Te ves muy bien
-I have things to do || Tengo cosas que hacer
 That's what it's all about || De eso se trata
-Not for long || No por mucho tiempo
-See you later || Nos vemos más tarde
 I'll call the police || Llamaré a la policía
-One, two, three, four || Uno, dos, tres, cuatro | Un, dos, tres, cuatro
-Watch your head || Cuidado con la cabeza
-I'll do what I can || Haré lo que pueda
-Yes, of course I do || Sí, claro que sí
-I didn't || Yo no lo hice
 Time's up || Se acabó el tiempo
-I think you're right || Creo que tienes razón
 I'm happy for you || Me alegro por ti | Me alegro por usted
-If you say so || Si tú lo dices
 Look around you || Mira a tu alrededor
-We have to go || Nos tenemos que ir
-Call the police || Llama a la policía
 I swear to God || Lo juro por Dios
 I bet so || Apuesto a que sí
-Thank you for your time || Gracias por su tiempo
 Let's get to work || Manos a la obra
-I already have || Ya lo he hecho
-That's the way it is || Así son las cosas
-He's a good man || Es un buen hombre
-It was a long time ago || Fue hace mucho tiempo
-And that's it || Y eso es todo
-I think not || Yo creo que no
-I know what I'm doing || Sé lo que hago
-I'm leaving here || Me voy de aquí
-Good evening everyone || Buenas noches a todos
-I didn't say that || Yo no dije eso | No he dicho eso
-I want to go home || Quiero ir a casa
 Look me in the eye || Mírame a los ojos
-Good morning everyone || Buenos días a todos
-This is my house || Esta es mi casa
-Look who's here || Mira quién está aquí
-Of course not || Desde luego que no
 I'll take you home || Te llevaré a casa
 The meeting was adjourned || Se levanta la sesión
-Of course it is || Claro que lo es | Desde luego que sí
-End of story || Fin de la historia
 You're going to love it || Te va a encantar
-I don't think so || Me parece que no
-You said so || Tú lo has dicho
 I give you my word || Te doy mi palabra | Le doy mi palabra
 Go back to bed || Vuelve a la cama
 I have something to tell you || Tengo algo que decirte
 I'll tell you one thing || Te diré una cosa | Le diré una cosa
 And say it || Y que lo digas
-I'm fine, I'm fine || Estoy bien, estoy bien
-It won't work || No va a funcionar
 Step aside || Hazte a un lado
-See you tonight || Nos vemos esta noche
-From time to time || De vez en cuando
-He's a good boy || Es un buen chico
-I'll be fine || Voy a estar bien
-I have work to do || Tengo trabajo que hacer
 I'm proud of you || Estoy orgullosa de ti
-You're doing fine || Lo estás haciendo bien
-What are you talking about? || De que estas hablando?
 May God bless you || Que Dios te bendiga | Que Dios los bendiga | Que Dios os bendiga
-I don't know what happened || No sé qué pasó
-You can't do that || No puede hacer eso | No puedes hacer eso
-I want to talk to him || Quiero hablar con él
-You did very well || Lo hiciste muy bien
-I'll call you later || Te llamaré más tarde
-You are very kind || Es usted muy amable
 It won't happen again || No volverá a suceder
 The door was open || La puerta estaba abierta
 I'll keep that in mind || Lo tendré en cuenta
-I love you || Te quiero a ti
-Nice to meet you || Es un placer conocerte | Me alegro de conocerte | Mucho gusto en conocerte | Es un placer conocerlo
-That is the truth || Esa es la verdad
-I don't think so || Yo no lo creo
 The door is open || La puerta está abierta
-I have to do something || Tengo que hacer algo
 Go to bed || Vete a la cama | Ve a la cama
 It's time to go || Es hora de irse | Es hora de irnos
-It's your turn || Te toca a ti
 I wouldn't || Yo no lo haría
-Let me talk to him || Déjame hablar con él
-Keep the change || Quédese con el cambio
-Out of my way || Fuera de mi camino
-He's a good guy || Es un buen tipo
+Keep the change || Quédese con el cambio | Quédate con el cambio
 Thanks for the advice || Gracias por el consejo
 I want you to go || Quiero que te vayas
-You are a good man || Eres un buen hombre
-We have work to do || Tenemos trabajo que hacer
 I've been looking for you || Te he estado buscando
-You have to see this || Tienes que ver esto
 Dinner is ready || La cena está lista
-I do what I can || Hago lo que puedo
-I still don't know || Todavía no lo sé
-I know you're there || Sé que estás ahí
 I would say yes || Yo diría que sí
-It's getting late || Se está haciendo tarde
-I guess you're right || Supongo que tienes razón
-Thank you very much for coming || Muchas gracias por venir
-I'll see you later || Te veré más tarde
-Something like that || Algo por el estilo
-You're a good boy || Eres un buen chico
-Whatever you want || Lo que tú quieras
-We will be fine || Vamos a estar bien
-That's my girl || Esa es mi chica
 Game over || Se acabó el juego
 The body of Christ || El cuerpo de Cristo
-I can't speak now || No puedo hablar ahora
-That's the point || Ese es el punto
-Oh thank goodness || Oh, gracias a Dios
-I think so too || Yo también lo creo
 This is a good question || Es una buena pregunta
-You may be right || Tal vez tengas razón | Puede que tengas razón
 Thank you for coming || Gracias por haber venido
-I already know that || Eso ya lo sé
-I'm going to go || Me voy a ir
-Good luck with that || Buena suerte con eso
-To three || A la de tres
-One moment, one moment || Un momento, un momento
-Tomorrow morning || Mañana por la mañana
 Sorry for being late || Perdón por llegar tarde
 You can trust me || Puedes confiar en mí
-I feel much better || Me siento mucho mejor
-Just you and me || Sólo tú y yo
-We have a lot to do || Tenemos mucho que hacer
-I haven't seen her || No la he visto
-But I didn't || Pero no lo hice
-It's more than that || Es más que eso
-Yes, I see || Sí, ya lo veo
-Let it go || Deja que se vaya
 Nobody move || Que nadie se mueva
-I'm sure of it || Estoy seguro de ello
-She is a good girl || Es una buena chica
-He was a good man || Era un buen hombre
-Got it, got it || Lo tengo, lo tengo
 I'll get you out of here || Te sacaré de aquí
 I need to go to the bathroom || Necesito ir al baño
 Thanks for the coffee || Gracias por el café
-It's fine by me || Por mí está bien
 It was nice meeting you || Fue un placer conocerte | Fue un gusto conocerte
-Well that's it || Bueno, eso es todo
-Good to see you || Me alegro de verle
 Well, I have to go || Bueno, tengo que irme
-It's what I do || Es lo que hago
 Things have changed || Las cosas han cambiado
-I know what it is || Sé lo que es
-I like it || A mí me gusta
-I feel better already || Ya me siento mejor
 They are everywhere || Están por todas partes | Están en todas partes
 I'm getting married || Me voy a casar
-You know how it is || Ya sabes cómo es
-Same old thing || Lo mismo de siempre
-I don't think I can || No creo que pueda
 I'm working on that || Estoy trabajando en eso
-Yeah, whatever || Sí, lo que sea
-That's the important thing || Eso es lo importante
-I've never seen it || Nunca lo había visto | Nunca lo he visto
 It's the only way || Es la única manera
-But you didn't || Pero no lo hiciste
-This is very important || Esto es muy importante
-Tomorrow night || Mañana por la noche
 The wave of the future || La ola del futuro
-Nice to see you || Me da gusto verte | Es un placer verte
-This is for you || Esto es para usted | Esto es para ti
-I don't know what to think || No sé qué pensar
 This is how it works || Así es como funciona
-Keep the change || Quédate con el cambio
-This cannot be || Esto no puede ser
-I'll call you later || Te llamo más tarde
 Thanks for dinner || Gracias por la cena
-I want to talk to you || Quiero hablar con usted
-What's done is done || Lo hecho, hecho está
 I know you will || Sé que lo harás
-I'm sure it does || Estoy seguro que sí
-That's it, that's it || Eso es, eso es | Ya está, ya está
-I'll do whatever it takes || Haré lo que sea
 Don't change the subject || No cambies de tema | No cambies el tema
 I'm getting out of here || Me largo de aquí
 Whatever you say || Lo que usted diga | Lo que tú digas
-That's my job || Ese es mi trabajo
-That kind of thing || Ese tipo de cosas
 I already noticed || Ya me di cuenta
-I have a lot to do || Tengo mucho que hacer
 Thanks anyway || Gracias de todas formas | Gracias de todos modos
-You know what to do || Ya sabes qué hacer
 The pleasure is mine || El gusto es mío | El placer es mío
 I wonder why || Me pregunto por qué
 I owe you an apology || Te debo una disculpa
-I've told you || Te lo he dicho
 Come to bed || Ven a la cama
-I don't know || Yo no lo sé
-You don't know that || Eso no lo sabes
-You don't have to || No tienes por qué
 I hope you're right || Espero que tengas razón
-But he didn't || Pero no lo hizo
-You know that very well || Lo sabes muy bien
-Not at this time || No en este momento
 It's worth a try || Vale la pena intentarlo
-Look what I have || Mira lo que tengo
 Thank you for your cooperation || Gracias por su cooperación
-This is the first time || Es la primera vez
-I didn't know || Yo no lo sabía
-I really do || De verdad que sí
-You can't do anything || No puedes hacer nada
 It's my turn || Me toca a mí
 I really appreciate it || Se lo agradezco mucho
-Something has to be done || Hay que hacer algo
-That's what I'm talking about || De eso estoy hablando
 That's what I meant || A eso me refería
-That's my boy || Ese es mi chico
-Don't even think about it || Ni siquiera lo pienses | Ni se te ocurra
 Please have a seat || Por favor, tome asiento | Por favor, toma asiento | Por favor, tomen asiento
 I'll call you back || Te volveré a llamar
-I don't do that || Yo no hago eso
-Thank you very much || Te lo agradezco mucho
-I'm serious || Estoy hablando en serio
-It has always been like this || Siempre ha sido así
 For the old days || Por los viejos tiempos
-It means a lot to me || Significa mucho para mí
 It is a free country || Es un país libre
 I asked you a question || Te hice una pregunta
 I've been waiting for you || Te he estado esperando
 I'm glad to hear that || Me alegra oír eso
 Don't get your hopes up || No te hagas ilusiones
 Now it's my turn || Ahora es mi turno
-It looks great || Se ve muy bien
-You do very well || Lo haces muy bien
 He is a good boy || Es un buen muchacho
-Let's do this || Vamos a hacer esto
-I think he is right || Creo que tiene razón
-What do you mean? || A que te refieres?
-I think I have it || Creo que lo tengo
 Watch out for the step || Cuidado con el escalón
 Dinner is served || La cena está servida
 That is the question || Esa es la cuestión
 These are things that happen || Son cosas que pasan
-I need to talk to him || Necesito hablar con él
 Let's get something to eat || Vamos a comer algo
 I think he likes you || Creo que le gustas
 I'll see you tonight || Te veré esta noche
 I'll tell you why || Te diré por qué
-Come here, come here || Ven aquí, ven aquí
-I agree with you || Estoy de acuerdo contigo
-Here we go again || Aquí vamos de nuevo
 Hope you like it || Espero que te guste
 Whatever happens || Pase lo que pase
-What are you doing here? || Qué estás haciendo aquí?
 I'm glad you came || Me alegra que vinieras
 Look what I found || Mira lo que encontré
 It's going to be fun || Va a ser divertido
-I think so || Me parece que sí
-You have to do something || Tienes que hacer algo
 I have a surprise for you || Te tengo una sorpresa
-It's now or never || Es ahora o nunca
 This is very rare || Esto es muy raro
-I think you know || Creo que lo sabes
-If you say so || Si usted lo dice
 We do what we can || Hacemos lo que podemos
 My condolences || Mi más sentido pésame
 Five, six, seven, eight || Cinco, seis, siete, ocho
@@ -2810,152 +1805,74 @@ Everything is in order || Todo está en orden
 Let's not talk about it || No hablemos de eso
 To order, sir || A la orden, señor
 One million dollars || Un millón de dólares
-Next week || La semana que viene
-You are correct || Estás en lo cierto | Está en lo cierto
 I'll take care of that || Me encargaré de eso | Me ocuparé de eso
-Yes, that's it || Sí, eso es todo
-I didn't say anything || Yo no dije nada | No he dicho nada
-You did a good job || Hiciste un buen trabajo
-I'm telling you || Te lo estoy diciendo
 I'm working on it || Estoy trabajando en ello
-See you later || Te veo más tarde
-What are you going to do? || Qué vas a hacer?
 I've changed my mind || He cambiado de opinión | He cambiado de idea
-The same as you || Lo mismo que tú
-Good luck to you || Que te vaya bien
 Everyone to their posts || Todos a sus puestos
-For God's sake || Por amor de Dios
-Everything in good time || Todo a su tiempo
-It is what it is || Es lo que es | Es lo que hay
 The time has come || Ha llegado el momento | Ha llegado la hora
-That cannot be || Eso no puede ser
-I'm going to do it || Lo voy a hacer
-I'm sure of that || Estoy seguro de eso
 Thanks for the food || Gracias por la comida
-I feel very good || Me siento muy bien
 He's in the bathroom || Está en el baño
-That's what I'm here for || Para eso estoy aquí
-Come see this || Ven a ver esto
 Now it's your turn || Ahora es tu turno
-You know I love you || Sabes que te quiero
-All right, here we go || Muy bien, aquí vamos
 A couple of days || Un par de días
-I need to speak to you || Necesito hablar con usted
 Praise the Lord || Alabado sea el Señor
-I've seen it before || Lo he visto antes
-You are my best friend || Eres mi mejor amigo
-Yes, I do || Sí, ya lo creo
-Of that I am sure || De eso estoy seguro
-This is the place || Este es el lugar
-It was an accident || Ha sido un accidente
 I stay here || Yo me quedo aquí
 That explains everything || Eso lo explica todo
 I'm in love with you || Estoy enamorado de ti
 It is the only way || Es la única forma
-He's my best friend || Es mi mejor amigo
-It's what I want || Es lo que quiero
-Someone has to do it || Alguien tiene que hacerlo
 This is the deal || Este es el trato
-And that was it || Y eso fue todo
 Then don't do it || Entonces no lo hagas
-And you know it || Y tú lo sabes
-It always has been || Siempre lo ha sido
 Let's go to bed || Vamos a la cama
-It won't happen || No va a pasar
-I'm on your side || Estoy de tu lado
 You didn't have to || No tenías que hacerlo
-That's all for today || Es todo por hoy
-I have something to do || Tengo algo que hacer
-You can't be here || No puedes estar aquí
 A coffee, please || Un café, por favor
 I could imagine it || Ya me lo imaginaba
-Yes, everything is fine || Sí, todo está bien
-It has to be here || Tiene que estar aquí
-You are at home || Estás en tu casa
 It was in self-defense || Fue en defensa propia
-I like being here || Me gusta estar aquí
-Sorry about that || Lo siento por eso
-I know, I know || Lo se, lo se | Ya sé, ya sé
 Keep your eyes open || Mantén los ojos abiertos
-I just do my job || Sólo hago mi trabajo
-I did it for you || Lo hice por ti
-You already have || Ya lo has hecho
 Let me ask you a question || Déjame hacerte una pregunta
-I'll do it myself || Lo haré yo mismo | Lo haré yo misma
 You are just in time || Llegas justo a tiempo
 The door is closed || La puerta está cerrada
 I have always loved you || Siempre te he amado
 I love this song || Me encanta esta canción
 I knew it was you || Sabía que eras tú
 We will meet again || Nos volveremos a ver
-And one more thing || Y una cosa más
 I'm looking for someone || Estoy buscando a alguien
-You don't understand || Tú no lo entiendes | Es que no entiendes
 I'll tell you what we'll do || Te diré qué haremos
 Let's talk about something else || Hablemos de otra cosa
-If you don't mind || Si no te importa | Si no le importa
 Nothing will happen to you || No te pasará nada
 You'll like it || Te va a gustar
-That's a lot of money || Eso es mucho dinero
-Of course I know || Claro que lo sé
 Have a seat, please || Tome asiento, por favor | Tomen asiento, por favor
 Thanks for the drink || Gracias por el trago
-It is time || Ya es la hora
 No offense || Sin ánimo de ofender
 That was very good || Eso estuvo muy bien
-Go home || Vete a tu casa
 I fully agree || Estoy totalmente de acuerdo
 Down the hall || Al final del pasillo
 A couple of hours || Un par de horas
-I like this place || Me gusta este lugar
 I'll do whatever you want || Haré lo que quieras
 Thank you, ladies and gentlemen || Gracias, damas y caballeros
 I'll give you a hint || Te daré una pista
-I thought you would like her || Pensé que te gustaría
-There must be something || Tiene que haber algo
-Look what you did || Mira lo que hiciste
-I've already seen it || Ya lo he visto
-It already has || Ya lo ha hecho
 You haven't changed a thing || No has cambiado nada
 That's very sweet || Eso es muy dulce
-Now I can't speak || Ahora no puedo hablar
-In that you are right || En eso tienes razón
 I care about you || Me preocupo por ti
 Maybe I will || Tal vez lo haga
-All right, I will || De acuerdo, lo haré | Muy bien, lo haré
-You said it yourself || Tú mismo lo dijiste
 End of discussion || Fin de la discusión
-That is something else || Eso es otra cosa
 That's my business || Eso es asunto mío
 I knew you would || Sabía que lo harías
 I wish you the best || Te deseo lo mejor
-I haven't seen anything || No he visto nada
 It suits you very well || Te queda muy bien
 It's a pleasure to meet you || Es un placer conocerla
 Sign here, please || Firme aquí, por favor
 Not a word more || Ni una palabra más
 It's a good start || Es un buen comienzo
-You are a good friend || Eres un buen amigo
 I did what I could || Hice lo que pude
-There is a lot to do || Hay mucho que hacer
 That's the deal || Ese es el trato
 Times have changed || Los tiempos han cambiado
-Yes, I have seen it || Sí, lo he visto
 I know how you feel || Sé cómo se siente | Sé cómo te sientes
-You have to go || Te tienes que ir
 The night is young || La noche es joven
-I don't know exactly || No lo sé exactamente
 I have made a decision || He tomado una decisión
 This is a good sign || Es una buena señal
-Let me speak || Déjame hablar a mí
 I was thinking of you || Estaba pensando en ti
 That is the spirit || Ese es el espíritu
-It's just a game || Es sólo un juego
-They can't do that || No pueden hacer eso
-I've had enough || Ya he tenido suficiente
 You've earned it || Te lo has ganado
 Not an option || No es una opción
-See you tonight || Te veo esta noche
 Now I have to go || Ahora tengo que irme
 I'm waiting for someone || Estoy esperando a alguien
 Don't tell him || No se lo digas
@@ -2964,44 +1881,19 @@ I almost forgot || Casi se me olvida
 I brought you a gift || Te traje un regalo
 She is in the kitchen || Está en la cocina
 You are safe now || Ahora estás a salvo | Ya estás a salvo
-Yes, yes, I know || Sí, sí, lo sé
-This is my life || Esta es mi vida
-Thank you all very much || Muchas gracias a todos
 Let me take a look || Déjame echar un vistazo
-With all my heart || Con todo mi corazón
-It's been a while || Ha pasado un tiempo
 I know what you think || Sé lo que piensas
-You are a good person || Eres una buena persona
-That's my boy || Ese es mi muchacho
-Whatever it is || Sea lo que sea
-This is our house || Esta es nuestra casa
-You can't do this || No puede hacer esto | No puedes hacer esto
-It's me again || Soy yo otra vez
 I am not a girl || No soy una niña
-He had to do something || Tenía que hacer algo
-That is a fact || Eso es un hecho
-Let me talk to her || Déjame hablar con ella
-Yes, that is true || Sí, eso es cierto
-I have something to say || Tengo algo que decir
 It's like a dream || Es como un sueño
 I have to ask you something || Tengo que preguntarte algo
 We have to go now || Tenemos que irnos ahora | Tenemos que irnos ya
-You are the boss || Tú eres el jefe
-Thanks for your time || Gracias por tu tiempo
 I knew you would say that || Sabía que dirías eso
-Of course, of course || Por supuesto, por supuesto
 I'll take care of this || Me encargaré de esto
-What are we going to do? || Que vamos a hacer?
 It's what we do || Es lo que hacemos
 Don't tell him anything || No le digas nada
 Say what you want || Di lo que quieras
 It will only take a minute || Sólo será un minuto
 Don't say such things || No digas esas cosas
-You are going to be late || Vas a llegar tarde
 That is why I have come || Por eso he venido
 I have to go to the bathroom || Debo ir al baño
-I must go home || Debo ir a casa
-It will only take a moment || Sólo será un momento
 A beer, please || Una cerveza, por favor
-I'm going to work || Me voy a trabajar
-Not really || De verdad que no | La verdad que no
