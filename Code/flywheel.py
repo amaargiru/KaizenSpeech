@@ -1,5 +1,7 @@
 #!/usr/bin/python3.12
 
+import sys
+
 from data_level import DataOperations as dop
 from system_level import FileOperations as fop
 from ui_level import UiOperations as uop
@@ -52,4 +54,4 @@ if __name__ == '__main__':
         print('Session finished. All data saved.')
     else:
         print(assessment_error_message)
-        exit()
+        sys.exit()
