@@ -69,7 +69,7 @@ def test_missing_punctuation_is_flagged():
     assert correction[2] is False  # The comma the user did not type
 
 
-@pytest.mark.xfail(strict=True, reason='Issue 1: flywheel.py saves statistics by file name instead of the found path')
 def test_flywheel_saves_statistics_by_path():
+    # Issue 1 (fixed): statistics must be saved by the found path, not by the bare file name
     source = (Path(__file__).parents[1] / 'flywheel.py').read_text(encoding='utf-8')
     assert 'save_json_to_file(user_statistics_file_path' in source

@@ -40,7 +40,7 @@ if __name__ == '__main__':
                 fop.save_json_to_file(repetitions_file_path, repetitions)
 
                 statistics = dop.update_statistics(statistics, current_phrase, best_translation)
-                fop.save_json_to_file(statistics_file_name, statistics)
+                fop.save_json_to_file(user_statistics_file_path, statistics)
 
         except KeyboardInterrupt:
             pass  # Ctrl+C pressed - exit politely (nothing is lost: data is saved after every attempt)
