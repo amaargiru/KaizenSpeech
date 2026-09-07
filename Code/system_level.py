@@ -35,22 +35,34 @@ class FileOperations:
                             print(f'Error. String contains {len(phrases_pair)} "||" separators: {string}. String must contain '
                                   'only one "||" separator between phrases in different languages')
                         else:
-                            native_part, english_part = phrases_pair[0], phrases_pair[1]
+                            # Split into separate phrases ('|' delimiter), dropping empty variants with a warning
+                            native_phrases = FileOperations._split_into_phrases(phrases_pair[0], 'native', string)
+                            english_phrases = FileOperations._split_into_phrases(phrases_pair[1], 'English', string)
 
-                            if '|' in english_part:  # More than one English phrase
-                                english_part = list(map(str.strip, english_part.split('|')))  # Just split into separate english phrases
+                            if not native_phrases or not english_phrases:
+                                # A pair with a fully empty part ('|| hola' or 'hello ||') must not get into the dictionary
+                                print(f'Warning. Phrase pair with an empty part is skipped: {string.strip()}')
+                            else:
+                                english_part = english_phrases[0] if len(english_phrases) == 1 else english_phrases
 
-                            if '|' in native_part:  # More than one native phrase
-                                native_part = list(map(str.strip, native_part.split('|')))  # Split into separate native phrases...
-                                for native_phrase in native_part:
+                                for native_phrase in native_phrases:  # Single or multiple native phrases
                                     phrase_mapping[native_phrase] = english_part  # ... and save separate items
-
-                            else:  # Single native phrase
-                                phrase_mapping[native_part] = english_part
         except Exception as e:
             print(f'Cannot open or parse {file_path} file: {repr(e)}')
 
         return phrase_mapping
+
+    @staticmethod
+    def _split_into_phrases(phrase_part: str, language_name: str, source_string: str) -> list:
+        """Split a phrase part into separate phrases ('|' delimiter), dropping empty variants"""
+        variants: list = list(map(str.strip, phrase_part.split('|')))
+        non_empty_variants: list = [variant for variant in variants if variant]
+
+        # Warn only when the part is still usable: a fully empty part is reported by the caller as a skipped pair
+        if non_empty_variants and len(non_empty_variants) < len(variants):
+            print(f'Warning. Empty {language_name} phrase variant(s) skipped: {source_string.strip()}')
+
+        return non_empty_variants
 
     @staticmethod
     def read_json_from_file(file_path: str) -> dict:

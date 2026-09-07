@@ -31,6 +31,19 @@ class TestFindMaxStringSimilarity:
         assert distance < dop.level_mediocre
         assert best_translation == 'te quiero'
 
+    def test_empty_translation_list_is_safe(self):
+        # Guard: an empty list used to crash with IndexError on translations[0]
+        distance, best_translation = dop.find_max_string_similarity('hola', [])
+
+        assert distance == 0.0
+        assert best_translation == ''
+
+    def test_blank_translations_are_ignored(self):
+        distance, best_translation = dop.find_max_string_similarity('hola', ['   ', ''])
+
+        assert distance == 0.0
+        assert best_translation == ''
+
     def test_return_annotation_is_a_valid_type(self):
         # Issue 6 (already fixed): the annotation must be tuple[float, str],
         # not the invalid tuple (float, str).

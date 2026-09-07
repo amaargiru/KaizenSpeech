@@ -158,6 +158,12 @@ class DataOperations:
 
         if isinstance(translations, str):
             translations = [translations]
+
+        # Guard against empty / blank translations: an empty list would crash on translations[0] below
+        translations = [translation for translation in translations if translation.strip()]
+        if not translations:
+            return max_distance, ''
+
         best_translation: str = translations[0]
 
         # Cleanup and 'compactify' user input ('I   don't know!!!😀' -> 'i dont know')

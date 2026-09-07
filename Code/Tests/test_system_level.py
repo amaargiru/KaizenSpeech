@@ -33,6 +33,33 @@ class TestReadPhrases:
         assert fop.read_phrases(str(file)) == {}
         assert 'Error' in capsys.readouterr().out
 
+    def test_empty_native_part_is_skipped_with_warning(self, tmp_path, capsys):
+        file = tmp_path / 'phrases.txt'
+        file.write_text('|| hola\nhello || hola\n', encoding='utf-8')
+
+        assert fop.read_phrases(str(file)) == {'hello': 'hola'}
+        assert 'Warning' in capsys.readouterr().out
+
+    def test_empty_english_part_is_skipped_with_warning(self, tmp_path, capsys):
+        file = tmp_path / 'phrases.txt'
+        file.write_text('hello ||\nhello || hola\n', encoding='utf-8')
+
+        assert fop.read_phrases(str(file)) == {'hello': 'hola'}
+        assert 'Warning' in capsys.readouterr().out
+
+    def test_empty_variant_among_many_is_dropped(self, tmp_path, capsys):
+        file = tmp_path / 'phrases.txt'
+        file.write_text('I know || Lo se | | Yo sé\n', encoding='utf-8')
+
+        assert fop.read_phrases(str(file)) == {'I know': ['Lo se', 'Yo sé']}
+        assert 'Warning' in capsys.readouterr().out
+
+    def test_single_surviving_variant_is_stored_as_string(self, tmp_path):
+        file = tmp_path / 'phrases.txt'
+        file.write_text('I know || Lo se |\n', encoding='utf-8')
+
+        assert fop.read_phrases(str(file)) == {'I know': 'Lo se'}
+
 
 class TestJsonOperations:
     def test_read_missing_file_returns_empty_dict(self, tmp_path):
