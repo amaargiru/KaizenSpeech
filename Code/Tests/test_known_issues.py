@@ -39,13 +39,6 @@ def test_failed_answer_reschedules_repetition():
     assert new_time <= datetime.now() + timedelta(days=1)
 
 
-@pytest.mark.xfail(strict=True, reason="Issue 7: merge() counts updated phrases as 'added'")
-def test_merge_does_not_count_updates_as_added():
-    repetitions = {'hello': make_repetition('2026.01.01 00:00:00')}
-    _, message = dop.merge({'hello': 'hola amigo', 'bye': 'adios'}, repetitions)
-    assert 'Added 2' not in message
-
-
 @pytest.mark.xfail(strict=True, reason='Issue 9: determine_next_phrase raises ValueError on a corrupted repetitions record')
 def test_corrupted_record_does_not_crash_next_phrase_selection():
     repetitions = {

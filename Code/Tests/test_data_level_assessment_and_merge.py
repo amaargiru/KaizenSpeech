@@ -58,3 +58,50 @@ class TestMerge:
 
         assert (is_merged, message) == (False, 'No new phrases')
 
+
+class TestMergeSynchronization:
+    """Added / updated / removed phrases are counted separately,
+    and phrases deleted from the phrases file are removed from repetitions."""
+
+    def test_merge_counts_added_and_updated_separately(self):
+        repetitions = {'hello': make_entry()}
+
+        is_merged, message = dop.merge({'hello': 'hola amigo', 'bye': 'adios'}, repetitions)
+
+        assert is_merged is True
+        assert message == 'Added 1 new phrases, Updated 1 phrases'
+        assert repetitions['hello']['translations'] == 'hola amigo'
+        assert repetitions['bye']['translations'] == 'adios'
+
+    def test_merge_removes_deleted_phrases(self):
+        repetitions = {'hello': make_entry(), 'stale phrase': make_entry()}
+
+        is_merged, message = dop.merge({'hello': 'hola'}, repetitions)
+
+        assert is_merged is True
+        assert message == 'Removed 1 phrases'
+        assert 'stale phrase' not in repetitions
+
+    def test_merge_combined_report(self):
+        repetitions = {'hello': make_entry(), 'stale phrase': make_entry()}
+
+        _, message = dop.merge({'hello': 'hola amigo', 'bye': 'adios'}, repetitions)
+
+        assert message == 'Added 1 new phrases, Updated 1 phrases, Removed 1 phrases'
+
+    def test_update_only_report(self):
+        repetitions = {'hello': make_entry()}
+
+        is_merged, message = dop.merge({'hello': 'hola amigo'}, repetitions)
+
+        assert (is_merged, message) == (True, 'Updated 1 phrases')
+
+    def test_empty_phrases_file_does_not_wipe_repetitions(self):
+        # A safety guard: an empty phrase file must not erase the learning history
+        repetitions = {'hello': make_entry(), 'stale phrase': make_entry()}
+
+        is_merged, message = dop.merge({}, repetitions)
+
+        assert (is_merged, message) == (False, 'No new phrases')
+        assert list(repetitions) == ['hello', 'stale phrase']
+

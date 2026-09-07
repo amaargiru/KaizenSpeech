@@ -35,12 +35,18 @@ class DataOperations:
 
     @staticmethod
     def merge(phrases: dict, repetitions: dict) -> tuple[bool, str]:
-        """Merge new phrases into general dictionary"""
-        no_added_message: str = 'No new phrases'
-        new_phrases_num: int = 0
+        """Synchronize repetitions with the phrases file: add new, update changed, remove deleted"""
+        no_changes_message: str = 'No new phrases'
 
         if len(phrases) == 0:
-            return False, no_added_message
+            # An empty phrase file is treated as a loading error rather than as
+            # 'all phrases were deleted': without this guard one bad start
+            # (e.g. from a wrong working directory) would erase all repetitions.
+            return False, no_changes_message
+
+        added_phrases_num: int = 0
+        updated_phrases_num: int = 0
+        removed_phrases_num: int = 0
 
         for native_part, english_part in phrases.items():
             if native_part not in repetitions:
@@ -50,13 +56,27 @@ class DataOperations:
                     'easiness_factor': 2.5,  # How easy the card is (and determines how quickly the inter-repetition interval grows)
                     'repetition_number': 0,  # Number of times the card has been successfully recalled in a row
                     'attempts': []}  # In use flag + reserve field in case of transition from supermemo-2 to supermemo-18
-                new_phrases_num += 1
+                added_phrases_num += 1
 
             if repetitions[native_part]['translations'] != english_part:  # Correct translations
                 repetitions[native_part]['translations'] = english_part
-                new_phrases_num += 1
+                updated_phrases_num += 1
 
-        return (False, no_added_message) if new_phrases_num == 0 else (True, f'Added {new_phrases_num} new phrases')
+        # Remove phrases that were deleted from the phrases file
+        for native_part in list(repetitions):
+            if native_part not in phrases:
+                del repetitions[native_part]
+                removed_phrases_num += 1
+
+        changes: list[str] = []
+        if added_phrases_num:
+            changes.append(f'Added {added_phrases_num} new phrases')
+        if updated_phrases_num:
+            changes.append(f'Updated {updated_phrases_num} phrases')
+        if removed_phrases_num:
+            changes.append(f'Removed {removed_phrases_num} phrases')
+
+        return (False, no_changes_message) if len(changes) == 0 else (True, ', '.join(changes))
 
     @staticmethod
     def determine_next_phrase(repetitions: dict) -> str:
