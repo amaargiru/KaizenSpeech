@@ -49,7 +49,7 @@ if __name__ == '__main__':
 
         # Re-save data to guarantee file consistency in case of interruption in the middle of writing
         fop.save_json_to_file(repetitions_file_path, repetitions)
-        fop.save_json_to_file(statistics_file_name, statistics)
+        fop.save_json_to_file(user_statistics_file_path, statistics)
 
         print('Session finished. All data saved.')
     else:

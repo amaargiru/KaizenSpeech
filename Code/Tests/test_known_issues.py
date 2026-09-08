@@ -70,6 +70,7 @@ def test_missing_punctuation_is_flagged():
 
 
 def test_flywheel_saves_statistics_by_path():
-    # Issue 1 (fixed): statistics must be saved by the found path, not by the bare file name
+    # Statistics must be saved by the found path, not by the bare file name
     source = (Path(__file__).parents[1] / 'flywheel.py').read_text(encoding='utf-8')
+    assert 'save_json_to_file(statistics_file_name' not in source
     assert 'save_json_to_file(user_statistics_file_path' in source
