@@ -5,6 +5,8 @@ import shutil
 import tempfile
 from pathlib import Path
 
+from data_level import max_phrase_len
+
 
 class FileOperations:
     @staticmethod
@@ -38,12 +40,13 @@ class FileOperations:
                             print(f'Error. String contains {len(phrases_pair)} "||" separators: {string}. String must contain '
                                   'only one "||" separator between phrases in different languages')
                         else:
-                            # Split into separate phrases ('|' delimiter), dropping empty variants with a warning
+                            # Split into separate phrases ('|' delimiter), dropping empty and too long variants
                             native_phrases = FileOperations._split_into_phrases(phrases_pair[0], 'native', string)
                             english_phrases = FileOperations._split_into_phrases(phrases_pair[1], 'English', string)
 
                             if not native_phrases or not english_phrases:
-                                # A pair with a fully empty part ('|| hola' or 'hello ||') must not get into the dictionary
+                                # A pair without usable phrases ('|| hola', 'hello ||' or a too long phrase)
+                                # must not get into the dictionary
                                 print(f'Warning. Phrase pair with an empty part is skipped: {string.strip()}')
                             else:
                                 english_part = english_phrases[0] if len(english_phrases) == 1 else english_phrases
@@ -57,7 +60,7 @@ class FileOperations:
 
     @staticmethod
     def _split_into_phrases(phrase_part: str, language_name: str, source_string: str) -> list:
-        """Split a phrase part into separate phrases ('|' delimiter), dropping empty variants"""
+        """Split a phrase part into separate phrases ('|' delimiter), dropping empty and too long variants"""
         variants: list = list(map(str.strip, phrase_part.split('|')))
         non_empty_variants: list = [variant for variant in variants if variant]
 
@@ -65,7 +68,17 @@ class FileOperations:
         if non_empty_variants and len(non_empty_variants) < len(variants):
             print(f'Warning. Empty {language_name} phrase variant(s) skipped: {source_string.strip()}')
 
-        return non_empty_variants
+        # A phrase longer than the user input limit can never be answered (Issue 28): such a variant is dropped
+        # with a warning instead of becoming a permanently failed card in the user dictionary
+        usable_variants: list = []
+        for variant in non_empty_variants:
+            if len(variant) > max_phrase_len:
+                print(f'Warning. Too long {language_name} phrase variant ({len(variant)} symbols, limit is '
+                      f'{max_phrase_len}) skipped: {source_string.strip()}')
+            else:
+                usable_variants.append(variant)
+
+        return usable_variants
 
     @staticmethod
     def read_json_from_file(file_path: str) -> dict:

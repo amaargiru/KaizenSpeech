@@ -10,6 +10,7 @@ import jellyfish
 
 datetime_format: str = '%Y.%m.%d %H:%M:%S'
 max_attempts_len: int = 10  # Limit for 'Attempts' list
+max_phrase_len: int = 300  # Limit for a phrase length: a longer phrase cannot be answered by the user
 
 
 class DataOperations:
@@ -230,11 +231,12 @@ class DataOperations:
     @staticmethod
     def _cleanup_user_input(user_input: str) -> str:
         """Cleanup user input"""
-        max_string_size: int = 200
         comma_pattern: Pattern[str] = re.compile(r'(,){2,}')
         white_list: str = " ?!.,:;'¿¡"  # Allow symbols (+ alpha-numeric)
 
-        user_input = user_input[:max_string_size]
+        # The input is cut at the longest phrase the user can be asked for (Issue 28): a phrase within this
+        # limit stays answerable, longer phrases are rejected with a warning when phrases.txt is read
+        user_input = user_input[:max_phrase_len]
         user_input = user_input.strip()  # Remove leading and trailing whitespaces
         user_input = ''.join(ch for ch in user_input if ch.isalnum() or ch in white_list)  # Delete all unwanted symbols
         user_input = ' '.join(user_input.split())  # Replace multiple spaces with one

@@ -1,5 +1,7 @@
 import os
+from pathlib import Path
 
+from data_level import DataOperations as dop, max_phrase_len
 from system_level import FileOperations as fop
 
 
@@ -61,6 +63,73 @@ class TestReadPhrases:
         file.write_text('I know || Lo se |\n', encoding='utf-8')
 
         assert fop.read_phrases(str(file)) == {'I know': 'Lo se'}
+
+    def test_too_long_english_variant_is_skipped_with_warning(self, tmp_path, capsys):
+        # Issue 28 regression: a phrase longer than the user input limit can never be answered,
+        # so it must not get into the user dictionary as a permanently failed card
+        too_long_phrase = 'a' * (max_phrase_len + 1)
+        file = tmp_path / 'phrases.txt'
+        file.write_text(f'hello || {too_long_phrase}\nbye || adios\n', encoding='utf-8')
+
+        assert fop.read_phrases(str(file)) == {'bye': 'adios'}
+
+        output = capsys.readouterr().out
+        assert 'Warning. Too long English phrase variant' in output
+        assert f'{max_phrase_len + 1} symbols' in output  # The real length is reported
+        assert f'limit is {max_phrase_len}' in output
+
+    def test_too_long_native_variant_is_skipped_with_warning(self, tmp_path, capsys):
+        too_long_native = 'b' * (max_phrase_len + 1)
+        file = tmp_path / 'phrases.txt'
+        file.write_text(f'{too_long_native} || hola\n', encoding='utf-8')
+
+        assert fop.read_phrases(str(file)) == {}
+        assert 'Warning. Too long native phrase variant' in capsys.readouterr().out
+
+    def test_phrase_at_the_limit_is_loaded(self, tmp_path):
+        # The limit is inclusive: a phrase of exactly max_phrase_len symbols is still answerable
+        phrase_at_the_limit = 'a' * max_phrase_len
+        file = tmp_path / 'phrases.txt'
+        file.write_text(f'hello || {phrase_at_the_limit}\n', encoding='utf-8')
+
+        assert fop.read_phrases(str(file)) == {'hello': phrase_at_the_limit}
+
+    def test_only_the_too_long_variant_is_dropped(self, tmp_path, capsys):
+        # A line with many variants keeps the usable ones
+        too_long_phrase = 'a' * (max_phrase_len + 1)
+        file = tmp_path / 'phrases.txt'
+        file.write_text(f'I know || Lo se | {too_long_phrase} | Yo sé\n', encoding='utf-8')
+
+        assert fop.read_phrases(str(file)) == {'I know': ['Lo se', 'Yo sé']}
+        assert 'Warning. Too long English phrase variant' in capsys.readouterr().out
+
+    def test_too_long_phrase_does_not_become_a_repetition(self, tmp_path):
+        # The whole chain: an unanswerable phrase never becomes a card in repetitions.json
+        too_long_phrase = 'a' * (max_phrase_len + 1)
+        file = tmp_path / 'phrases.txt'
+        file.write_text(f'hello || {too_long_phrase}\nbye || adios\n', encoding='utf-8')
+
+        repetitions: dict = {}
+        dop.merge(fop.read_phrases(str(file)), repetitions)
+
+        assert list(repetitions) == ['bye']
+
+
+class TestRepositoryPhrasesFile:
+    """The data file shipped with the repository must not contain unanswerable phrases (Issue 28)."""
+
+    def test_no_phrase_exceeds_the_limit(self):
+        phrases_file = Path(__file__).resolve().parents[1] / 'phrases.txt'
+
+        phrases = fop.read_phrases(str(phrases_file))
+
+        assert phrases, f'{phrases_file} is expected to contain phrases'
+
+        for native_phrase, translations in phrases.items():
+            assert len(native_phrase) <= max_phrase_len
+
+            for translation in translations if isinstance(translations, list) else [translations]:
+                assert len(translation) <= max_phrase_len
 
 
 class TestJsonOperations:
