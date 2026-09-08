@@ -25,13 +25,16 @@ if __name__ == '__main__':
         is_merged, merge_message = dop.merge(phrases, repetitions)
         print(merge_message)
 
-        if is_merged:
-            fop.save_json_to_file(repetitions_file_path, repetitions)
+        save_failed: bool = False
 
-        print('Type "/exit" or press Ctrl+C to quit')
+        if is_merged and not fop.save_json_to_file(repetitions_file_path, repetitions):
+            save_failed = True  # The file is not writable: every answer of the session would be lost
+
+        if not save_failed:
+            print('Type "/exit" or press Ctrl+C to quit')
 
         try:
-            while True:
+            while not save_failed:
                 current_phrase: str = dop.determine_next_phrase(repetitions)
                 user_result, best_translation = uop.user_session(current_phrase, repetitions[current_phrase])
 
@@ -39,19 +42,32 @@ if __name__ == '__main__':
                     break
 
                 dop.update_repetitions(repetitions, current_phrase, user_result)
-                fop.save_json_to_file(repetitions_file_path, repetitions)
-
                 statistics = dop.update_statistics(statistics, current_phrase, best_translation)
-                fop.save_json_to_file(user_statistics_file_path, statistics)
+
+                # save_json_to_file() writes a complete file or keeps the previous one, so a reported
+                # failure means 'the data did not reach the disk' and the session must not go on silently
+                if not fop.save_json_to_file(repetitions_file_path, repetitions):
+                    save_failed = True
+                elif not fop.save_json_to_file(user_statistics_file_path, statistics):
+                    save_failed = True
 
         except KeyboardInterrupt:
             pass  # Ctrl+C pressed - exit politely (nothing is lost: data is saved after every attempt)
 
-        # Re-save data to guarantee file consistency in case of interruption in the middle of writing
-        fop.save_json_to_file(repetitions_file_path, repetitions)
-        fop.save_json_to_file(user_statistics_file_path, statistics)
+        # The final save persists the answers of the iteration broken by Ctrl+C. It is not a 'repair' of a
+        # half-written file any more: an interrupted save cannot corrupt anything, writes are atomic now.
+        repetitions_saved: bool = fop.save_json_to_file(repetitions_file_path, repetitions)
+        statistics_saved: bool = fop.save_json_to_file(user_statistics_file_path, statistics)
 
-        print('Session finished. All data saved.')
+        if repetitions_saved and statistics_saved:
+            print('Session finished. All data saved.')
+        else:
+            unsaved_file_paths: list[str] = [path for path, is_saved in ((repetitions_file_path, repetitions_saved),
+                                                                         (user_statistics_file_path, statistics_saved))
+                                             if not is_saved]
+            print(f'Session finished, but {", ".join(unsaved_file_paths)} WAS NOT saved. '
+                  'The file keeps the last successfully saved data, nothing was corrupted.')
+            sys.exit(1)
     else:
         print(assessment_error_message)
         sys.exit()

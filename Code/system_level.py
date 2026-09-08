@@ -1,5 +1,8 @@
+import contextlib
 import json
 import os
+import shutil
+import tempfile
 from pathlib import Path
 
 
@@ -78,10 +81,43 @@ class FileOperations:
         return repetitions
 
     @staticmethod
-    def save_json_to_file(file_path: str, repetitions: dict):
-        """Save JSON data to file"""
+    def save_json_to_file(file_path: str, repetitions: dict) -> bool:
+        """Save JSON data to file atomically, return True if the data reached the disk
+
+        The document is written to a temporary file in the target directory and then swapped in with
+        os.replace(). Ctrl+C, a crash, a full disk or any other failure in the middle of saving leaves
+        either the previous complete file or the new complete one, but never a truncated/empty file.
+        """
+        target_directory: Path = Path(file_path).parent
+        temp_file_path: str = ''
+
         try:
-            with open(file_path, 'w', encoding='utf-8') as f:
-                f.write(json.dumps(repetitions, ensure_ascii=False, indent=2))
-        except Exception as e:
+            os.makedirs(target_directory, exist_ok=True)  # The directory may not exist yet
+
+            # The temporary file must live in the target directory: os.replace() is atomic only within one volume
+            with tempfile.NamedTemporaryFile('w', encoding='utf-8', dir=target_directory,
+                                             prefix=Path(file_path).name + '.', suffix='.tmp',
+                                             delete=False) as temp_file:
+                temp_file_path = temp_file.name
+                json.dump(repetitions, temp_file, ensure_ascii=False, indent=2)
+                temp_file.flush()
+                os.fsync(temp_file.fileno())  # Push the data to the disk before the file becomes visible
+
+            if os.path.exists(file_path):
+                with contextlib.suppress(OSError):
+                    shutil.copymode(file_path, temp_file_path)  # Keep the permissions of the replaced file
+
+            os.replace(temp_file_path, file_path)
+            temp_file_path = ''  # The temporary file has become the data file, there is nothing to clean up
+
+            return True
+        except (Exception, KeyboardInterrupt) as e:
+            # KeyboardInterrupt is caught as well: an interrupted save must be reported as a failed save
+            # instead of a traceback, and the data stays in memory for the next save attempt
             print(f'Cannot save {file_path} file: {repr(e)}')
+
+            return False
+        finally:
+            if temp_file_path:
+                with contextlib.suppress(OSError):
+                    os.remove(temp_file_path)  # A failed save must not leave garbage next to the data file
