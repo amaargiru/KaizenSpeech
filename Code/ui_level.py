@@ -44,12 +44,11 @@ class UiOperations:
         for i, ch in enumerate(reference):
             if correction[i]:
                 print(Fore.GREEN + ch, end='')
+            elif ch != ' ':
+                print(Fore.RED + ch, end='')  # Just a letter
             else:
-                if ch != ' ':
-                    print(Fore.RED + ch, end='')  # Just a letter
-                else:
-                    if i - 1 >= 0 and i + 1 < len(reference):  # Emphasise the space between correct but sticky characters
-                        if correction[i - 1] and correction[i + 1]:
-                            print(Fore.RED + '_', end='')
-                        else:
-                            print(Fore.RED + ' ', end='')
+                # A space the user did not type is invisible on its own, so it is always shown as an
+                # underscore - at the phrase edges as well, where there are no neighbour symbols to
+                # emphasise it. Every symbol of the reference must reach the screen: a dropped one made
+                # the printed answer shorter than the reference (' ab' was shown as 'ab')
+                print(Fore.RED + '_', end='')
