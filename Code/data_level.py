@@ -1,5 +1,6 @@
 import re
 import sys
+import unicodedata
 from dataclasses import dataclass
 from datetime import datetime, timedelta
 from difflib import SequenceMatcher
@@ -14,9 +15,24 @@ max_phrase_len: int = 300  # Limit for a phrase length: a longer phrase cannot b
 
 
 class DataOperations:
-    level_excellent: float = 0.99
-    level_good: float = 0.97
-    level_mediocre: float = 0.65
+    # The bands of the answer quality. The metric is the Jaro similarity of the 'compacted' phrases, so the
+    # thresholds are measured on the real phrase file instead of being guessed (Issue 3.1). With the
+    # diacritics folded by _compact(), on 1892 real cards: a correct answer scores 1.0 (including the same
+    # answer typed without accents, which used to score as low as 0.67 and to be counted as a failure),
+    # a single typo scores 0.97 at the median, while a dropped or a replaced word scores 0.83 and 0.79.
+    # level_good is both the 'Almost correct' / 'Not bad' boundary of the interface and the success /
+    # failure boundary of SM-2, so the verdict the user reads and the verdict written to the data file
+    # can never disagree.
+    level_excellent: float = 0.99  # 'Correct!': the answer is identical to one of the accepted variants
+    level_good: float = 0.95  # 'Almost correct' and an SM-2 success: the phrase is right, at most a typo
+    level_mediocre: float = 0.65  # 'Not bad' and an SM-2 failure: only a part of the phrase is right
+
+    # SM-2 constants (https://en.wikipedia.org/wiki/SuperMemo)
+    default_easiness_factor: float = 2.5  # EF of a new card
+    min_easiness_factor: float = 1.3  # EF floor: below it the intervals would stop growing
+    first_interval_days: float = 1  # I(1)
+    second_interval_days: float = 6  # I(2)
+    failed_interval_days: float = 0  # A failed card becomes due again at once
 
     @staticmethod
     def data_assessment(phrases: dict, repetitions: dict) -> tuple[bool, str]:
@@ -59,8 +75,9 @@ class DataOperations:
                 repetitions[native_part] = {
                     'translations': foreign_part,
                     'time_to_repeat': datetime.now().strftime(datetime_format),  # Recommendation to check this phrase right now
-                    'easiness_factor': 2.5,  # How easy the card is (and determines how quickly the inter-repetition interval grows)
+                    'easiness_factor': DataOperations.default_easiness_factor,  # How easy the card is (and determines how quickly the inter-repetition interval grows)
                     'repetition_number': 0,  # Number of times the card has been successfully recalled in a row
+                    'interval': 0,  # The last inter-repetition interval in days, I(n-1) of the recurrent SM-2 formula
                     'attempts': []}  # In use flag + reserve field in case of transition from supermemo-2 to supermemo-18
                 added_phrases_num += 1
 
@@ -195,8 +212,18 @@ class DataOperations:
 
     @staticmethod
     def _compact(input_string: str) -> str:
-        """Restrict use of all special characters and allow letters and numbers only"""
-        return ''.join(ch for ch in input_string if ch.isalnum() or ch == ' ')
+        """Restrict use of all special characters and allow letters and numbers only
+
+        The diacritics are folded as well (Issue 3.1): 'Yo no sé' typed on a keyboard without a Spanish
+        layout as 'Yo no se' is a correct answer, but Jaro counted every accent as a full mismatch and such
+        an answer scored below level_good - 39% of the real phrase file was marked 'Not bad' and recorded as
+        an SM-2 failure. Folding is applied to both the user input and the accepted variants, so the phrases
+        stay compared in one and the same form.
+        """
+        decomposed_string: str = unicodedata.normalize('NFD', input_string)
+        without_diacritics: str = ''.join(ch for ch in decomposed_string if not unicodedata.combining(ch))
+
+        return ''.join(ch for ch in without_diacritics if ch.isalnum() or ch == ' ')
 
     @staticmethod
     def find_user_mistakes(user_input: str, reference: str) -> list:
@@ -258,21 +285,46 @@ class DataOperations:
     @staticmethod
     # https://en.wikipedia.org/wiki/SuperMemo
     def _supermemo2(repetition: dict, user_result: float) -> dict:
-        """Update next attempt time based on user result"""
+        """Update next attempt time based on user result
+
+        The intervals are recurrent (Issue 3.2): I(1) = 1 day, I(2) = 6 days, I(n) = I(n-1) * EF, so with
+        EF = 2.5 they grow 1 -> 6 -> 15 -> 38 -> 95 days. Every step after the second one used to be
+        '6 * EF' days, which stopped the growth at about 16 days forever, contradicting the promise of the
+        'easiness_factor' comment that the interval grows. I(n-1) is kept in the record under the
+        'interval' key; a record saved by an older version has no such key, so its sequence is continued
+        from the last value the old formula could have produced and the data file stays compatible.
+
+        A failed answer makes the card due again at once (Issue 3): only 'repetition_number' was reset
+        before, so the card kept its old - possibly far future - 'time_to_repeat' and the user had no chance
+        to retry it, while SM-2 requires repeating a failed item from the beginning.
+        """
+        easiness_factor: float = repetition.get('easiness_factor', DataOperations.default_easiness_factor)
+        repetition_number: int = repetition.get('repetition_number', 0)
+
         if user_result >= DataOperations.level_good:  # Correct response
-            if repetition['repetition_number'] == 0:  # + 1 day
-                repetition['time_to_repeat'] = (datetime.now() + timedelta(days=1)).strftime(datetime_format)
-            elif repetition['repetition_number'] == 1:  # + 6 days
-                repetition['time_to_repeat'] = (datetime.now() + timedelta(days=6)).strftime(datetime_format)
-            else:  # + (6 * easiness_factor) days
-                repetition['time_to_repeat'] = (datetime.now()
-                                                + timedelta(days=6 * repetition['easiness_factor'])).strftime(datetime_format)
-            repetition['repetition_number'] += 1
-        else:  # Incorrect response
+            previous_interval: float = float(repetition.get('interval') or 0)  # I(n-1)
+
+            if repetition_number <= 0:
+                interval_days: float = DataOperations.first_interval_days  # I(1) = 1 day
+            elif repetition_number == 1:
+                interval_days = DataOperations.second_interval_days  # I(2) = 6 days
+            elif previous_interval > 0:
+                interval_days = round(previous_interval * easiness_factor)  # I(n) = I(n-1) * EF
+            else:
+                # A record of an older version has no stored interval: continue its sequence, the
+                # recurrence starts from the next successful answer
+                interval_days = round(DataOperations.second_interval_days * easiness_factor)
+
+            repetition['repetition_number'] = repetition_number + 1
+        else:  # Incorrect response: the card starts over and is asked for again in this very session
+            interval_days = DataOperations.failed_interval_days
             repetition['repetition_number'] = 0
 
-        repetition['easiness_factor'] = repetition['easiness_factor'] + (
+        repetition['interval'] = interval_days
+        repetition['time_to_repeat'] = (datetime.now() + timedelta(days=interval_days)).strftime(datetime_format)
+
+        repetition['easiness_factor'] = easiness_factor + (
                 0.1 - (5 - 5 * user_result) * (0.08 + (5 - 5 * user_result) * 0.02))
-        repetition['easiness_factor'] = max(repetition['easiness_factor'], 1.3)
+        repetition['easiness_factor'] = max(repetition['easiness_factor'], DataOperations.min_easiness_factor)
 
         return repetition

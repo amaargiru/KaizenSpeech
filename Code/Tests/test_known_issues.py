@@ -31,14 +31,6 @@ def test_cleanup_user_input_replaces_tab_with_space():
     assert dop._cleanup_user_input('a\tb') == 'a b'
 
 
-@pytest.mark.xfail(strict=True, reason='Issue 3: SM-2 does not reschedule a phrase after a failed answer')
-def test_failed_answer_reschedules_repetition():
-    far_future = (datetime.now() + timedelta(days=300)).strftime(datetime_format)
-    updated = dop._supermemo2(make_repetition(far_future), 0.0)
-    new_time = datetime.strptime(updated['time_to_repeat'], datetime_format)
-    assert new_time <= datetime.now() + timedelta(days=1)
-
-
 @pytest.mark.xfail(strict=True, reason='Issue 9: determine_next_phrase raises ValueError on a corrupted repetitions record')
 def test_corrupted_record_does_not_crash_next_phrase_selection():
     repetitions = {

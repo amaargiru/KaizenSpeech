@@ -35,6 +35,7 @@ class TestMerge:
         assert repetitions['hello']['translations'] == 'hola'
         assert repetitions['hello']['easiness_factor'] == 2.5
         assert repetitions['hello']['repetition_number'] == 0
+        assert repetitions['hello']['interval'] == 0  # I(n-1) of the recurrent SM-2 formula (Issue 3.2)
         assert repetitions['hello']['attempts'] == []
 
     def test_merge_no_new_phrases(self):

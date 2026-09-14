@@ -1,3 +1,5 @@
+import pytest
+
 from data_level import DataOperations as dop, max_phrase_len
 
 
@@ -84,4 +86,61 @@ class TestLongPhraseIsAnswerable:
 
         assert distance == 1.0
         assert best_translation == reference_at_the_limit
+
+
+class TestThresholdsAreCalibratedForJaro:
+    """Issue 3.1 regression: level_good must fit the Jaro metric it is applied to.
+
+    The thresholds used to be set for a stricter scale, so on the real 1892 card file 39% of the cards gave
+    'Not bad' and an SM-2 failure for a grammatically correct answer typed without accents, and a single
+    typo ('te qiero' -> 0.9630) was a failure too. Measured after the fix: a correct answer scores 1.0 with
+    the accents folded, a single typo scores 0.97 at the median, a dropped word scores 0.83 and a replaced
+    word scores 0.79 - so level_good = 0.95 separates a known phrase from an unknown one.
+    """
+
+    def test_thresholds_are_ordered(self):
+        assert 0 < dop.level_mediocre < dop.level_good < dop.level_excellent <= 1.0
+
+    @pytest.mark.parametrize('user_input, translation', [
+        ('Y que?', 'Y qué?'),
+        ('Yo no se', 'Yo no sé'),
+        ('Para que?', 'Para qué?'),
+        ('Lo esta', 'Lo está'),
+        ('si', 'sí'),
+        ('Como estas hoy amigo mio', 'Cómo estás hoy amigo mío'),
+    ])
+    def test_answer_without_accents_is_excellent(self, user_input, translation):
+        distance, best_translation = dop.find_max_string_similarity(user_input, [translation])
+
+        assert distance == 1.0  # An accent is not a mistake, the answer is identical after the folding
+        assert distance >= dop.level_excellent  # 'Correct!' instead of the old 'Not bad' + SM-2 failure
+        assert best_translation == translation
+
+    def test_the_accented_variant_is_chosen_as_the_best_one(self):
+        # The old scoring preferred 'Lo es' over 'Lo está' for the answer 'Lo esta' and showed it as the
+        # right answer, so the user was told that a correct answer was wrong
+        distance, best_translation = dop.find_max_string_similarity('Lo esta', ['Lo es', 'Lo está'])
+
+        assert best_translation == 'Lo está'
+        assert distance == 1.0
+
+    def test_single_typo_is_almost_correct_and_passes(self):
+        distance, _ = dop.find_max_string_similarity('te qiero', ['te quiero'])
+
+        assert dop.level_good <= distance < dop.level_excellent  # 'Almost correct', and an SM-2 success
+
+    def test_replaced_word_is_a_failure(self):
+        distance, _ = dop.find_max_string_similarity('te odio mucho', ['te quiero mucho'])
+
+        assert dop.level_mediocre <= distance < dop.level_good  # 'Not bad', and an SM-2 failure
+
+    def test_dropped_word_is_a_failure(self):
+        distance, _ = dop.find_max_string_similarity('Lo esta', ['Lo está bien'])
+
+        assert dop.level_mediocre <= distance < dop.level_good
+
+    def test_another_phrase_is_wrong(self):
+        distance, _ = dop.find_max_string_similarity('nada', ['te quiero'])
+
+        assert distance < dop.level_mediocre  # 'Wrong', and an SM-2 failure
 

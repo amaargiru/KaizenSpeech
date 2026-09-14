@@ -24,6 +24,9 @@ class UiOperations:
         distance, best_translation = dop.find_max_string_similarity(user_input, repetition['translations'])
         diff = dop.find_user_mistakes(user_input, best_translation)
 
+        # The bands share their boundaries with SM-2 (Issue 3.1): from level_good up the answer is an SM-2
+        # success, below it the card starts over, so the verdict on the screen and the verdict written to
+        # the data file are always the same one
         if distance >= dop.level_excellent:  # Phrases are identical
             print(Fore.GREEN + 'Correct!' + os.linesep)
         elif distance >= dop.level_good:  # The phrases are very similar, maybe a typo
