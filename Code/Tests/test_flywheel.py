@@ -142,7 +142,7 @@ class TestFlywheelLongPhrase:
 
         result = run_flywheel(working_directory, '/exit\n')
 
-        assert 'Warning. Too long English phrase variant' in result.stdout
+        assert 'Warning. Too long foreign phrase variant' in result.stdout
         assert 'Both structures have zero length' in result.stdout  # The unanswerable phrase is not a card
         assert 'Enter phrase' not in result.stdout  # ... so the user is never asked for it
         assert (working_directory / 'repetitions.json').read_text(encoding='utf-8') == ''  # No card was created

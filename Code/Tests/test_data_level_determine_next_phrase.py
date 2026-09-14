@@ -64,7 +64,7 @@ class TestUpdateStatistics:
 
         assert statistics['attempts_num'] == 1
         assert statistics['native_words'] == ['is', 'it', 'what']
-        assert statistics['english_words'] == ['es', 'que']
+        assert statistics['foreign_words'] == ['es', 'que']
 
     def test_words_accumulate(self):
         statistics = dop.update_statistics({}, 'What is it?', 'Que es?')
@@ -72,5 +72,32 @@ class TestUpdateStatistics:
 
         assert statistics['attempts_num'] == 2
         assert set(statistics['native_words']) == {'what', 'is', 'it', 'hello', 'there'}
-        assert set(statistics['english_words']) == {'que', 'es', 'hola'}
+        assert set(statistics['foreign_words']) == {'que', 'es', 'hola'}
+
+
+class TestStatisticsLanguageRoles:
+    """Issue 5.1 regression: the languages were mixed up all over the project
+
+    The words of the phrase the user is asked for belong to their native language, the words of the expected
+    answer belong to the foreign language being learned. No set may be named after a concrete language: the
+    answer used to be stored under 'english_words' even though the answer is Spanish.
+    """
+
+    def test_native_words_come_from_the_question_and_foreign_words_from_the_answer(self):
+        statistics = dop.update_statistics({}, 'What is it?', 'Que es?')
+
+        assert statistics['native_words'] == ['is', 'it', 'what']  # English is the native language here...
+        assert statistics['foreign_words'] == ['es', 'que']  # ... and Spanish is the foreign one
+
+    def test_no_word_set_is_named_after_a_concrete_language(self):
+        statistics = dop.update_statistics({}, 'What is it?', 'Que es?')
+
+        assert sorted(statistics) == ['attempts_num', 'foreign_words', 'native_words']
+
+    def test_the_statistics_do_not_depend_on_the_language_pair(self):
+        # The same code serves any pair: here Russian is the native language and English is the foreign one
+        statistics = dop.update_statistics({}, 'Я люблю тебя', 'I love you')
+
+        assert statistics['native_words'] == ['люблю', 'тебя', 'я']
+        assert statistics['foreign_words'] == ['i', 'love', 'you']
 

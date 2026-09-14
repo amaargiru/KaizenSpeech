@@ -36,7 +36,12 @@ class DataOperations:
 
     @staticmethod
     def merge(phrases: dict, repetitions: dict) -> tuple[bool, str]:
-        """Synchronize repetitions with the phrases file: add new, update changed, remove deleted"""
+        """Synchronize repetitions with the phrases file: add new, update changed, remove deleted
+
+        Both structures are keyed by the native phrase (the task in the user's own language); the value of
+        phrases is the foreign phrase or the list of its variants (the expected answer), stored in repetitions
+        under the 'translations' key.
+        """
         no_changes_message: str = 'No new phrases'
 
         if len(phrases) == 0:
@@ -49,18 +54,18 @@ class DataOperations:
         updated_phrases_num: int = 0
         removed_phrases_num: int = 0
 
-        for native_part, english_part in phrases.items():
+        for native_part, foreign_part in phrases.items():
             if native_part not in repetitions:
                 repetitions[native_part] = {
-                    'translations': english_part,
+                    'translations': foreign_part,
                     'time_to_repeat': datetime.now().strftime(datetime_format),  # Recommendation to check this phrase right now
                     'easiness_factor': 2.5,  # How easy the card is (and determines how quickly the inter-repetition interval grows)
                     'repetition_number': 0,  # Number of times the card has been successfully recalled in a row
                     'attempts': []}  # In use flag + reserve field in case of transition from supermemo-2 to supermemo-18
                 added_phrases_num += 1
 
-            if repetitions[native_part]['translations'] != english_part:  # Correct translations
-                repetitions[native_part]['translations'] = english_part
+            if repetitions[native_part]['translations'] != foreign_part:  # Correct translations
+                repetitions[native_part]['translations'] = foreign_part
                 updated_phrases_num += 1
 
         # Remove phrases that were deleted from the phrases file
@@ -117,8 +122,14 @@ class DataOperations:
         repetitions[current_phrase] = DataOperations._supermemo2(repetitions[current_phrase], user_result)
 
     @staticmethod
-    def update_statistics(statistics: dict, current_phrase: str, best_translation: str):
-        """Update user statistics"""
+    def update_statistics(statistics: dict, native_phrase: str, best_translation: str):
+        """Update user statistics
+
+        The words are stored by the role of the phrase they come from, not by a language name (Issue 5.1):
+        'native_words' holds the words of the task in the user's own language, 'foreign_words' holds the words
+        of the expected answer in the language being learned. The answer used to be stored under
+        'english_words' even though it is Spanish.
+        """
 
         # Update attempts num
         if 'attempts_num' in statistics:
@@ -127,7 +138,7 @@ class DataOperations:
             statistics['attempts_num'] = 1
 
         # Update native words set
-        current_native_words_set = set(DataOperations._compact(current_phrase.lower()).split())
+        current_native_words_set = set(DataOperations._compact(native_phrase.lower()).split())
 
         if 'native_words' in statistics:
             full_native_words_set = set(statistics['native_words'])
@@ -138,17 +149,17 @@ class DataOperations:
 
         statistics['native_words'].sort()
 
-        # Update english words set
-        current_english_words_set = set(DataOperations._compact(best_translation.lower()).split())
+        # Update foreign words set
+        current_foreign_words_set = set(DataOperations._compact(best_translation.lower()).split())
 
-        if 'english_words' in statistics:
-            full_english_words_set = set(statistics['english_words'])
-            full_english_words_set.update(current_english_words_set)
-            statistics['english_words'] = list(full_english_words_set)
+        if 'foreign_words' in statistics:
+            full_foreign_words_set = set(statistics['foreign_words'])
+            full_foreign_words_set.update(current_foreign_words_set)
+            statistics['foreign_words'] = list(full_foreign_words_set)
         else:
-            statistics['english_words'] = list(current_english_words_set)
+            statistics['foreign_words'] = list(current_foreign_words_set)
 
-        statistics['english_words'].sort()
+        statistics['foreign_words'].sort()
 
         return statistics
 

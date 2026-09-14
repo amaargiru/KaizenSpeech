@@ -1,8 +1,8 @@
 # You can write comments with # symbol
-# Phrase dictionary format: nativephrase || englishphrase
+# Phrase dictionary format: native phrase || foreign phrase
 # Example: Я люблю тебя || I love you
 
-# You can use multiple native or english phrases with | delimeter
+# You can use multiple native or foreign phrases with | delimiter
 # Example: Кот сидит на столе | Кошка сидит на столе || A cat sits on the table | The cat sits on the table
 
 Я люблю тебя || I love you

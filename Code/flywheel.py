@@ -35,14 +35,15 @@ if __name__ == '__main__':
 
         try:
             while not save_failed:
-                current_phrase: str = dop.determine_next_phrase(repetitions)
-                user_result, best_translation = uop.user_session(current_phrase, repetitions[current_phrase])
+                # The card key is the native phrase (the task), the answer is compared with the foreign one
+                native_phrase: str = dop.determine_next_phrase(repetitions)
+                user_result, best_translation = uop.user_session(native_phrase, repetitions[native_phrase])
 
                 if user_result is None:  # '/exit' command received
                     break
 
-                dop.update_repetitions(repetitions, current_phrase, user_result)
-                statistics = dop.update_statistics(statistics, current_phrase, best_translation)
+                dop.update_repetitions(repetitions, native_phrase, user_result)
+                statistics = dop.update_statistics(statistics, native_phrase, best_translation)
 
                 # save_json_to_file() writes a complete file or keeps the previous one, so a reported
                 # failure means 'the data did not reach the disk' and the session must not go on silently

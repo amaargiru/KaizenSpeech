@@ -27,53 +27,65 @@ class FileOperations:
 
     @staticmethod
     def read_phrases(file_path: str) -> dict:
-        """Read new phrases from file"""
+        """Read new phrases from file
+
+        Every line has the 'native phrase || foreign phrase' format: the native phrase (the user's own
+        language, it is shown as the task) becomes the dictionary key, the foreign phrase or the list of its
+        variants (the language being learned, it is the expected answer) becomes the value. Both parts are
+        named after their role and never after a concrete language, so the same code serves any language
+        pair (Issue 5.1: the answer used to be called 'English' although it is Spanish).
+        """
         phrase_mapping: dict = {}
 
         try:
             with open(file_path, 'r', encoding='utf-8') as phrase_file:
                 for string in phrase_file:
-                    if string[0] != '#' and '||' in string:  # No comment line and contains native-english separator
+                    # No comment line and contains the native-foreign separator
+                    if string[0] != '#' and '||' in string:
                         phrases_pair = list(map(str.strip, string.split('||')))
 
                         if len(phrases_pair) > 2:
                             print(f'Error. String contains {len(phrases_pair)} "||" separators: {string}. String must contain '
-                                  'only one "||" separator between phrases in different languages')
+                                  'only one "||" separator between the native and the foreign phrase')
                         else:
                             # Split into separate phrases ('|' delimiter), dropping empty and too long variants
                             native_phrases = FileOperations._split_into_phrases(phrases_pair[0], 'native', string)
-                            english_phrases = FileOperations._split_into_phrases(phrases_pair[1], 'English', string)
+                            foreign_phrases = FileOperations._split_into_phrases(phrases_pair[1], 'foreign', string)
 
-                            if not native_phrases or not english_phrases:
+                            if not native_phrases or not foreign_phrases:
                                 # A pair without usable phrases ('|| hola', 'hello ||' or a too long phrase)
                                 # must not get into the dictionary
                                 print(f'Warning. Phrase pair with an empty part is skipped: {string.strip()}')
                             else:
-                                english_part = english_phrases[0] if len(english_phrases) == 1 else english_phrases
+                                foreign_part = foreign_phrases[0] if len(foreign_phrases) == 1 else foreign_phrases
 
                                 for native_phrase in native_phrases:  # Single or multiple native phrases
-                                    phrase_mapping[native_phrase] = english_part  # ... and save separate items
+                                    phrase_mapping[native_phrase] = foreign_part  # ... and save separate items
         except Exception as e:
             print(f'Cannot open or parse {file_path} file: {repr(e)}')
 
         return phrase_mapping
 
     @staticmethod
-    def _split_into_phrases(phrase_part: str, language_name: str, source_string: str) -> list:
-        """Split a phrase part into separate phrases ('|' delimiter), dropping empty and too long variants"""
+    def _split_into_phrases(phrase_part: str, part_name: str, source_string: str) -> list:
+        """Split a phrase part into separate phrases ('|' delimiter), dropping empty and too long variants
+
+        part_name is the role of the part ('native' or 'foreign'), not a language name: it is used in the
+        warnings only, so a report about a Spanish phrase never calls it English (Issue 5.1).
+        """
         variants: list = list(map(str.strip, phrase_part.split('|')))
         non_empty_variants: list = [variant for variant in variants if variant]
 
         # Warn only when the part is still usable: a fully empty part is reported by the caller as a skipped pair
         if non_empty_variants and len(non_empty_variants) < len(variants):
-            print(f'Warning. Empty {language_name} phrase variant(s) skipped: {source_string.strip()}')
+            print(f'Warning. Empty {part_name} phrase variant(s) skipped: {source_string.strip()}')
 
         # A phrase longer than the user input limit can never be answered (Issue 28): such a variant is dropped
         # with a warning instead of becoming a permanently failed card in the user dictionary
         usable_variants: list = []
         for variant in non_empty_variants:
             if len(variant) > max_phrase_len:
-                print(f'Warning. Too long {language_name} phrase variant ({len(variant)} symbols, limit is '
+                print(f'Warning. Too long {part_name} phrase variant ({len(variant)} symbols, limit is '
                       f'{max_phrase_len}) skipped: {source_string.strip()}')
             else:
                 usable_variants.append(variant)

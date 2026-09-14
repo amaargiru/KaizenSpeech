@@ -10,9 +10,13 @@ just_fix_windows_console()
 
 class UiOperations:
     @staticmethod
-    def user_session(phrase: str, repetition: dict) -> tuple[float | None, str]:
-        """Console user interface"""
-        user_input: str = input(f'Enter phrase \"{phrase}\" in Spanish: ' + os.linesep)
+    def user_session(native_phrase: str, repetition: dict) -> tuple[float | None, str]:
+        """Console user interface
+
+        native_phrase is the task in the user's own language, the answer is expected in the foreign language
+        and is compared with repetition['translations'] (the accepted foreign variants).
+        """
+        user_input: str = input(f'Enter phrase \"{native_phrase}\" in Spanish: ' + os.linesep)
 
         if user_input.strip().lower() == '/exit':  # User wants to end the session
             return None, ''

@@ -18,7 +18,7 @@ class TestReadPhrases:
 
         assert fop.read_phrases(str(file)) == {'hello': 'hola'}
 
-    def test_multiple_english_variants(self, tmp_path):
+    def test_multiple_foreign_variants(self, tmp_path):
         file = tmp_path / 'phrases.txt'
         file.write_text("I know || Lo se | Ya se | Yo sé\n", encoding='utf-8')
 
@@ -44,7 +44,7 @@ class TestReadPhrases:
         assert fop.read_phrases(str(file)) == {'hello': 'hola'}
         assert 'Warning' in capsys.readouterr().out
 
-    def test_empty_english_part_is_skipped_with_warning(self, tmp_path, capsys):
+    def test_empty_foreign_part_is_skipped_with_warning(self, tmp_path, capsys):
         file = tmp_path / 'phrases.txt'
         file.write_text('hello ||\nhello || hola\n', encoding='utf-8')
 
@@ -64,7 +64,7 @@ class TestReadPhrases:
 
         assert fop.read_phrases(str(file)) == {'I know': 'Lo se'}
 
-    def test_too_long_english_variant_is_skipped_with_warning(self, tmp_path, capsys):
+    def test_too_long_foreign_variant_is_skipped_with_warning(self, tmp_path, capsys):
         # Issue 28 regression: a phrase longer than the user input limit can never be answered,
         # so it must not get into the user dictionary as a permanently failed card
         too_long_phrase = 'a' * (max_phrase_len + 1)
@@ -74,7 +74,8 @@ class TestReadPhrases:
         assert fop.read_phrases(str(file)) == {'bye': 'adios'}
 
         output = capsys.readouterr().out
-        assert 'Warning. Too long English phrase variant' in output
+        assert 'Warning. Too long foreign phrase variant' in output
+        assert 'English' not in output  # Issue 5.1: the answer is a foreign phrase, never an English one
         assert f'{max_phrase_len + 1} symbols' in output  # The real length is reported
         assert f'limit is {max_phrase_len}' in output
 
@@ -101,7 +102,7 @@ class TestReadPhrases:
         file.write_text(f'I know || Lo se | {too_long_phrase} | Yo sé\n', encoding='utf-8')
 
         assert fop.read_phrases(str(file)) == {'I know': ['Lo se', 'Yo sé']}
-        assert 'Warning. Too long English phrase variant' in capsys.readouterr().out
+        assert 'Warning. Too long foreign phrase variant' in capsys.readouterr().out
 
     def test_too_long_phrase_does_not_become_a_repetition(self, tmp_path):
         # The whole chain: an unanswerable phrase never becomes a card in repetitions.json

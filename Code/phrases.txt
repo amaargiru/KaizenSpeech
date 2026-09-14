@@ -1,8 +1,8 @@
 # You can write comments with # symbol
-# Phrase dictionary format: native phrase || english phrase
+# Phrase dictionary format: native phrase || foreign phrase
 # Example: I love you || Te quiero
 
-# You can use multiple native or english phrases with | delimeter
+# You can use multiple native or foreign phrases with | delimiter
 # Example: I know || Lo se | Ya se | Yo sé
 
 What is it? || Que es?
