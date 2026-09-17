@@ -1,0 +1,370 @@
+# You can write comments with # symbol
+# Phrase dictionary format: nativephrase || englishphrase
+# Example: Я люблю тебя || I love you
+
+# You can use multiple native or english phrases with | delimeter
+# Example: Кот сидит на столе | Кошка сидит на столе || A cat sits on the table | The cat sits on the table
+
+# 1
+Я люблю тебя || I love you
+Я работаю || I work | I am working | I'm working
+Мы работаем || We work | We are working | We're working
+Ты работаешь || You work | You are working | You're working
+Они работают || They work | They are working | They're working
+Я работаю здесь || I work here | I'm working here
+Я учусь || I study | I am studying | I'm studying
+Я понимаю || I understand
+Я понимаю тебя || I understand you
+Я знаю это || I know it | I know this
+
+# 11
+Я знаю это очень хорошо || I know it very well | I know this very well
+Я живу в России || I live in Russia
+Я говорю по-английски || I speak English
+Я хожу в школу || I go to school | I attend school
+Я хожу на работу || I go to work | I commute to work
+У меня есть брат || I have a brother
+У меня есть идея || I have an idea
+У меня есть сестра || I have a sister
+У меня есть машина || I have a car
+Я так думаю || I think so | I believe so
+
+# 21 
+Я вижу это || I see it | I see this
+Я хочу это || I want it | I want this | I want that
+Я помню это || I remember it | I remember this | I remember that
+Я помню это очень хорошо || I remember it very well | I remember this very well | I remember that very well
+Мы понимаем тебя || We understand you
+Мы говорим по-английски || We speak English
+Ты знаешь это || You know it | You know this
+Они помогают мне || They help me | They are helping me
+Они ходят на работу || They go to work | They commute to work
+Мы помним это || We remember it | We remember this | We remember that
+
+# 31
+Ты говоришь по-английски очень хорошо || You speak English very well
+Мы живём здесь || We live here
+Я живу в этом городе || I live in this city | I live in this town
+Мы живём в этой стране || We live in this country
+# Мы говорим по-английски || We speak English # Дубликат строки 38
+Ты помогаешь мне || You help me
+Я очень хорошо понимаю тебя || I understand you very well
+Я работаю там || I work there
+Они ходят в школу || They go to school | They attend school
+Я учусь здесь || I study here
+
+# 41
+Мы думаем так || We think so
+Я учусь там || I study there | I study over there | I am studying there
+Я живу в этой стране || I live in this country
+Мы живем в России || We live in Russia | We are living in Russia | We're living in Russia
+Ты видишь это || You see it | You see this | You can see it | You can see this
+Собака сидит на столе || A dog sits on the table | The dog sits on the table | A dog is sitting on the table | The dog is sitting on the table
+Кот сидит на столе | Кошка сидит на столе || A cat sits on the table | The cat sits on the table | A cat is sitting on the table | The cat is sitting on the table
+Мы хотим это || We want it | We want this | We want that
+Ты работаешь очень усердно || You work very hard
+Они учатся очень усердно || They study very hard
+
+# 51
+Он живет там || He lives there | He's living there
+Она чувствует себя счастливой || She feels happy | She is feeling happy | She is happy
+Я чувствую себя счастливым || I feel happy | I'm feeling happy
+Это помогает мне || It helps me | This helps me
+Он также работает здесь || He works here too | He also works here | He works here as well
+Он так думает || He thinks so | He believes so
+Он живет в этом доме || He lives in this house | He's living in this house
+Она помнит это || She remembers it | She remembers this | She remembers that
+Она живет в этом месте || She lives in this place
+Она живет в том месте || She lives in that place
+
+# 61
+Она говорит по-английски очень хорошо || She speaks English very well
+Это действительно помогает мне || It really helps me | This really helps me | It truly helps me
+Это выглядит интересным || It looks interesting | That looks interesting
+Это кажется интересным || It seems interesting | That seems interesting
+Он читает на английском || He reads in English
+Она читает английские книги || She reads English books
+Это выглядит странно || It looks weird | It looks strange | That looks weird | That looks strange
+Он знает это || He knows this | He knows that
+Он видит эту ошибку || He sees this mistake | He sees that mistake
+Она видит эту ошибку || She sees this mistake | She sees that mistake
+
+# 71
+Это случается || It happens | This happens | That happens
+Он хочет большего || He wants more
+Она хочет больше практики || She wants more practice
+Это действительно случается || It really happens | This really happens | That really happens 
+Мне это нравится || I like this | I like it | I like that
+Мне это не нравится || I do not like it | I don't like it | I do not like this | I don't like this | I do not like that | I don't like that
+Это не так || This is not true | That is not true | That's not true | This isn't true | That isn't true | It's not true | It is not true
+Я не люблю тебя || I do not love you | I don't love you 
+Это не здесь || It's not here | It is not here | It isn't here | This is not here | This isn't here
+Это не там || It's not there | It is not there | It isn't there | This is not there | This isn't there
+
+# 81
+Я тебя очень люблю || I love you very much | I love you a lot | I love you so much
+Я не люблю её || I don't love her | I do not love her
+Мне это не нужно || I do not need it | I don't need it | I do not need this | I don't need this
+Это очень хорошо || It is very good | This is very good | That is very good
+Он мне нравится || I like him
+Мне это нужно || I need it | I need this | I require it | I need that
+Я люблю её || I love her | I'm in love with her
+Спасибо ещё раз || Thanks again | Thank you again | Thanks once more | Thank you once more
+Мне нравится этот человек || I like this man | I like this person
+Вы знаете французский? || Do you speak French? | Do you know French?
+
+# 91
+Где моё место? || Where is my place? | Where's my place? | Where is my seat? | Where's my seat?
+Тебе нравится твоя работа? || Do you like your work? | Do you like your job?
+Дай мне свои руки || Give me your hands
+Твоё время придёт || Your time will come | Your time is going to come | Your time is coming
+Ей тридцать один || She is thirty—one | She's thirty-one | She is thirty one | She's thirty one
+Дайте мне вина || Give me some wine | Give me wine
+Мне нравятся твои глаза || I like your eyes
+У меня есть решение || I have a solution | I've got a solution
+Дайте мне тот телефон || Give me that phone
+Какой из них наш? || Which one is ours?
+
+# 101
+Мальчик хочет пить || The boy is thirsty | The boy wants to drink | The boy wants a drink
+Она сделала ему подарок || She gave him a present | She gave him a gift | She made him a present | She made him a gift
+Мой сын сегодня уехал || My son left today | My son departed today | My son has left today
+Автобус только что уехал || The bus just left | The bus just departed
+Я видел свет || I saw the light | I saw a light | I've seen the light
+Ваши родители были правы || Your parents were right
+Мне нравятся Ваши волосы || I like your hair
+Где твоя девушка? || Where is your girlfriend? | Where is your girl?
+Мы должны стать лучше || We have to get better | We must become better | We must to get better | We have to become better
+Вы мой любимый учитель || You are my favorite teacher | You're my favorite teacher
+
+#111
+Вчера было ужасно холодно || Yesterday it was terribly cold | It was awfully cold yesterday | It was terribly cold yesterday
+Ты приехал вовремя || You arrived on time
+Мы, наконец, нашли ключ || We finally found the key | We have finally found the key | At last, we found the key
+Вы можете посмотреть телевизор || You can watch TV | You can watch television
+Какой твой любимый город? || What is your favorite city? | What is your favorite town? | Which is your favorite city? | Which is your favorite town? | What's your favorite city? | What's your favorite town?
+Вы всё делаете правильно || You do everything right | You are doing everything right | You're doing everything correctly
+Эта комната довольно большая || This room is quite big | This room is pretty big | This room is quite large | This room is rather large | This room is fairly large
+Вы сделали свой выбор || You made your choice | You have made your choice | You've made your choice
+Всё равно спасибо || Thanks anyway | Thank you anyway
+Это ваш единственный шанс || This is your only chance | It is your only chance | It's your only chance
+
+#121
+Вы, должно быть, канадец || You must be Canadian | You must be a Canadian
+Эй, не делай этого! || Hey, don't do this! | Hey, don't do that! | Hey, do not do this! | Hey, do not do that!
+Какой твой любимый цвет? || What is your favorite color? | What's your favorite color? | What is your favourite colour? | What's your favourite colour?
+Прошлой ночью было жарко || It was hot last night | Last night was hot | It was hot during the night
+Это мой старый велосипед || This is my old bike | This is my old bicycle | It's my old bike | That is my old bicycle | It is my old bike | It is my old bicycle 
+Иди делай уроки || Go do your homework | Go and do your homework | Go do your lessons
+Дай мне тот нож || Give me that knife | Hand me that knife | Give me the knife
+Кто сделал этот ящик? || Who made this box? | Who built this box? | Who made that box? | Who built that box? 
+Давай сначала сделаем это || Let's do it first | Let us do it first | Let's do this first
+Мне знаком этот голос || I know this voice | I recognize this voice | This voice is familiar to me | I know that voice | This voice sounds familiar
+
+# 131
+Могу я взять слово? || Can I take the floor? | May I take the floor? | May I have the floor? | Can I have the floor?
+Я устал || I am tired | I'm tired | I'm exhausted | I am worn out | I'm worn out
+Я не голоден || I am not hungry | I'm not hungry | I ain't hungry
+Я инженер || I am an engineer | I'm an engineer
+Я инженер-электронщик || I am an electronics engineer | I'm an electronics engineer
+Меня зовут Михаил || My name is Michael | My name's Michael | My name is Mikhail | My name's Mikhail | I am Michael | I'm Mikhail 
+Привет, я из Чикаго || Hello, I am from Chicago | Hello, I'm from Chicago | Hi, I am from Chicago | Hi, I'm from Chicago | Hey, I'm from Chicago | Hey, I am from Chicago
+Я разработчик программного обеспечения || I am a software developer | I'm a software developer | I am a software engineer | I'm a software engineer
+Я студент || I am a student | I'm a student
+Мой папа — администратор баз данных || My father is a database administrator | My dad is a database administrator | My dad is a DBA | My father is a DBA
+
+# 141
+Моя мама — инженер по контролю качества || My mother is a quality assurance engineer | My mom is a quality assurance engineer | My mom is a quality control engineer | My mother is a quality control engineer | My mum is a quality control engineer
+Мой любимый цвет — бледно-зеленый || My favorite color is pale green | My favorite colour is pale green
+Меня интересует программирование || I am interested in programming | I'm interested in programming | Programming interests me | I'm interested in coding | I am interested in coding | Coding interests me
+Мьянма || Myanmar
+Этот зал был полон людей || This hall was full of people | That hall was full of people | This room was full of people | That room was full of people |	This hall was packed with people | That hall was packed with people | This room was packed with people | That room was packed with people
+Разве посылка ещё не пришла? || Has the parcel not yet arrived? | Has the package not yet arrived? | Isn't the parcel here yet? | Isn't the package here yet? | Hasn't the parcel arrived yet? | Hasn't the package arrived yet? | Has the parcel not arrived yet? | Has the package not arrived yet?							
+Я всего лишь обычный парень || I'm just an ordinary guy | I am just an ordinary guy | I'm just an normal guy | I am just an normal guy | I'm just a regular guy | I am just a regular guy
+Вы можете задать вопросы позднее || You can ask questions later | You may ask questions later | You can ask questions afterward | You may ask questions afterwards
+Он любит собирать старые монеты || He likes collecting old coins | He loves collecting old coins | He loves to collect old coins | He likes to collect old coins | He enjoys collecting old coins | He enjoys to collect old coins
+Никто не пригласил меня на танец || No one invited me to a dance | No one invited me to dance | Nobody asked me to dance | No one asked me for a dance | Nobody invited me to dance | No one invited me for a dance
+
+# 151
+Можно мне одолжить у тебя наушники? || Can I borrow your headphones? | May I borrow your headphones? | Could I use your headphones? | Could I borrow your headphones? | Can I use your headphones?
+У Вас с собой есть аспирин? || Do you have aspirin with you? | Do you have any aspirin with you? | Have you got any aspirin with you? | Do you have aspirin on you? | Got any aspirin on you?
+Я думал, вы читали моё резюме || I thought you read my resume | I thought you read my CV | I thought you had read my resume |I thought you had read my CV | I thought you'd read my resume | I thought you'd read my CV
+Дверь открывается в обе стороны || The door opens both ways | The door swings both ways | The door swings in both directions | The door opens in both directions
+Мы думали, что он американец || We thought he was American | We thought he was an American
+Я предпочёл бы с этим покончить || I would rather end this | I'd rather end this | I would rather be done with this | I'd rather be done with this | I would prefer to end this | I'd prefer to end this
+Где вы купили это мыло? || Where did you buy this soap? | Where'd you buy this soap?
+Моя камера не похожа на твою || My camera is not like yours | My camera isn't like yours | My camera is different from yours
+Он взял отгул || He took a day off | He took the day off
+Он взял отгул на неделю || He took a week off | He took the week off
+
+# 161
+У моей собаки очень длинный хвост || My dog has a very long tail | My dog's got a very long tail
+В полдень || At noon
+Что вы делаете во второй половине дня? || What do you do in the afternoon? | What are you doing in the afternoon? | What will you be doing in the afternoon?
+Я устал до смерти || I'm dead tired | I'm tired to death | I'm exhausted to death | I'm dog-tired | I'm bone-tired | I'm dead on my feet | I'm worn out to death | I'm utterly exhausted | I am dead tired | I am tired to death | I am exhausted to death | I am dog-tired | I am bone-tired | I am dead on my feet | I am worn out to death | I am utterly exhausted
+Неинтересная лекция || A boring lecture | An uninteresting lecture | A dull lecture | A tedious lecture
+Мой уровень английского низок || My level of English is low | My English level is low | My English is poor
+Мой друг умер на войне || My friend died in war | My friend was killed in war | My friend died in the war
+У меня немного болит левое ухо || I have a slight pain in my left ear | My left ear hurts a little bit | My left ear hurts a little | I have a slight ache in my left ear
+Нам предстоят долгие переговоры || We have long negotiations ahead | We have long negotiations ahead of us | Long negotiations lie ahead of us
+Разговор был очень полезным || The conversation was very helpful | The conversation was very useful | The talk was very helpful | The talk was very useful | This conversation was very helpful | This conversation was very useful | This talk was very helpful | This talk was very useful
+
+# 171
+Моя кузина курит чёрную трубку || My cousin smokes a black pipe
+Летом моя тётя полюбит яблоки || In summer, my aunt will come to love apples | In the summer, my aunt will begin to love apples | In the summer, my aunt will come to love apples | My aunt will grow to love apples in the summer
+Обе мои дочери уже здесь || Both of my daughters are already here | Both my daughters are already here | My two daughters are already here
+Лестница вниз, в подвал || A stairway down to the basement | Stairs down to the basement | A staircase down to the basement
+Налей мне четверть кружки || Pour me a quarter of a mug | Pour me a quarter of a cup
+Четверть литра кислоты - это довольно много || A quarter of a liter of acid is quite a lot | A quarter liter of acid is quite a lot | A quarter of a litre of acid is quite a lot | A quarter litre of acid is quite a lot | A quarter liter of acid is a considerable amount | A quarter-liter of acid is a considerable amount
+Начало весны было довольно прохладным || The beginning of spring was quite cool | The start of spring was rather cool | Early spring was quite cool
+Позавчера ветра не было || There was no wind the day before yesterday | The day before yesterday, there was no wind
+Давай говорить по-английски || Let's speak English | Let us speak English | Let's talk in English | Let's speak in English
+Курение вредно, это моё твёрдое убеждение || Smoking is harmful, that is my firm belief | Smoking is harmful, this is my firm belief | Smoking is harmful, that's my firm belief | Smoking is harmful, that is my strong belief | Smoking is harmful, this is my strong belief | Smoking is harmful, that's my strong belief | Smoking is harmful, that is my firm conviction | Smoking is harmful, this is my firm conviction | Smoking is harmful, that's my firm conviction | Smoking is harmful, that is my strong conviction | Smoking is harmful, this is my strong conviction | Smoking is harmful, that's my strong conviction | It is my firm belief that smoking is harmful |I firmly believe that smoking is harmful
+
+# 181
+Он начинает || He starts | He is starting | He begins | He is beginning
+Они захотят? || Will they want?
+Вы не помогаете || You do not help | You don't help | You are not helping | You're not helping
+Вы любите? || Do you love?
+Он не любит || He doesn't love | He does not love
+Они не надеялись || They didn't hope | They did not hope
+Мы не хотели || We didn't want | We did not want
+Они помогли? || Did they help?
+Я буду надеяться || I will hope | I'll hope
+Он гулял? || Did he walk?
+
+# 191
+Она начнёт? || Will she start?
+Мы не закончим || We will not finish | We won't finish
+Они будут гулять || They will walk
+Мы поможем || We will help | We'll help
+Вы надеялись? || Did you hope?
+Он любил || He loved
+Они не видели его || They did not see him | They didn’t see him
+Она скажет им? || Will she tell them?
+Ты поможешь ей? || Will you help her?
+Они не помогают нам || They do not help us | They don’t help us | They are not helping us | They aren't helping us
+
+# 201
+Мы сказали ей || We told her
+Они посадили дерево в парке || They planted a tree in the park
+Вы помогли нам || You helped us
+Я помог тебе || I helped you
+Мы любили его || We loved him
+Ты сказал им? || Did you tell them?
+Что ты ешь? || What do you eat? | What are you eating?
+Что вы чувствуете? || What do you feel? | What are you feeling?
+Что мы будем делать? || What will we do? | What are we going to do?
+Кто работает в офисе? || Who works in the office?
+
+# 211
+Где вы учитесь? || Where do you study?
+Когда ты придёшь? || When will you come?
+Почему она беспокоится? || Why does she worry? | Why is she worrying?
+Как он работает? || How does he work?
+Как это работает? || How does it work?
+Сколько ты зарабатываешь? || How much do you earn? | How much do you make?
+Что вы делаете? || What do you do? | What are you doing?
+Кто здесь учится? || Who studies here?
+Где вы работаете? || Where do you work?
+Что он чувствует? || What does he feel? | What is he feeling?
+
+# 221
+Почему они беспокоятся? || Why do they worry? | Why are they worried? | Why are they worrying?
+Я не беспокоюсь || I don't worry | I am not worried
+Она учит это || She learns it | She is learning it | She studies it | She is studying it
+Я там работал || I worked there
+Ты подумал? || Did you think?
+Он здесь учился || He studied here
+Она почувствует || She will feel
+Мы не учили || We did not teach | We didn't teach
+Они не будут беспокоиться || They will not worry | They won't worry
+Они не учились || They did not study | They didn't study
+
+# 231
+Я преподаю || I teach | I am teaching
+Я не буду здесь работать || I will not work here | I won't work here
+Мы можем начинать? || Can we start? | May we start?
+Вы должны начинать || You must start | You have to start
+Она была в театре || She was in the theater | She was at the theater
+Мы можем вам помочь? || Can we help you? | May we help you?
+Мы сделаем это || We will do it | We'll do it | We will make it | We are going to do it | We're gonna do it
+Я не должен работать || I do not have to work | I don't have to work | I do not need to work | I don't need to work | I needn't work
+Ты должен будешь работать || You will have to work | You'll have to work | You will need to work | You'll need to work | You are going to have to work
+Вы можете это чувствовать || You can feel it
+
+# 241
+Я должен учиться || I must learn | I have to learn | I must study | I have to study
+Вы должны были учить || You had to teach
+Они могут мне помочь? || Can they help me? | May they help me?
+Он нуждается в любви || He needs love
+Она нуждается в помощи || She needs help
+Они должны закончить || They must finish | They have to finish
+Что они могут подумать? || What can they think?
+Она не должна беспокоиться || She does not have to worry | She doesn't have to worry
+Я живу в Москве || I live in Moscow
+Она жила в пригороде || She lived in the suburbs
+
+# 251
+Пирожные – на тарелке || Cakes are on a plate | The cakes are on the plate
+Туча висит над домом || A cloud hangs over the house | A cloud is hanging over the house
+Твой подарок лежит под подушкой || Your gift is under the pillow
+Они приехали из Франции || They came from France
+Она училась с моим другом || She studied with my friend
+Я работаю без компьютера || I work without a computer
+Он будет говорить о своей работе || He will talk about his work | He will speak about his work
+Эти подарки - для детей || These gifts are for children
+Он говорит о ней || He talks about her | He is talking about her | He speaks about her | He is speaking about her
+Мы беспокоились о нём || We worried about him
+
+# 261
+Этот подарок – для тебя || This gift is for you
+Я сделаю всё для тебя || I will do anything for you | I'll do anything for you
+Я буду играть с тобой || I will play with you | I'll play with you
+Он много рассказывал мне о вас || He told me a lot about you | He spoke to me a lot about you | He talked to me a lot about you | He often spoke to me about you | He often told me about you
+Мы идём к тебе || We are going to you | We're going to you | We are coming to you | We're coming to you
+Они ушли без нас || They left without us
+Она беспокоилась обо мне || She worried about me
+Они скоро придут к тебе || They will soon come to you | They'll come to you soon
+Я скажу, что вы уходите || I will say that you are leaving | I'll say that you are leaving
+Мы начнём, когда вы придёте || We will start when you come | We'll start when you come
+
+# 271
+Мы учимся и работаем || We learn and work | We study and work
+Ты поедешь в Вену или в Венецию? || Will you go to Vienna or to Venice?
+Я думаю, что мы поедем во Францию || I think that we will go to France | I think we will go to France
+Он сказал, что хочет остаться дома || He said that he wanted to stay at home | He said he wanted to stay home
+Мы будем бегать и прыгать || We will run and jump | We'll run and jump
+Он поедет после вас || He will go after you | He'll go after you
+Если хочешь, можешь отдохнуть || If you want, you can relax | You can rest if you want
+Я это сделаю, но не сегодня || I will do it, but not today | I'll do it, but not today
+Я спешу к тебе || I hurry to you | I am hurrying to you
+Ты останешься со мной? || Will you stay with me?
+
+# 281
+Мы пойдём к ней? || Will we go to her?
+Вы придёте к нам? || Will you come to us?
+Они пришли без неё || They came without her
+Она бегает с ним || She runs with him | She is running with him
+Он пришёл от них || He came from them
+Я приду к тебе || I will come to you | I'll come to you
+Мы бегали без них || We ran without them
+Вы пришли с подарком для неё? || Did you come with a gift for her?
+Они не остались в Стамбуле || They didn't stay in Istanbul
+Она пришла к ней || She came to her
+
+# 291
+Вы поедете на Кипр? || Will you go to Cyprus?
+Они останутся дома с ней || They will stay at home with her | They'll stay home with her
+Я не спешу || I don't hurry | I am not in a hurry
+Мы прыгаем и бегаем || We jump and run | We are jumping and running
+Она хочет быть актрисой || She wants to be an actress
+У неё есть ребёнок || She has a child | She has got a child | She's got a child
+Я завтра пойду в театр || Tomorrow I will go to the theater | I will go to the theater tomorrow
+Я напишу тебе письмо || I will write you a letter | I'll write you a letter
+Я хочу посмотреть фильм || I want to see a film | I want to watch a film | I want to watch a movie
+Кто подарил мне книгу? || Who gifted me the book? | Who gave me the book?
+
+# Вы пойдёте в кино? || Will you go to the cinema?
+# Мы положили книгу на стол || We put a book on the table
+# Кто уже сделал упражнение? || Who already made the exercise?
