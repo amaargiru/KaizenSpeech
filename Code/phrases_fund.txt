@@ -1,0 +1,2220 @@
+# You can write comments with # symbol
+# Phrase dictionary format: nativephrase || englishphrase
+# Example: Я люблю тебя || I love you
+
+# You can use multiple native or english phrases with | delimeter
+# Example: Кот сидит на столе | Кошка сидит на столе || A cat sits on the table | The cat sits on the table
+
+
+
+В моё окно я вижу стройку через улицу || I can see a construction site across the street from my window
+
+
+Взбираться по ржавой железной лестнице было тяжело || Climbing the rusty iron ladder was difficult | It was hard to climb the rusty iron ladder
+
+
+Могли бы вы подвинуть свою сумку? || Could you move your bag?
+Мой стул довольно жесткий, но удобный || My chair is quite firm, but comfortable
+На столе был тонкий слой пыли || There was a thin layer of dust on the table
+В стопке бумаги было примерно сорок или пятьдесят листов || There were approximately forty or fifty sheets in the stack of paper | The stack of paper contained about forty or fifty sheets
+
+
+Для того, чтобы стать профессиональным программистом, тебе нужно интенсивно учиться два или три года || To become a professional programmer, you need to study intensively for two or three years
+За окном был виден дом за плотной пеленой дождя || Through the window, a house was visible behind a thick veil of rain
+Вы можете повесить пальто на тот гвоздь, вбитый в стену возле двери || You can hang your coat on the nail driven into the wall near the door
+Сказочные персонажи существуют только в книгах || Fairy tale characters exist only in books
+
+Похоже, клиент был настроен на жёсткие переговоры || It seemed that the client was set on tough negotiations
+Переводи поступающие на вход русскоязычные фразы на английский язык || Translate input phrases from Russian into English
+Власти перекрыли южный мост на всю ночь || The authorities closed the southern bridge for the entire night
+Сейчас лето длится не до августа а, скорее, до октября || Now summer lasts not until August, but rather until October
+
+
+
+Я стараюсь избегать большого количества соли в еде || I try to avoid a large amount of salt in my food
+В августе я старался избегать большого количества соли в еде || In August, I tried to avoid a large amount of salt in my food
+Эта пчела могла бы получить награду за скорость полёта || This bee could win an award for its flight speed
+Размах крыльев самолёта достигал восемнадцати метров || The wingspan of the airplane reached eighteen meters
+Ты вёл себя хорошо, вот тебе печенье в качестве награды || You behaved well, so here's a cookie as a reward | You behaved well, so here is a cookie as a reward
+Этот самый кубок был главной наградой на чемпионате в прошлом году || This very cup was the main award at the championship last year
+
+Следовательно, они относятся к той же группе || So, they belong in the same group
+Согнуть такую толстую доску будет непросто || Bending such a thick board will not be easy
+
+
+
+В декабре температура наконец снизилась и пошел снег || In December, the temperature finally dropped, and it began to snow
+
+В феврале мы уже ждём весну || In February, we are already looking forward to spring
+Он много пил, но, однако, почти не пьянел || He drank a lot, yet he hardly got drunk
+
+
+
+Мужчина был высок даже по меркам этой страны || The man was tall even by the standards of this country
+По четвергам я предпочитаю съедать блюдо из томатов || On Thursdays, I prefer to eat a dish made from tomatoes
+На прошлой неделе в среду еще шёл дождь || Last week on Wednesday, it was still raining
+
+
+
+Следующие три месяца зонтики нам не пригодятся || We won't need umbrellas for the next three months
+Вчера и позавчера ветер гнул деревья || Yesterday and the day before, the wind was bending the trees
+
+
+
+Я люблю тебя || I love you
+Я работаю || I work
+Мы работаем || We work
+Ты работаешь || You work
+Они работают || They work
+Я работаю здесь || I work here
+Я учусь || I study
+Я понимаю || I understand
+Я понимаю тебя || I understand you
+Я знаю это || I know it | I know this
+Я знаю это очень хорошо || I know it very well | I know this very well
+Я живу в России || I live in Russia
+Я говорю по английски || I speak English
+Я хожу в школу || I go to school
+Я хожу на работу || I go to work
+У меня есть брат || I have a brother
+У меня есть идея || I have an idea
+У меня есть сестра || I have a sister
+У меня есть машина || I have a car
+Я так думаю || I think so
+Я вижу это || I see it | I see this
+Я хочу это || I want it | I want this
+Я помню это || I remember it | I remember this
+Я помню это очень хорошо || I remember it very well | I remember this very well
+Мы понимаем тебя || We understand you
+Мы говорим по-английски || We speak English
+Ты знаешь это || You know it | You know this
+Они помогают мне || They help me
+Они ходят на работу || They go to work
+Мы помним это || We remember it | We remember this
+Ты говоришь по английски очень хорошо || You speak English very well
+Мы живём здесь || We live here
+Я живу в этом городе || I live in this city | I live in this town
+Мы живём в этой стране || We live in this country
+Мы говорим по английски || We speak English
+Я очень хорошо знаю это || I know it very well
+Ты помогаешь мне || You help me
+Я очень хорошо понимаю тебя || I understand you very well
+Я работаю там || I work there
+У меня идея || I have an idea
+Они ходят в школу || They go to school
+Я учусь здесь || I study here
+Мы думаем так || We think so
+Я учусь там || I study there
+Я живу в этой стране || I live in this country
+Мы живем в России || We live in Russia
+Ты видишь это || You see it
+Я иду в школу || I go to school
+Мы живем в этой стране || We live in this country
+Собака сидит на столе || A dog sits on the table | The dog sits on the table
+Кот сидит на столе | Кошка сидит на столе || A cat sits on the table | The cat sits on the table | A cat is sitting on the table | The cat is sitting on the table
+Мы хотим это || We want it
+Ты работаешь очень усердно || You work very hard
+Они учатся очень усердно || They study very hard
+Он живет там || He lives there
+Она чувствует себя счастливой || She feels happy
+Я чувствую себя счастливым || I feel happy
+Это помогает мне || It helps me | This helps me
+Он также работает здесь || He also works here
+Он так думает || He thinks so
+Он живет в этом доме || He lives in this house
+Она помнит это || She remembers it
+Она живет в этом месте || She lives in this place
+Она живет в том месте || She lives in that place
+Она говорит по английски очень хорошо || She speaks English very well
+Это действительно помогает мне || It really helps me
+Это выглядит интересным || It looks interesting
+Это кажется интересным || It seems interesting
+Он читает на английском || He reads in English
+Она читает английские книги || She reads English books
+Это выглядит странно || It looks strange
+Он знает это || He knows it
+Она видит эту ошибку || She sees this mistake | She sees that mistake
+Он видит эту ошибку || He sees this mistake | He sees that mistake
+Это случается || It happens
+Он хочет большего || He wants more
+Она хочет больше практики || She wants more practice
+Это действительно случается || It really happens
+Мне это не нравится || I do not like this
+Это был не он || It wasn't him
+Мне нравится это || I like this
+Это не так || This is not true
+Я не люблю тебя || I do not love you
+Это не здесь || It's not here
+Я тебя очень люблю || I love you very much
+Мне не очень хорошо || I'm not doing well
+Он мне не нравится || I do not like him
+Я не люблю её || I don't love her
+Мне это не нужно || I do not need it
+Это очень хорошо || It is very good
+Это уже слишком! This is too much!
+Он мне нравится || I like him
+Мне это нужно || I need it
+Я люблю её || I love her
+И не я || And not me
+Это ещё что! What's this!
+Я не хочу || I do not want
+Я тебя очень хочу || I want you so much
+Я уже здесь! I'm already here!
+Это не всегда просто || It's not always easy
+Это выглядит очень хорошо || It looks very good
+Это не было хорошо || It wasn't good
+Это было очень хорошо || It was very good
+Ты нужна мне || I need you
+Мне нужно это сейчас || I need it now
+Это не так просто || It is not so easy
+Это не мы || This is not us
+Мне будет нужно это || I will need this
+Это были не мы || It wasn't us
+Он вас очень любит || He loves you very much
+Что будет, то будет || What will be will be
+Это всегда было так || This has always been the case
+Ты не мой отец! You are not my father
+Ты нужна мне здесь || I need you here
+Он уже здесь || He's already here
+Он любит её || He loves her
+Это было здесь || It was here
+Я хочу тебя || I want you
+Ты меня не любишь! You do not love me!
+Этот мне не нравится || I don't like this one
+Ты должен мне || You owe me
+Он не боится || He is not afraid
+Он мне не отец || He is not my father
+Я хочу это всё || I want it all
+Она мне не нравится || I do not like her
+Это так просто || It is so simple
+Не так быстро! Not so fast!
+Мне здесь будет хорошо || I will be fine here
+Я тебя не ненавижу || I don’t hate you
+Так было всегда || It has always been that way
+Так, так, так || Well, well, well
+Это не моя книга || This is not my book
+Ты мой отец || You are my father
+Ты всё ещё здесь || Are you still here
+Тебе это нужно || Do you need it
+Я хочу ещё || I want more
+Он ещё здесь || He's still here
+Он выглядит хорошо || It looks good
+Он хорошо выглядит || He looks good
+Ты лучше меня || You are better than me
+Всё не так просто || It is not that simple
+Я так не хотел || I didn't want to
+Это очень легко || It is very easy
+Мне нравится этот || I like this
+Я начал это || I started this
+Я не хочу их || I don't want them
+Мы здесь уже были || We've already been here
+Она мне нравится || I like her
+Это действительно хорошо! This is really good!
+Этот не будет || This one won't
+Я не боюсь || I'm not afraid
+Я боюсь за тебя || I am afraid for you
+Я очень боюсь || I am very afraid
+Он мой отец || He is my father
+Я не такой || I'm not like that
+Ты его не видел || You haven't seen him
+Я лучше тебя || I'm better than you 
+Ты очень хорошо выглядишь || You look very good
+Он нас не любит || He doesn't love us
+Она любит его || She loves him
+Она очень хорошо выглядит || She looks very good
+Я не могу || I can not
+Ему это нужно || He needs it
+Не говори мне это || Don't tell me that
+Он мне как отец || He is like a father to me
+Я уже это видел || I've seen it before
+Он будет сегодня здесь || He will be here today 
+Я тебя не видел || I did not see you
+Его все любят || Everyone loves him
+Я всё потерял || I've lost everything
+Ты не я || You are not me
+Это не мы || This is not us
+Что у меня? || What do I have?
+Я как вы || I am like you | I'm like you
+Он был не его || He was not his
+Они всё ещё здесь || They are still here
+У нас есть всё || We have everything
+Почему вы все здесь? || Why are you all here?
+Его здесь уже нет || He is no longer here | He's no longer here
+Так и надо || That's right
+Когда это будет? || When will it be?
+Мне надо быть здесь || I need to be here
+Сколько вас не было? || How many were you not?
+Нам надо сделать больше || We need to do more
+Всё было просто || Everything was simple
+Вам мой нравится? || Do you like mine?
+Ты должен нам помочь || You must help us
+Кто хочет этот? || Who wants this?
+Мне было хорошо || I felt good
+Он всегда там будет || He will always be there
+Он слишком много знает || He knows too much
+О чем это они? || What are they talking about?
+Только ты можешь помочь || Only you can help
+Она хорошо себя знает || She knows herself well
+Она была моя || She was mine
+Я знал это || I knew it | I knew this
+Мне эта нравится || I like this one
+Можете тоже пойти? || Can you go too?
+Давай, ты можешь || Come on, you can
+Теперь можете идти домой || Now you can go home
+Мой лучше, чем твой || Mine is better than yours
+Давайте ещё раз || Let's do it again
+Кто так говорит? || Who says that?
+У него всё хорошо || He is doing well | He's doing well
+Что ты хочешь? || What do you want?
+Мы должны говорить || We must speak
+Вот такой вот я || Here I am | Here I'm
+А как же мы? || But what about us?
+Твоя тоже ничего || Yours is nothing too
+Эти деньги мои || This money is mine
+Спасибо ещё раз || Thanks again
+Мне нравится этот человек || I like this man
+Давай свои деньги || Give me your money
+Какой хороший человек! || What a good man!
+Вы ведь знаете французский? || Do you know French?
+Не за что || Not at all
+Вы это быстро сделали || You did it quickly
+Сколько стоит твоя жизнь? || How much is your life?
+Оно ей нужно || She needs her
+Завтра, похоже, будет дождь || Tomorrow it seems to rain
+Вот ваша собака || Here is your dog | Here's your dog
+Дай мне письмо, пожалуйста || Give me a letter, please
+Дай мне несколько || Give me some
+Все мы люди || We are all human
+О чём ваша книга? || What is your book about?
+Давайте играть все вместе || Let's play all together
+Где моё место? || Where is my place?
+Вам нравится Ваша работа? || Do you like your work?
+Можете прийти завтра утром? || Can you come tomorrow morning?
+Дай мне свои руки || Give me your hands
+Он, наверное, ушёл || He must have left
+Они были ваши || They were yours
+Ваше время придёт || Your time will come
+Всё работает как часы || Everything works like a clock
+Дай мне тот ключ || Give me that key
+Куда идёт этот поезд? || Where is this train going?
+Ей тридцать один || She is thirty—one | She's thirty—one
+Дайте мне вина || Give me some wine
+Мне нравятся твои глаза || I like your eyes
+Ужин скоро будет готов || Dinner will be ready soon
+Почему это опять происходит? || Why is this happening again?
+Кому нужно пить? || Who needs to drink?
+У меня есть решение || I have a solution
+Дайте мне тот телефон || Give me that phone
+Довольно холодно, да? || Pretty cold, huh?
+Их нельзя было остановить || They could not be stopped
+Фильм был хороший || The film was good
+Какой из них наш? || Which one is ours?
+Здесь редко идёт снег || It rarely snows here
+Мальчик хочет пить || The boy is thirsty
+Какое твоё дело? || What is your business?
+Мне пришлось отсюда уйти || I had to leave here
+Она сделала ему подарок || She gave him a present
+Мой сын сегодня уехал || My son left today
+Автобус только что уехал || The bus just left
+Я видел свет || I saw the light
+Ваши родители были правы || Your parents were right
+Мне нравятся Ваши волосы || I like your hair
+Вы всегда можете вернуться || You can always come back
+Где твоя девушка? || Where is your girlfriend?
+Ваша сестра спит || Your sister is sleeping
+Можно взять твоё пальто? || Can I take your coat?
+Все об этом говорят || Everyone is talking about this
+Им нужен был врач || They needed a doctor
+У них свои проблемы || They have their own problems
+Какой это был язык? || What was that language?
+Ей нужна наша помощь || She needs our help
+Ты выше всех || You are above all
+Мы должны стать лучше || We have to get better
+Вы мой любимый учитель || You are my favorite teacher
+Вероятно, он скоро придёт || He will probably come soon
+Мало кто так думает || Few people think so
+Её можно починить || It can be repaired
+Вчера было ужасно холодно || Yesterday it was terribly cold
+Ты приехал вовремя || You arrived on time
+Мы, наконец, нашли ключ || We finally found the key
+Большой ли Фома? || Is Thomas Big?
+Его сообщение им понравилось || They liked his message
+Едва ли это вероятно || This is hardly probable
+Куда идёт этот парень? || Where is this guy going?
+Играть в теннис весело || Playing tennis is fun
+Возможно, оно того стоит || Maybe it's worth it
+Вы можете посмотреть телевизор || You can watch TV
+Это просто странно || This is just weird
+Какой твой любимый город? || What is your favorite city? | What is your favorite town?
+Вы всё делаете правильно || You are doing everything right
+Эта комната довольно большая || This room is quite large
+Вы сделали свой выбор || You made your choice
+Всё равно спасибо || Thanks anyway
+Мне сесть на автобус? || Should I take the bus?
+Где была полиция? || Where was the police?
+Смотреть телевизор весело || Watching TV is fun
+Это ваш единственный шанс || This is your only chance
+Вы, должно быть, канадец || You must be Canadian
+Эй, не делай этого! || Hey, don't do this!
+Какой твой любимый цвет? || What is your favorite color?
+Прошлой ночью было жарко || It was hot last night
+Вы любите пить пиво? || Do you like drinking beer?
+Это мой старый велосипед || This is my old bike
+Иди делай уроки || Go do your homework
+Всем нужно уходить отсюда || Everyone needs to leave here
+Иди в магазин || Go to the store
+Это ведь большая ошибка? || Is this a big mistake?
+Дай мне тот нож || Give me that knife
+Кто сделал этот ящик? || Who made this box?
+Давайте сначала это сделаем || Let's do it first
+Ты не смотрел новости? || Have you watched the news?
+Мне знаком этот голос || I know this voice
+Какая красивая женщина! || What a beautiful woman!
+Конечно, я вас помню || Of course I remember you
+Да ладно вам || Come on
+Конечно, это было неправильно || Of course, this was wrong
+Всем хотелось танцевать || Everyone wanted to dance
+Вот, сама посмотри || Now, see for yourself
+Все, кроме нас, ушли || All but us are gone
+В это невозможно поверить || This is impossible to believe
+Еда на столе || Food on the table
+В школе мне скучно || I'm bored at school
+Он был приятно удивлён || He was pleasantly surprised
+Ты должна немедленно вернуться || You must return immediately
+Вам нравится готовить? || Do you like cooking?
+Не забудь купить молоко || Remember to buy milk
+Мы все ушли пораньше || We all left early
+Могу я взять слово? || Can I take the floor?
+Он закончил завтрак || He finished breakfast
+Давай поговорим снаружи || Let's talk outside
+Кто твой лучший друг? || Who is your best friend? | Who's your best friend?
+Вот такая история || Here is a story
+Ваш отец довольно высокий || Your father is quite tall
+Полностью с этим согласен || I completely agree with this
+Нам понадобится вода || We need water
+У нас недостаточно пива || We don't have enough beer
+Мы хотим наши деньги || We want our money
+Мне нравится вид || I like the look
+Правила есть правила || Rules are rules
+Я купил старый автомобиль || I bought an old car
+В самый раз || Just right
+Идите обратно внутрь || Go back inside
+Мне уже стало скучно || I was already bored
+Ему нужны те деньги || He needs that money
+Который вы бы купили? || Which would you buy?
+Какой красивый город! || What a beautiful city!
+Покажи мне этот список || Show me this list
+Иди подожди снаружи || Go wait outside
+Курить в постели опасно || Smoking in bed is dangerous
+Кто украл яблоко? || Who stole the apple?
+Это очень медленно || This is very slow
+Они пошли дальше || They went on
+Оставь её на потом || Leave it for later
+Я чувствую их боль || I feel their pain
+Тот мальчик очень умный || That boy is very smart
+Хватит мне врать || Stop lying to me
+Мне вон та нравится || I like that one
+Ты бросил курить, верно? || You quit smoking, right?
+Можешь починить мой компьютер? || Can you fix my computer?
+Давайте сделаем это сами || Let's do it ourselves
+Пожалуйста, перестань врать || Please stop lying
+Вы будете его покупать? || Will you buy it?
+Какой красивый свитер! || What a beautiful sweater!
+Вам придётся вести || You have to lead
+Мой кот голодный || My cat is hungry
+|| Who owns this
+Мне нужен другой адвокат || I need another lawyer
+Дай ему войти || Let him in
+Мне позвонил ваш студент || Your student called me
+Да где угодно положи || Put it anywhere
+Будь готова остановиться || Be prepared to stop
+Извините за мой французский || \u200b\u200bSorry for my French
+Мой дядя богат || My uncle is rich
+Он явно солгал || He clearly lied
+Увидимся часов в семь || See you at seven
+Подождите ещё несколько дней || Wait a few more days
+Неважно кого я встретил || No matter whom I met
+Мы слышали шум || We heard a noise
+Детям нужна любовь || Children need love
+Можешь говорить при мне || You can speak with me
+Всё отлично работает || Everything works fine
+Сделай это осторожно || Do this carefully
+Положи её на пол || Put her on the floor
+Пусть будет так || So be it
+Это фотоаппарат моей сестры || This is my sister's camera
+Вы такой странный || You are so weird
+Это наш новый начальник || This is our new boss
+Мне всех видно || I can see everyone
+Возьми мою лошадь || Take my horse
+Приятно слышать твой голос || Nice to hear your voice
+Какая твоя любимая игра? || What is your favorite game?
+Всё выглядит вполне нормально || Everything looks quite normal
+Многие делают эту ошибку || Many make this mistake
+Приходи домой скорее || Come home soon
+Снег шёл четыре дня || It snowed for four days
+Дважды два будет четыре || Twice two will be four
+Расскажи мне о тех || Tell me about those
+Оставьте собаку снаружи || Leave the dog outside
+Мы, пожалуй, готовы || We are probably ready
+Большой или маленький? || Big or small?
+Могу я принять душ? || Can I take a shower?
+Все начали спорить || Everyone started arguing
+Я нашёл одни || I found one
+Я пытался Вас предупредить || I tried to warn you
+У меня мама канадка || My mom is Canadian
+Он был тяжело ранен || He was badly wounded
+Мне хочется тебя поцеловать || I want to kiss you
+Кому принадлежит этот чемодан? || Who owns this suitcase?
+Это довольно смешно || This is pretty funny
+У меня пошла кровь || I got blood
+Мы нечасто это делаем || We do this infrequently
+Вам необходимо бросить курить || You need to quit smoking
+Речь не обо мне || It's not about me
+Хотите съездить в Австралию? || Want to go to Australia?
+Ну, сейчас это очевидно || Well, now it's obvious
+Вы прекрасно выглядите || You look great
+Мы ходили в ресторан || We went to a restaurant
+Вы выглядите как девочка || You look like a girl
+Закон есть закон || Law is law
+Кто начал огонь? || Who started the fire?
+Твоя шляпа выглядит глупо || Your hat looks stupid
+Чей это карандаш? || Whose pencil is this?
+Не забудь принять лекарство || Remember to take the medicine
+Это абсолютно нормально || This is absolutely normal
+Перестаньте терять время || Stop wasting time
+Покажи свои карты || Show your cards
+Ничего не бывает случайно || Nothing happens by chance
+Каждый должен научиться готовить || Everyone must learn to cook
+Ей удалось сбежать || She managed to escape
+Он крепко спал || He slept soundly
+Дайте мне красный карандаш || Give me a red pencil
+Он посмотрел на небо || He looked at the sky
+Не забудьте закрыть дверь || Remember to close the door
+Белый хлеб, пожалуйста || White bread, please
+Я вышла замуж молодой || I got married young
+Какая твоя любимая шутка? || What is your favorite joke?
+Дай мне закончить, ладно? || Let me finish, okay?
+Кому принадлежит этот корабль? || Who owns this ship?
+Возьми другое печенье || Take another cookie
+Его мнение имеет вес || His opinion carries weight
+Вы любите белый шоколад? || Do you like white chocolate?
+Покажи мне другие часы || Show me another watch
+А теперь смотрите внимательно || Now look carefully
+Ты не наша подруга || You are not our friend
+Я здесь самый богатый || I am the richest here | I'm the richest here
+Ты наш враг? || Are you our enemy?
+Кто твой любимый художник? || Who is your favorite artist?
+Мне здорово повезло || I was very lucky
+Это необходимо помыть || This must be washed
+Они будут бояться || They will be afraid
+Вы ходили наверх? || Did you go up?
+Джон приехал неделю назад || John arrived a week ago
+Ты мне нос сломал || You broke my nose
+В офисе темно || The office is dark
+Он наверняка выиграет || He will surely win
+Им нужна новая обувь || They need new shoes
+Можете не ездить || You can not drive
+За ваше здоровье! || For your health!
+Не уходи пока домой || Don't go home yet
+У неё ужасный почерк || She has a terrible handwriting
+Здесь не так глубоко || Not so deep here
+Какая ваша любимая птица? || What is your favorite bird?
+А плохая новость какая? || And what bad news?
+Идите через мост || Go over the bridge
+Привет, как дела? || Hello, how are you?
+У меня тринадцать кошек || I have thirteen cats
+Это делать бесполезно || This is useless
+Мне чрезвычайно повезло || I was extremely lucky
+Посмотрите вокруг себя || Look around you
+Вы помните своё обещание? || Do you remember your promise?
+Вас прекрасно слышно || You are perfectly audible
+Ладно, слушай внимательно || Okay, listen carefully
+Дел по горло || Throat affairs
+Уже был звонок? || Already had a call?
+Вы приняли его приглашение? || Did you accept his invitation?
+Вы разве не полицейский? || Aren't you a cop?
+У Вас сумка открыта! || Your bag is open!
+Дайте мне самый дорогой || Give me the dearest
+Перестаньте громко разговаривать || Stop talking loudly
+Вам следует меня поблагодарить || You should thank me
+Дай мне другой пример || Give me another example
+Когда это впервые произошло? || When did this first happen?
+Рыба плохо пахнет || Fish smells bad
+Где Ваш чёрный костюм? || Where is your black suit?
+Поехали на поезде || Let's go by train
+Мне хотелось побыть дома || I wanted to be home
+Он маленький и толстый || He is small and fat
+Её почерк невозможно прочесть || Her handwriting cannot be read
+Вот мои бумаги || Here are my papers
+Он попытался её убедить || He tried to convince her
+У меня есть полчаса || I have half an hour
+Как эта река называется? || What is this river called?
+Всё имеет свою цель || Everything has its purpose
+Возьмите себе пирога || Take your pie
+Кто сейчас наверху? || Who is upstairs now?
+Мы нашли отличный ресторан || We found a great restaurant
+Он начал извиняться || He began to apologize
+У вас сахар закончился || Your sugar has run out
+Вы живёте поблизости? || Do you live nearby?
+Он был ниже меня || He was lower than me
+Они играют в баскетбол || They play basketball
+Вы, очевидно, крайне заняты || You are obviously extremely busy
+Мне нравится гулять || I like to walk
+Вы должны продолжать драться || You must continue to fight
+Температура внезапно упала || The temperature suddenly dropped
+Помоги мне встать || Help me get up
+Мы будем путешествовать вместе || We will travel together
+Бабушка любит смотреть телевизор || Grandma likes to watch TV
+Дайте мне спокойно поесть || Let me eat calmly
+Ваши друзья внизу || Your friends are below
+Закрой ворота, пожалуйста || Close the gate, please
+Либо да, либо нет || Either yes or no
+Это наша единственная возможность || This is our only opportunity
+О ком мы говорим? || Who are we talking about?
+Без вас я ничто || Without you, I am nothing | Without you, I'm nothing
+Быстрый твой автомобиль || Your fast car
+Вы не видели знак? || Have you seen the sign?
+Вам нужна новая одежда || You need new clothes
+Очевидно, что это ложь || Obviously, this is a lie
+Мяч попал в забор || The ball hit the fence
+Кто ваш любимый певец? || Who is your favorite singer?
+Слишком долго объяснять || Too long to explain
+Вот её фотография || Here is her picture
+Вдруг начался сильный дождь || Suddenly, heavy rain began
+Это действительно наш отель? || Is this really our hotel?
+Чей это бокал? || Whose glass is this?
+Я продолжил путь || I continued on
+Вы наша единственная надежда || You are our only hope
+Честно, понятия не имею || Honestly, I have no idea
+Это имеет смысл || That makes sense
+Подожди меня благодарить || Wait to thank me
+Как прошла неделя? || How was the week?
+Тест был очень трудный || The test was very difficult
+Вы можете его позвать? || Can you call him?
+Попробуйте это выяснить || Try to find out
+Почему ты такой ленивый? || Why are you so lazy?
+У меня контракт || I have a contract
+Большое вам спасибо, доктор || Thank you so much, Doctor
+Да какая вообще разница? || But what's the difference?
+За зимой следует весна || Spring follows winter
+Каждый голос имеет значение || Every vote counts
+Вор быстро сбежал || The thief quickly escaped
+Рыбы живут в море || Fish live in the sea
+Кому принадлежит эта земля? || Who owns this land?
+Им было некуда идти || They had nowhere to go
+Вам нельзя туда возвращаться || You must not return there
+Насколько эта вещь маленькая? || How small is this thing?
+Я поймал его врасплох || I caught him by surprise
+Какой прекрасный цветок! || What a beautiful flower!
+Послушай моего совета || Listen to my advice
+Война касается всех нас || War affects us all
+Мне нужно новое хобби || I need a new hobby
+Посмотрите в зеркало || Look in the mirror
+У меня хороший слух || I have a good ear
+Он лёг на кровать || He lay on the bed
+Он вдвое старше её || He is twice her age
+Коробка из дерева || A box of wood
+Мне нужна карта || I need a map
+Занятие начинается в десять || The lesson starts at ten
+Вы ели десерт? || Did you eat dessert?
+Они будут вас искать || They will look for you
+Добраться туда было нелегко || Getting there was not easy
+Вам пора в постель || You should go to bed
+Вечеринка закончилась в девять || The party ended at nine
+Эти брюки грязные || These trousers are dirty
+Это был мой палец || That was my finger
+Они твои родственники? || Are they your relatives?
+Дедушка рано встаёт || Grandfather gets up early
+Внезапно я услышал крик || Suddenly I heard a scream
+Он сбежал из тюрьмы || He escaped from prison
+Будьте на связи || Keep in touch
+Какое твоё любимое животное? || What is your favorite animal?
+Чем вы, ребята, занимаетесь? || What are you guys doing?
+Мы не любим сыр || We do not like cheese
+Он мой ровесник || He is my peer
+Продолжайте без меня, пожалуйста || Continue without me, please
+Бог дал, бог взял || God gave, God took
+Мне будут нужны подробности || I will need more details
+У меня плохое воображение || I have a bad imagination
+Мы провели приятный вечер || We had a pleasant evening
+Мне пришлось спрятаться || I had to hide
+Моя квартира близко || My apartment is close
+Вы можете починить туалет? || Can you fix the toilet?
+Насколько длинный этот мост? || How long is this bridge?
+Звук приходит оттуда || Sound comes from there
+Можете на неё рассчитывать || You can count on her
+Мне жаль беспокоить вас || I'm sorry to bother you
+Вы потеряли сознание || You fainted
+Вы такой талантливый! || You are so talented!
+Его рассказ звучит странно || His story sounds strange
+Они действительно солдаты? || Are they really soldiers?
+Какая чашка твоя? || What is your cup?
+Кто станет такое носить? || Who will wear it?
+Когда прибыл этот пакет? || When did this package arrive?
+Каков ваш выбор? || What is your choice?
+Моя мама читает журнал || My mother reads a magazine
+Почта далеко отсюда? || Mail far from here?
+Чтение книг важно || Reading books is important
+Он пропустил занятия || He skipped classes
+Детям пора ложиться спать || Children should go to bed
+Можете не торопиться || Take your time
+Вы можете перестать орать? || Can you stop yelling?
+Брось мне ту верёвку || Throw me that rope
+Мы должны покинуть корабль || We must leave the ship
+Каков наш следующий шаг? || What is our next step?
+Мне надоело проигрывать || I'm tired of losing
+Какой замечательный сюрприз! || What a wonderful surprise!
+Мне стало любопытно || I was curious
+А теперь слушайте внимательно || Now listen carefully
+Шутки в сторону || Jokes aside
+Дорогая, я люблю тебя || Darling, I love you
+Большинство женщин думает так || Most women think so
+Какая интересная теория! || What an interesting theory!
+Попробуй меня поймать || Try to catch me
+Повсюду был мусор || There was rubbish everywhere
+Он надеялся на успех || He hoped for success
+Какие доказательства вам нужны? || What evidence do you need?
+Он специально разбил окно || He specially broke the window
+Не забудь надеть галстук || Remember to wear a tie
+Передай мне, пожалуйста, соль || Please give me the salt
+Мой шарф синий || My scarf is blue
+Я не могу похудеть || I can’t lose weight
+Я проиграл пари || I lost the bet
+Все на борт! || All aboard!
+Кто мои новые соседи? || Who are my new neighbors?
+Вам следует нанять адвоката || You should hire a lawyer
+Им нужен герой || They need a hero
+Думай, прежде чем делать! || Think Before You Do!
+У всех крыша поехала || Everyone went to the roof
+Какая прекрасная мысль! || What a wonderful thought!
+Мне нужен долгий сон || I need a long sleep
+Как твоё колено? || How is your knee?
+История изучает прошлое || History studies the past
+Дай мне тот конверт || Give me that envelope
+Извини за бардак! || Sorry for the mess!
+Он стоял позади матери || He stood behind his mother
+Мой мобильный телефон украли || My mobile phone was stolen
+Давайте в покер сыграем || Let's play poker
+Думаете, это было справедливо? || Think it was fair?
+Тест был довольно сложный || The test was rather complicated
+Моё положение изменилось || My position has changed
+Мнения не есть факты || Opinions are not facts
+Закройте шторы, пожалуйста || Close the curtains, please
+Всё это звучит замечательно || All this sounds wonderful
+Твои родители должны гордиться || Your parents should be proud
+Может быть, он гений || Maybe he is a genius
+Нельзя угодить всем || One cannot please everyone
+Мне нужны новые штаны || I need new pants
+Нам удалось бы справиться || We could manage
+Тот фильм действительно интересный || That movie is really interesting
+Все работали очень усердно || Everyone worked very hard
+Заранее прошу прощения || I apologize in advance
+Садись в грузовик || Get on the truck
+Он храбрый и честный || He is brave and honest
+Его ждала ужасная судьба || A terrible fate awaited him
+Желаю приятно поплавать || Have a nice swim
+Класс сошёл с ума || The class went crazy
+Ну разве не удивительно? || Isn't it amazing?
+Вы умеете ездить верхом? || Can you ride?
+Просто постарайтесь расслабиться || Just try to relax
+Есть другой выход? || Is there another way?
+А побыстрее нельзя? || Can’t you be quicker?
+Кто твой любимый игрок? || Who is your favorite player?
+Наш холодильник не работает || Our refrigerator is not working
+Дочь у неё медсестра || Her daughter is a nurse
+Он обожает рыбачить || He loves fishing
+Иди помоги мыть посуду || Go help wash the dishes
+Мы должны почитать родителей || We must honor our parents
+Заткнись и слушай! || Shut up and listen!
+Я решила простить тебя || I decided to forgive you
+Кто твой любимый музыкант? || Who is your favorite musician?
+Мне нужен воздух || I need air
+Перестань так сильно волноваться || Stop worrying so much
+Ближе к делу! || Get to the point!
+Класс был почти пустой || The class was almost empty
+Почему Вы такой упрямый? || Why are you so stubborn?
+У меня молния сломана || My lightning is broken
+Это было довольно забавно || It was pretty funny
+Мы должны продолжать бороться || We must continue to fight
+Будьте с ней осторожнее || Be careful with her
+Здесь поблизости есть гостиница? || Is there a hotel nearby?
+У нас есть сайт || We have a website
+Прочти его вслух || Read it out loud
+У Вас сломана рука || Your arm is broken
+Какое преступление ты совершил? || What crime have you committed?
+Он достал одно яйцо || He took out one egg
+Он навсегда оставил Японию || He forever left Japan
+Как прошло путешествие? || How was the journey?
+Вам нужна операция || You need an operation
+Многие студенты любят спорт || Many students love sports
+Чьи это лошади? || Whose horses are these?
+Он прошёл через лес || He passed through the forest
+На моих половина третьего || On mine half past two
+Бросьте его туда || \u200b\u200bThrow it there
+Дым наполнил комнату || Smoke filled the room
+Я ваш капитан || I am your captain | I'm your captain
+Позволь мне угадать || Let me guess
+Принесите меню, пожалуйста! || Bring the menu, please!
+Найти золото было непросто || Finding gold was not easy
+Вы можете её убрать? || Can you remove it?
+Где сейчас находится судно? || Where is the ship now?
+Мне надоело хранить секреты || I'm tired of keeping secrets
+Мне нравится Ваша улыбка || I like your smile
+Входите в комнату || Enter the room
+Мне нужен холодный душ || I need a cold shower
+Её молчание меня удивило || Her silence surprised me
+Прекрати использовать мои вещи! || Stop using my stuff!
+Моя жена сумасшедшая || My wife is crazy
+Народ любит поговорить || People love to talk
+У тебя красивая кожа || You have beautiful skin
+У тебя носки наизнанку || You have socks inside out
+Мне нужно ведро || I need a bucket
+Давайте сыграем в волейбол || Let's play volleyball
+Жизнь начинается в сорок || Life begins at forty
+Всем добрый вечер || Good evening everyone
+Он пишет красивые стихи || He writes beautiful verses
+Ему нравилось принимать решения || He liked making decisions
+Зима была очень холодная || The winter was very cold
+Держите со мной связь || Keep in touch with me
+Этот флаг очень красивый || This flag is very beautiful
+Ты заслуживаешь долгий отдых || You deserve a long vacation
+Мои джинсы сели || My jeans sat down
+Они могут измениться || They may change
+Каждому есть что скрывать || Everyone has something to hide
+Мой ответ правильный? || Is my answer correct?
+Пожалуйста, приходи скорей || Please come soon
+Мне надо на похороны || I need a funeral
+Все остались стоять || Everyone remained standing
+Вам следует успокоиться || You should calm down
+Они не будут вмешиваться || They will not interfere
+Мы должны действовать немедленно || We must act immediately
+Эй, послушайте меня || Hey, listen to me
+Больница тут рядом || A hospital is nearby
+Какой твой любимый климат? || What is your favorite climate?
+Может, не будешь шуметь? || Maybe you won’t make noise?
+Вокруг него собиралась толпа || A crowd gathered around him
+Мы делаем всё возможное || We do our best
+Врач проверил его пульс || The doctor checked his pulse
+Дай мне молоток || Give me a hammer
+Изучать французский полезно || Learning French is useful
+Надеюсь принять участие || I hope to participate
+У меня есть близнец || I have a twin
+Какая пустая трата денег! || What a waste of money!
+Убирайся из города || Get out of town
+Какая твоя любимая газета? || What is your favorite newspaper?
+Мне нужен ноутбук || I need a laptop
+Вы можете говорить свободно || You can speak freely
+Отец у неё японец || Her father is Japanese
+Пожалуйста, покажите расписание || Please show the timetable
+Тебе лучше бросить курение || You better quit smoking
+Какой твой родной язык? || What is your native language?
+У него острый слух || He has a keen ear
+Ее легко обидеть || She is easily offended
+У неё закончилась бумага || She ran out of paper
+Наденьте этот платок || Put on this scarf
+Всё остальное скучно || Everything else is boring
+Не забудь покормить собаку || Remember to feed the dog
+У тебя есть компания || You have a company
+Сядь на диван, пожалуйста || Sit on the sofa, please
+Вчера был небольшой дождь || There was little rain yesterday
+Они могут ошибаться || They may be wrong
+Оно идеально подходит || It is perfect
+Он очень застенчивый || He is very shy
+Мы практически братья || We are practically brothers
+Думаете, я ненормальный? || Think I'm crazy?
+Дай мне свой ремень || Give me your belt
+Вы нелепо выглядите || You look ridiculous
+Мне нравится твоя борода || I like your beard
+Не забудь поставить будильник || Remember to set an alarm
+Я увидел взрыв || I saw an explosion
+Ваш файл у меня || I have your file
+Могу я воспользоваться ванной? || Can I use the bathtub?
+Я даю добро || I give good
+Принеси мне немного попить || Bring me a little drink
+У Вас рак || You have cancer
+Мы не сможем убежать || We cannot escape
+Веди себя прилично, пожалуйста || Behave yourself, please
+Мне надо приготовить овощи || I need to cook vegetables
+Дайте мне сосредоточиться || Let me focus
+Мы можем заказать пиццу || We can order pizza
+Это была большая потеря || It was a great loss
+Можно с вами переговорить? || May I speak with you?
+Не забудь почистить зубы || Remember to brush your teeth
+Австралия ничем не отличается || Australia is no different
+Нам понадобится кредит || We need a loan
+Я ценю ваши усилия || I appreciate your efforts
+Не делайте дела наполовину || Do not do things halfway
+Вы должны попытаться поспать || You should try to sleep
+Расскажи нам анекдот || Tell us a joke
+Я вовсе не напуган || I'm not scared at all
+Безопасность прежде всего || Safety first
+Ведь это потрясающе, да? || It's awesome, isn't it?
+Ей нравится фотографировать || She likes taking pictures
+Я ваш родственник || I am your relative | I'm your relative
+Где мой второй ботинок? || Where is my second boot?
+Мои каникулы прошли быстро || My vacation was quick
+Он низкий, но сильный || He is low but strong
+Это должно быть незаконно || It must be illegal
+Где тут поблизости супермаркет? || Where is a supermarket nearby?
+Мы уехали поездом || We left by train
+Это была ужасная авария || It was a terrible accident
+Передай мне те ножницы || Give me those scissors
+Каждый человек особенный || Each person is special
+Из тебя ужасный танцор || You are a terrible dancer
+Она наша учительница || She is our teacher
+Не забудь запереть дверь || Remember to lock the door
+Вы такой забавный || You are so funny
+Ребёнок был голый || The child was naked
+Кто твой любимый преподаватель? || Who is your favorite teacher?
+Это моё новое видео || This is my new video
+Его история отчасти правда || His story is partly true
+Доброе утро, милая || Good morning, dear
+Вы мой гость || You are my guest
+Какой милый малыш! || What a cute kid!
+Здесь можно снимать? || Can I shoot here?
+Поставьте свою подпись здесь || Put your signature here
+Вечеринка закончилась в полночь || The party ended at midnight
+Мне знаком этот район || I know this area
+У Вас неплохой голос || You have a good voice
+Берите, пожалуйста, торт || Please take the cake
+Какая ваша группа крови? || What is your blood type?
+Кто твой любимый поэт? || Who is your favorite poet?
+Каковы ваши условия? || What are your conditions?
+Возвращайся в течение месяца || Come back within a month
+Мой брат безработный || My brother is unemployed
+Мы слышали голоса || We heard voices
+Нам надо было пожениться || We had to get married
+Это был чудесный вечер || It was a wonderful evening
+Бизнес есть бизнес || Business is business
+Так слишком высоко? || So too high?
+Никто никуда не идет || No one is going anywhere
+Нам нужна новая стратегия || We need a new strategy
+Вы любите шпинат? || Do you like spinach?
+Это ваше оправдание? || Is this your excuse?
+Можно с Вами потанцевать? || Can I dance with you?
+Закрой свой грязный рот || Shut your dirty mouth
+Ты выглядишь занятой || You look busy
+Можешь угадать её возраст? || Can you guess her age?
+Она чересчур много курит || She smokes too much
+Вы слишком слабый || You are too weak
+Им нужна наша поддержка || They need our support
+Фома хорошо известный художник || Thomas is a well—known artist
+Продолжайте ваше расследование || Continue your investigation
+Которая гитара Ваша? || Which guitar is yours?
+Куда ведёт эта улица? || Where does this street lead?
+Нет никакого сомнения || There is no doubt
+Кто совершил это убийство? || Who committed this murder?
+У них есть талант || They have talent
+Он высокий и худой || He is tall and thin
+Поезд набрал скорость || The train gained speed
+Где ваш внук? || Where is your grandson?
+Кому принадлежит эта куртка? || Who owns this jacket?
+Когда ваш следующий спектакль? || When is your next performance?
+Он выучил стихотворение наизусть || He memorized the poem
+Мне нужен доллар || I need a dollar
+Вы можете её описать? || Can you describe her?
+Это диск моего сына || This is my son’s drive
+К сожалению, должен отказаться || Unfortunately, I must refuse
+Смех – лучшее лекарство || Laughter is the best medicine
+Вот некоторые детали || Here are some details
+Мы думаем одинаково || We think alike
+Насколько он глубокий? || How deep is it?
+Давайте чаще встречаться || Let's meet more often
+Он нехорошо себя чувствовал || He was not feeling well
+Какой высоты это здание? || How tall is this building?
+Мне надоели ваши жалобы || I'm tired of your complaints
+Охотник выстрелил в птицу || A hunter shot a bird
+Мы делаем успехи? || Are we making progress?
+У него бледный вид || He has a pale appearance
+Просто продолжай улыбаться || Just keep smiling
+Преступник был арестован || A criminal was arrested
+У меня график || I have a schedule
+Это был отличный комментарий || That was a great comment
+Я не бездомный || I am not homeless | I'm not homeless
+Меня беспокоит Ваш кашель || Your cough is bothering me
+Китай больше, чем Япония || China is bigger than Japan
+Необходимо сбросить вес || Need to lose weight
+Курить здесь не разрешено || Smoking is not allowed here
+Вы такой грубый! || You are so rude!
+Это мой двоюродный брат || This is my cousin
+Он взял третий приз || He took the third prize
+Какое твоё любимое число? || What is your favorite number?
+Я бы поел спагетти || I would eat spaghetti
+Не начинай это снова || Do not start it again
+Вы получили мои сообщения? || Did you receive my messages?
+Мы хотим держаться вместе || We want to stick together
+Я не выношу ожидания || I cannot stand the wait
+Выходи из моей машины || Get out of my car
+Нам нужен лидер || We need a leader
+Я буду ужинать || I will have dinner
+Мы едем на юг || We drive south
+Что это за пятно? || What is this stain?
+Без денег нельзя выжить || You cannot survive without money
+Это может удивить вас || This may surprise you
+Я ем всё подряд || I eat everything
+Вы хотя бы пытаетесь? || Are you at least trying?
+Извините, я не местный || Sorry, I'm not local
+Налоги слишком высокие || Taxes are too high
+Нам следует отменить прогулку || We should cancel the walk
+Кто покупает такое искусство? || Who buys such art?
+Как насчет поужинать вместе? || How about having dinner together?
+Им нужна защита || They need protection
+Позвольте мне присесть || Let me sit down
+Мне вроде как неудобно || I feel kind of uncomfortable
+Ты выучил свою роль? || Have you learned your role?
+Я не могла отказать || I could not refuse
+Мы услышали громкий взрыв || We heard a loud explosion
+Их поведение резко изменилось || Their behavior has changed dramatically
+Прочь с моей дороги! || Get out of my way!
+Когда у нас зарплата? || When is our salary?
+Новый микрофон лучше работает || New microphone works better
+Где находится ближайшая аптека? || Where is the nearest pharmacy?
+Мы должны уважать других || We must respect others
+Вы поёте как ангел || You sing like an angel
+Как началась ваша дружба? || How did your friendship begin?
+Они взяли короткий отпуск || They took a short vacation
+До этого недолго осталось || Not long before that
+Что это за остановка? || What is this stop?
+Ветрено сегодня утром, да? || Windy this morning, huh?
+Вы должны поторапливаться || You have to hurry
+У меня слабый желудок || I have a weak stomach
+Автомобиль выглядел как новенький || The car looked like new
+Кто открыл остров? || Who discovered the island?
+Он изобрёл колесо || He invented the wheel
+Мы будет продолжать попытки || We will continue to try
+Мы можем отложить поездку? || Can we postpone the trip?
+Какой ваш любимый рецепт? || What is your favorite recipe?
+Давайте соблюдать спокойствие || Let's keep calm
+Кто съел последний пончик? || Who ate the last donut?
+Мы закончили переговоры || We finished the negotiations
+Этот столик занят || This table is busy
+Где находится станция метро? || Where is the metro station?
+Поздравляю вас с успехом || Congratulations on your success
+Президент казался сильным || The president seemed strong
+Вы будете ревновать || You will be jealous
+Просто продолжай копать || Just keep digging
+Наш проект провалился || Our project failed
+Они пошли ловить рыбу || They went fishing
+Посмотри в колодец || Look into the well
+Политика меня не интересует || Politics does not interest me
+Могу я сменить тему? || Can I change the subject?
+Не давай себя одурачить || Don't let yourself be fooled
+Он настроен весьма скептически || He is very skeptical
+Здесь действительно прохладно || It's really cool here
+Сними свой парик || Take off your wig
+Я люблю собирать марки || I like collecting stamps
+Книжный магазин возле парка || Bookstore near the park
+Почему ты такой нервный? || Why are you so nervous?
+Сейчас повсюду грипп || There is flu everywhere
+У него длинная шея || He has a long neck
+Убери его в шкаф || Put him in the closet
+О, какая красивая кукла! || Oh, what a beautiful doll!
+Ты набрал неправильный номер || You dialed the wrong number
+Вы очень мудрый || You are very wise
+А ты смелый || And you are brave
+Ты предал наше доверие || You betrayed our trust
+Вы верите в НЛО? || Do you believe in UFOs?
+Пришло только пятьдесят человек || Only fifty people came
+Он всего лишь любитель || He is just an amateur
+Был сильный туман || There was heavy fog
+Старайся себя контролировать || Try to control yourself
+Вам нужно чудо || You need a miracle
+Иди в гараж || Go to the garage
+Добро пожаловать в клуб! || Welcome to the club!
+У Вас идеальный английский || You have perfect English
+Мне, пожалуй, пора прощаться || Perhaps I should say goodbye
+У меня клиент || I have a client
+Ты его целиком прочёл? || Have you read it entirely?
+Твоё предположение верно || Your assumption is correct
+Беги, а то опоздаешь || Run, or you’ll be late
+Я хочу значительно больше || I want much more
+Я ежедневно учу китайский || I learn Chinese daily
+Не трогай меня, свинья! || Do not touch me, pig!
+Какой же я невезучий! || How unlucky I am!
+Немногие люди это понимают || Few people understand this
+Ты всё ещё холостяк? || Are you still a bachelor?
+Во сколько тебя будить? || What time to wake you?
+Прекрати пялиться в окно || Stop staring at the window
+Тебе меня не обмануть || You Can't Fool Me
+Передай мне кетчуп, пожалуйста || Give me the ketchup, please
+Это не чернила || This is not ink
+Его план опасный || His plan is dangerous
+Вы можете нас выручить? || Can you help us out?
+Я заплатил за напитки || I paid for drinks
+Я обожаю растения || I adore plants
+Помоги мне передвинуть диван || Help me move the sofa
+Океан был спокойным || The ocean was calm
+Вы такой эгоист || You are so selfish
+В классе чисто || The class is clean
+В наручники его || In his handcuffs
+Зачем оставлять дверь открытой? || Why leave the door open?
+Вся ответственность осталась мне || All responsibility remained with me
+Мне тогда было восемнадцать || I was eighteen then
+Осталась только одна пуля || Only one bullet remains
+Твоя сумочка открыта || Your handbag is open
+Пожалуйста, прочтите инструкции || Please read the instructions
+Мне бы твой ум || I would have your mind
+У любви горький вкус || Love has a bitter taste
+Он сделал важное открытие || He made an important discovery
+Он отказался давать интервью || He refused to be interviewed
+Пицца в пути || Pizza en route
+Как насчёт передохнуть? || How about a break?
+Какой твой любимый фрукт? || What is your favorite fruit?
+Вы умеете свистеть? || Can you whistle?
+Мой пёс ест виноград || My dog \u200b\u200beats grapes
+Это весьма необычно || This is very unusual
+Разве это не круто? || Isn't that cool?
+Он мой бывший ученик || He is my former student
+Извините, это место занято? || Sorry, is this seat taken?
+Мне нужны были наличные || I needed cash
+Где находится ближайший ресторан? || Where is the nearest restaurant?
+Вы читали мой доклад? || Have you read my report?
+Я повредил локоть || I injured my elbow
+Магазин закрывается в одиннадцать || The store closes at eleven
+Какая прекрасная роза! || What a beautiful rose!
+Мне нравится это представление || I like this view
+Я тут, чтобы веселиться || I'm here to have fun
+Вот моя кухня || Here is my kitchen
+Это наша обязанность || This is our responsibility
+Мы будем сражаться || We will fight
+Ты упустил главное || You missed the point
+Вставай с постели! || Get out of bed!
+Мне нравится твоя футболка || I like your t—shirt
+Я люблю рассказывать анекдоты || I like to tell jokes
+Мне нужен календарь || I need a calendar
+Ты подписал признание || You signed a confession
+Система работала хорошо || The system worked well
+Простите за опоздание || Sorry for being late
+Электричество очень полезно || Electricity is very useful
+Я принимаю ваш вызов || I accept your call
+Это было реально страшно || It was really scary
+Он наш единственный подозреваемый || He is our only suspect
+Они идут босиком || They go barefoot
+Тебе лучше показаться врачу || You better see a doctor
+Оно в воскресенье открыто? || Is it open on Sunday?
+Ну ты и дура! || Well, you are a fool!
+Он описал собственный опыт || He described his own experience
+Он был болезненно худой || He was painfully thin
+Есть три возможности || There are three possibilities
+Давай дружить вечно || Let's be friends forever
+Встань на колени || Get on your knees
+Как звучит тишина? || How does silence sound?
+У Вас голос расстроенный || Your voice is upset
+Это может быть ловушка || It could be a trap
+У тебя превосходный дом || You have an excellent home
+У вас есть потенциал || You have the potential
+Мой почтовый ящик переполнен || My mailbox is full
+Как я могу разбогатеть? || How can I get rich?
+Вскоре начался ливень || Soon the downpour began
+Мой компьютер очень медленный || My computer is very slow
+Не надо недооценивать врага || Do not underestimate the enemy
+Как прошла свадьба? || How was the wedding?
+Перестань задавать вопросы || Stop asking questions
+Мне нужен Интернет || I need the Internet
+Прежде этот подход работал || Previously, this approach worked
+Жара была ужасная || The heat was terrible
+Ваш шкафчик открыт || Your locker is open
+Это было отвратительно || It was disgusting
+Вы должны впустить меня || You must let me in
+А разве заметно? || But is it noticeable?
+Нам обеим нравятся морепродукты || We both like seafood
+Как ты, приятель? || How are you, buddy?
+Это абсолютно законно || This is absolutely legal
+Отказать было бы невежливо || To refuse would be impolite
+Не заставляйте меня страдать || Do not make me suffer
+Я припарковался у ворот || I parked at the gate
+Прекрати дразнить своего брата! || Stop teasing your brother!
+Я почувствовал лёгкий голод || I felt a slight hunger
+Вам нет нужды стыдиться || You need not be ashamed
+Он умеет доить корову || He can milk a cow
+Это всего лишь слухи || These are just rumors
+Сегодня ярко светит солнце || Today the sun shines brightly
+Мы будем присутствовать || We will be present
+У меня плохие известия || I have bad news
+Какой твой любимый детектив? || What is your favorite detective?
+Америка нуждается в вас || America needs you
+Этот стол чистый || This table is clean
+Постарайся меня не разочаровать || Try not to disappoint me
+Это было не землетрясение || This was not an earthquake
+Неожиданно стало шумно || Suddenly it became noisy
+Не рассказывай маме || Do not tell mom
+Он ответил неверно || He answered incorrectly
+Неудивительно, что люди пьют || No wonder people drink
+Теперь это неизбежно || Now this is inevitable
+Вам надо одеваться теплее || You need to dress warmer
+Разумеется, мы тебе верим || Of course we believe you
+Ты очень успешный || You are very successful
+А поцеловать на прощание? || And a goodbye kiss?
+Ты не помнишь название? || Don't you remember the name?
+Вы будете сотрудничать || You will cooperate
+Они оба выглядят подозрительно || They both look suspicious
+Я пойду готовиться || I'll go get ready
+Свидетель сказал свое имя || The witness said his name
+Кто отдал этот приказ? || Who gave this order?
+Ошибиться может каждый || Everyone can be mistaken
+У нас есть соглашение || We have an agreement
+Нам стоило это предвидеть || We should have foreseen this
+Твой французский акцент ужасен || Your French accent is terrible
+Я смертельно устал || I am mortally tired | I'm mortally tired
+Он старый и некрасивый || He is old and ugly
+Какой высоты та башня? || How tall is that tower?
+Вода была еле тёплая || The water was barely warm
+У меня сегодня похмелье || I have a hangover today
+Это очень серьезно || This is very serious
+Он сам себе хозяин || He is his own master
+Бар скоро закрывается || The bar closes soon
+Брак меняет людей || Marriage changes people
+За нами могут наблюдать || They can watch us
+Он очень общительный || He is very sociable
+Звучит как безумие, знаю || Sounds like madness, I know
+Она терпеливо его ждала || She waited patiently for him
+Как они могут проиграть? || How can they lose?
+Ты слишком скромный || You are too modest
+Его почерк невозможно разобрать || His handwriting cannot be read
+Можно составить вам компанию? || Can I keep you company?
+Вам действительно нравится опера? || Do you really like opera?
+Что это за пьеса? || What is this play?
+Это была бы катастрофа || That would be a disaster
+Ему нравится всё сладкое || He likes everything sweet
+Отдайте мне пульт || Give me the remote
+Ему нравится сладкий чай || He likes sweet tea
+Он любит охотиться || He loves to hunt
+Вы просто трусы || You are just cowards
+Это вполне понятно || This is understandable
+Это длится целую вечность || It lasts forever
+Он очень робкий || He is very timid
+Я закрыл жалюзи || I closed the blinds
+А теперь давайте праздновать || And now let's celebrate
+Ты должна постараться || You must try
+Ему начало становиться страшно || He began to get scared
+Мечтать не вредно || Dreaming is not harmful
+Ему всё безразлично || He doesn’t care
+Двигайся на север || Head north
+Передайте мне, пожалуйста, перец || Please hand me the pepper
+Корабль отправился в плавание || The ship set sail
+Мы действительно близкие друзья || We are really close friends
+Вам понравится Германия || You will like Germany
+Каков был результат? || What was the result?
+Сейчас девять пятнадцать || Now nine fifteen
+Мне наплевать, что случится || I don't care what happens
+Где ваша спальня? || Where is your bedroom?
+Я бы сказал вам это || I would tell you this
+Почему ты так не сказал? || Why didn’t you say that?
+Почему ты нам не сказал? || Why didn’t you tell us?
+Ты мне так и не сказал, кто он || You never told me who he was
+Кто сказал вам это сделать? || Who told you to do this?
+Почему бы нам этого не сделать? || Why don't we do this?
+Я уже сказал вам всё, что знаю || I already told you everything I know
+Я всё о вас знаю || I know all about you
+Думаю, у нас есть всё, что нужно || I think we have everything we need
+Кто всё это будет есть? || Who will eat all this?
+Я хотел бы, чтобы он был здесь || I would like him to be here
+Мне нужно, чтобы ты это сделал || I need you to do this
+Мне надо было это сегодня сделать || I had to do it today
+Я бы никогда не сделал этого || I would never do that
+Тебе надо бы сейчас это сделать || You should do it now
+Нам больше ничего не нужно || We do not need anything else
+Нам больше ничего не надо делать || We don’t have to do anything else
+Нам ещё так много надо сделать || We still have so much to do
+Кто вам об этом сказал? || Who told you this?
+Где ещё это может быть? || Where else could it be?
+Нам ничего от вас не надо || We don’t need anything from you
+Тому надо бы нам сегодня помочь || We should be helped today
+Ты так много для нас сделал || You have done so much for us
+Мне никто ничего не должен || Nobody owes me anything
+Я просто не хотел там быть || I just didn’t want to be there
+Он должен быть сегодня дома || He must be at home today
+Для вас так будет лучше || It will be better for you
+Мне нужно завтра быть здесь || I need to be here tomorrow
+Никто ничего не может сказать || No one can say anything
+Вам надо было вчера мне сказать || You should have told me yesterday
+Один из нас должен это сделать || One of us must do this
+Хотел бы я быть там с тобой || I wish I were there with you
+Завтра будет ещё один день || Tomorrow will be another day
+У меня всегда будет время для вас || I will always have time for you
+Как это можно сделать за один день? || How can this be done in one day?
+Можно нам пойти с тобой? || Can we go with you?
+Один из нас должен идти || One of us must go
+Когда мне можно будет пойти домой? || When can I go home?
+Вам надо будет пойти со мной || You will have to come with me
+Ему сегодня лучше, чем вчера || He is better today than yesterday
+Не хотите ли вы помочь? || Would you like to help?
+Мне просто нужно немного помочь || I just need a little help
+Думаю, мне лучше пойти с вами || I think I better go with you
+Я мог бы вам с этим помочь || I could help you with this
+Нам нужно ещё раз это сделать? || Do we need to do this again?
+Могу ли я пойти туда сейчас? || Can I go there now?
+Кто хочет поговорить со мной? || Who wants to talk to me?
+Куда бы ты хотел пойти? || Where would you like to go?
+И куда же вы хотите пойти? || And where do you want to go?
+Вы ещё можете пойти, если хотите || You can still go if you want
+Думаю, ты знаешь, зачем я здесь || I think you know why I'm here
+Кто купил вам этот дом? || Who bought you this house?
+Вы знаете их, не так ли? || You know them, don't you?
+У меня ещё свой есть || I still have mine
+Вот бы ты был сейчас здесь со мной || You should be here with me now
+Я часто о вас думал || I often thought of you
+Мне правда нужно с вами поговорить || I really need to talk to you
+Я бы и правда хотел знать || I really would like to know
+Вы всё ещё хотите эти? || Do you still want these?
+Я был рад за него || I was glad for him
+Для чего тебе эти деньги? || Why do you need this money?
+Вы раньше никогда такой не были || You have never been like this before
+Я почти ничего не знаю об этом || I know almost nothing about this
+Ты ведь им ничего не говорил? || You didn’t tell them anything?
+Мы не можем сделать это без вас || We cannot do this without you
+Знаете ли вы, сколько мне лет? || Do you know how old I am?
+Мне это ни о чём не говорит || This does not mean anything to me
+Этот дом мой, не ваш || This house is mine, not yours
+А вот и ваш друг || And here is your friend
+Должны ли мы говорить об этом тут? || Should we talk about this here?
+Я просто хочу немного больше кофе || I just want a little more coffee
+Всё всегда не то, чем кажется || Everything is always not what it seems
+Он слишком уверен в себе || He is too confident
+Вот эта мне больше всего нравится || This one I like best
+Вы должны с нами поговорить || You must talk to us
+Вы даже не можете помочь себе || You cannot even help yourself
+Я действительно люблю свою работу || I really love my job
+У меня к тебе только один вопрос || I have only one question for you
+Скажите мне, где я могу его найти || Tell me where I can find him
+Дай мне все свои деньги || Give me all your money
+Мой отец только что пришёл домой || My father just came home
+Нам надо было пойти туда вместе || We had to go there together
+Вы рано, не так ли? || You're early, aren't you?
+Вот почему мне нужна твоя помощь || That's why I need your help
+Вы оба были здесь вчера? || Were you both here yesterday?
+Мы скоро должны быть дома || We should be home soon
+Ей действительно нужна твоя помощь || She really needs your help
+Это не может ждать до завтра || It can't wait until tomorrow
+Вам нужна моя помощь или нет? || Do you need my help or not?
+Вам стоит купить эту книгу || You should buy this book
+Ты можешь спать здесь, если хочешь || You can sleep here if you want
+Мы должны были поехать вместе || We had to go together
+Почему мы не можем работать вместе? || Why can't we work together?
+Ты совсем как твой отец || You are just like your father
+Если бы я мог тебя увидеть || If I could see you
+Ни я, ни он не знаем, откуда ты || Neither I nor he know where you are from
+А вот это уже интересно || But this is already interesting
+Каждый из нас пошёл к себе домой || Each of us went to our home
+Я просто хотел увидеть вас снова || I just wanted to see you again
+Пока мне нравится то, что я видел || For now, I like what I saw
+Мы были там вчера вечером || We were there last night
+Зачем тебе нужна моя машина? || Why do you need my car?
+Он не мог сделать этого сам || He could not do it himself
+Хочешь знать, в чём твоя проблема? || Want to know what is your problem?
+Разве вы не хотите поехать со мной? || Don't you want to come with me?
+Мы здесь никого не знаем || We do not know anyone here
+Мы знаем, что это трудно для вас || We know that this is difficult for you
+Он пришёл раньше, чем обычно || He came earlier than usual
+Дай мне день или два || Give me a day or two
+Он говорил сам с собой || He spoke to himself
+Кто дал тебе моё имя? || Who gave you my name?
+Возможно, мы будем работать вместе || Perhaps we will work together
+У вас свои дети есть? || Do you have your own children?
+В тот день был дождь || It was raining that day
+Всем очень не нравится эта идея || Everyone really dislikes this idea
+Вы ведь больше никому не сказали? || You didn’t tell anyone else?
+Вам нельзя быть в этой комнате || You must not be in this room
+Я не могу без неё жить || I cannot live without her
+Мы будем там довольно скоро || We will be there quite soon
+Нам не нужны твои деньги || We do not need your money
+Я бы не смог без вас жить || I could not live without you
+Мой брат говорит очень быстро || My brother speaks very quickly
+Давно вы об этом знаете? || How long have you known this?
+Очень рад видеть Вас снова! || Very glad to see you again!
+Он вернулся назад через много лет || He came back many years later
+Мы завтра весь день будем дома || We will be home all day tomorrow
+В этой комнате есть телевизор || This room has a TV
+Как долго мы можем ждать? || How long can we wait?
+Боюсь, ваш план не будет работать || I'm afraid your plan will not work
+Кто с нами не согласен? || Who disagrees with us?
+Я пытался это сделать, но не смог || I tried to do this, but could not
+Почему нам нельзя здесь плавать? || Why can't we swim here?
+А ты вообще кто такой? || And who are you anyway?
+Мы будем работать над этим завтра || We will work on it tomorrow
+Тому нельзя ехать с нами || You cannot go with us
+А теперь вам пора домой || Now you have to go home
+Откуда именно ты из Австралии? || Where exactly are you from Australia?
+Всё выглядит точно так же || Everything looks exactly the same
+Вы можете подождать в этой комнате || You can wait in this room
+Мой брат на два года старше меня || My brother is two years older than me
+Вы точно такая же, как Ваша мать || You are just like your mother
+Дай мне ещё немного воды || Give me some more water
+Может быть, нам стоит купить новый || Maybe we should buy a new one
+Думаю, мы оба знаем на это ответ || I think we both know the answer
+Давайте не будем больше петь || Let's not sing anymore
+Я думала, что ты любишь читать || I thought you like to read
+Для них это было довольно легко || For them it was pretty easy
+В понедельник я больше всего занят || On Monday I am most busy | On Monday I'm most busy
+Вам нужно пить больше воды || You need to drink more water
+Вы не можете взять обе книги || You cannot take both books
+Он достаточно хорошо умеет читать || He can read quite well
+Мне нужно остаться здесь на ночь || I need to stay here overnight
+Этот стол лучше, чем тот || This table is better than that
+Нам нужно чуть больше времени || We need a little more time
+Нам нужна твоя помощь прямо сейчас || We need your help right now
+Что мы будем делать после этого? || What will we do after this?
+Вы тогда были в школе? || Were you at school then?
+Ты лишь на три года меня старше || You are only three years older than me
+Во сколько ты начал ходить? || What time did you start walking?
+Надеюсь, снег будет идти всю ночь || I hope it snows all night
+А вот и наш учитель || And here is our teacher
+Иногда всё идёт не так || Sometimes things go wrong
+Это ни хорошо ни плохо || This is neither good nor bad
+Ей нечего было больше пить || She had nothing to drink anymore
+Завтра ночью может пойти снег || It may snow tomorrow night
+Мы могли бы даже выиграть || We could even win
+Как вы думаете, кто они были такие? || Who do you think they were?
+Моя жена на три года меня старше || My wife is three years older than me
+Ты будешь нам помогать или нет? || Will you help us or not?
+Вы совершенно в этом правы || You are absolutely right in this
+Во сколько вы хотели бы поесть? || What time would you like to eat?
+Даже моя мама это знает || Even my mother knows this
+Ты видел, какой большой у них дом? || Have you seen how big their house is?
+Мне не важно, кто выиграет || I don’t care who wins
+Вам еще нужна моя помощь? || Do you still need my help?
+Воды на всех не хватит || There isn’t enough water for everyone
+У меня совершенно новый велосипед || I have a brand new bike
+Вы или с нами, или против нас || You are either against us or against us
+Больше никому не давай этот номер || Don’t give this number to anyone else
+Ехать туда сейчас слишком поздно || Going there now is too late
+Простите меня на этот раз || Forgive me this time
+Просто скажите мне, кому позвонить || Just tell me who to call
+Вижу, ты нашёл свои очки || I see you found your glasses
+Я буду там через пять минут || I will be there in five minutes
+А потом что ты сделала? || And then what did you do?
+Для кого вы купили эти цветы? || For whom did you buy these flowers?
+Жаль, что ты этого не знаешь || Too bad you don't know that
+В этой комнате курить нельзя || No smoking in this room
+Вам следует поехать туда на такси || You should go there by taxi
+Моего отца никогда не было рядом || My father was never there
+Вам не следует никому доверять || You should not trust anyone
+Я про тебя никому не скажу || I won’t tell anyone about you
+Вы любите чай или кофе? || Do you like tea or coffee?
+Как твои дела на работе? || How are you doing at work?
+Мой брат хорошо играет в теннис || My brother plays tennis well
+Вы говорили это час назад || You said that an hour ago
+Каждый день одно и то же || Every day is the same
+Вы не видели мои ключи от машины? || Have you seen my car keys?
+Может ли моя дочь пойти в школу? || Can my daughter go to school?
+Вы думаете, это платье ей идёт? || Do you think this dress suits her?
+Автобус опоздал на десять минут || The bus was ten minutes late
+Как сильно ты меня любишь? || How much do you love me?
+Моя кошка весь день спит || My cat sleeps all day
+Я не скажу ни слова || I will not say a word
+Я не могу понять ни одного слова || I cannot understand a single word
+Он вернулся обратно через два часа || He returned back after two hours
+Вы можете позвонить мне позже? || Can you call me later?
+Ваша жена умеет водить машину? || Can your wife drive a car?
+Вы можете взять эти вещи с собой? || Can you take these things with you?
+Вы всё утро были дома? || Have you been home all morning?
+Скажи мне, что ты ел на обед || Tell me what you ate for lunch
+Вы не можете меня победить || You cannot defeat me
+Мне это гораздо больше нравится || I like it a lot more
+Вы знаете, что значит Ваше имя? || Do you know what your name means?
+Он не мог понять предложение || He could not understand the sentence
+А что, если ты не права? || But what if you're wrong?
+Когда бы вы могли начать работать? || When could you start working?
+Он живёт далеко от моего дома || He lives far from my house
+Вы должны дать мне ещё один шанс || You must give me another chance
+Мы можем сделать намного больше || We can do a lot more
+Вы можете объяснить, что произошло? || Can you explain what happened?
+Когда мы с вами ещё увидимся? || When will we meet again?
+Ну а чего ты ожидал? || Well, what did you expect?
+Дети не должны пить вино || Children should not drink wine
+Он придёт сюда в шесть часов || He will come here at six o’clock
+Можно мне ещё одну попробовать? || May I have another try?
+А у нас есть другой выбор? || Do we have another choice?
+Я не мог посмотреть ей в лицо || I could not look her in the face
+Этот кот такой же большой, как тот || This cat is as big as that one
+Вам не следует столько курить || You should not smoke so much
+Она может спасти твою жизнь || She can save your life
+Вы могли её в машине оставить || You could leave her in the car
+Мои друзья пошли в кино без меня || My friends went to the cinema without me
+Она обычно ходит в школу пешком || She usually goes to school on foot
+Вы вроде говорили, что оно ваше || You kind of said it was yours
+Она замужем или не замужем? || Is she married or not?
+Ты хочешь уехать отсюда, да? || You want to leave here, right?
+Ты смотрел на её ноги? || Did you look at her legs?
+Не смотри слишком много телевизор || Do not watch too much TV
+Я бросил курить год назад || I quit smoking a year ago
+Я был здесь около года назад || I was here about a year ago
+Моя машина старше, чем это дерево || My car is older than this tree
+Я едва могу поверить, что ты здесь || I can hardly believe that you are here
+Моя семья не такая большая || My family is not so big
+Он не может ни читать, ни писать || He can neither read nor write
+Он потерял билет в кино || He lost a movie ticket
+Вам следует открыть все окна || You should open all the windows
+Я очень редко ем мясо || I very rarely eat meat
+Я немного умею играть на пианино || I can play the piano a little
+Все мои друзья любят футбол || All my friends love football
+У меня в понедельник экзамен || I have an exam on Monday
+Я забыл свой зонтик в такси || I forgot my umbrella in a taxi
+Вот поэтому люди тебя и любят || That's why people love you
+У неё кошка и две собаки || She has a cat and two dogs
+Долго вы будете этим заниматься? || How long will you do this?
+Если бы только я принял твой совет || If only I would take your advice
+Вот уж не думал увидеть вас здесь || I never thought of seeing you here
+Не надо плавать сразу после еды || Do not swim immediately after eating
+Как там на улице погода? || How is the weather outside?
+У меня в комнате нет радио || I have no radio in my room
+Весь день шёл сильный дождь || It rained heavily all day
+Интересно, какие у тебя планы || I wonder what your plans are
+Откуда у вас наш адрес? || Where did you get our address?
+Мы оба знаем, кто в этом виноват || We both know who is to blame
+Он открыл ей свой секрет || He revealed to her his secret
+Я здесь для того, чтобы слушать || I am here to listen | I'm here to listen
+Он пришёл попросить нас о помощи || He came to ask us for help
+Оно не так дорого стоило || It was not so expensive
+Я должен сесть на первый поезд || I have to catch the first train
+Ваше мнение много для меня значит || Your opinion means a lot to me
+Ему постоянно не хватает денег || He constantly lacks money
+Насколько большая у тебя семья? || How big is your family?
+Когда ты ел в последний раз? || When did you last eat?
+Нам всем должно быть страшно || We should all be scared
+Вряд ли мы это сделаем || We are unlikely to do this
+Мужчина украл у неё сумку || A man stole her bag
+А не сходить ли нам в кино? || But should we go to the cinema?
+Ему очень нравится английский язык || He really likes English
+Как вы можете верить в такие вещи? || How can you believe in such things?
+Сложно ли учить французский язык? || Is it difficult to learn French?
+Вы уверены, что это та комната? || Are you sure this is that room?
+Вам повезло, что вы её нашли || You are lucky to have found it
+Сколько у тебя примерно книг? || How many books do you have?
+Ваш муж тоже из Австралии? || Is your husband also from Australia?
+На эти вопросы легко ответить || These questions are easy to answer
+Я больше никуда не хожу пешком || I don’t walk anywhere else
+В следующий раз я сама это сделаю || Next time I will do it myself
+На это было больно смотреть || It was painful to watch
+Давай не будем даже думать об этом || Let's not even think about it
+Погода в эти выходные была плохой || The weather this weekend was bad
+Давай не будем с ней разговаривать || Let's not talk to her
+Дай мне поспать ещё десять минут || Let me sleep another ten minutes
+Скажите мне, что это неправда || Tell me this is not true
+Мы обе пошли на концерт || We both went to the concert
+Она хотела выйти замуж немедленно || She wanted to get married immediately
+Он никогда не носит галстук || He never wears a tie
+Я не знаю, какая у тебя ситуация || I do not know what your situation is
+Обычно я на завтрак ем яйца || I usually eat eggs for breakfast
+Ваши друзья будут по вам скучать || Your friends will miss you
+Мне нужно знать некоторые вещи || I need to know some things
+Мы обе знаем, чья это вина || We both know whose fault it is
+Отец занят тем, что пишет письмо || Father is busy writing a letter
+Этим утром я ходил в парк || This morning I went to the park
+Вы не могли бы одолжить мне денег? || Could you lend me some money?
+Завтра у нас большая игра || Tomorrow we have a big game
+Я время от времени играю в гольф || I play golf from time to time
+Наверное, мне не стоило приходить || I guess I shouldn't have come
+Собака должна оставаться на улице! || The dog must stay outside!
+Вы должны бросить пить и курить || You must stop drinking and smoking
+Я хотел бы услышать твоё мнение || I would like to hear your opinion
+Мне нормально, если нормально вам || I'm fine, if you're fine
+Кто научил вас играть в шахматы? || Who taught you how to play chess?
+Я больше не могу терпеть эту боль || I can no longer endure this pain
+Не хотите ли выпить кофе? || Would you like some coffee?
+У меня есть жена и трое детей || I have a wife and three children
+Вам придётся за неё заплатить || You have to pay for it
+В доме было полно еды || The house was full of food
+Можно мне ещё один стакан пива? || Can I have another glass of beer?
+Позвольте мне заплатить за ужин || Let me pay for dinner
+Есть ли у тебя хлеб на обед? || Do you have bread for lunch?
+Мне всё ещё нужно сходить в банк || I still need to go to the bank
+А ты не молод ли слегка? || Aren't you a little young?
+А теперь вам пора отдохнуть || And now you have to rest
+Я забыл твой зонт в автобусе || I forgot your umbrella on the bus
+Он собирался жениться на ней || He was about to marry her
+Вы должны учиться всю свою жизнь || You must learn all your life
+На ней была новая шляпа || She was wearing a new hat
+Я должен изучать французский язык || I have to learn French
+Еды было более чем достаточно || The food was more than enough
+Рождество бывает лишь раз в году || Christmas only happens once a year
+У неё даже зубы есть || She even has teeth
+Я не знаю, какую мне песню спеть || I don’t know which song I should sing
+Кому я могу это продать? || To whom can I sell this?
+Вы должны показать свой паспорт || You must show your passport
+Сегодня я люблю весь мир || Today I love the whole world
+Она всегда будет в моём сердце || She will always be in my heart
+Где вы взяли эту одежду? || Where did you get these clothes?
+Не забудь встретиться с ним завтра || Remember to meet him tomorrow
+В эти выходные я многое узнал || I learned a lot this weekend
+Мы можем взять твой мяч? || Can we take your ball?
+Собрание было на прошлой неделе || The meeting was last week
+Я вернусь к себе в офис || I will return to my office
+Он играл в бейсбол после школы || He played baseball after school
+У меня украли бумажник в автобусе || My wallet was stolen on a bus
+Вы можете вести себя тихо? || Can you be quiet?
+Вам не стоило так беспокоиться || You shouldn't have been so worried
+У вас было хорошее лето? || Did you have a good summer?
+Я полагаю, вы уже купили билет || I suppose you already bought a ticket
+Похоже, у неё болит голова || She seems to have a headache
+Во сколько у вас была встреча? || What time did you have a meeting?
+Всё могло бы быть гораздо хуже || It could have been much worse
+Люди не могут жить вечно || People cannot live forever
+Он пригласил её на свидание || He invited her on a date
+Не смотри на меня так грустно || Do not look at me so sadly
+В следующий раз твоя очередь || Next time it's your turn
+Я надел своё пальто и шляпу || I put on my coat and hat
+Какой у тебя любимый пирог? || What is your favorite cake?
+Мы можем иметь с ними дело || We can deal with them
+Могу ли я одолжить у вас карандаш? || Can I borrow a pencil from you?
+Вы каждый вечер смотрите телевизор? || Do you watch TV every night?
+Это в самом деле настолько сложно? || Is it really that complicated?
+Мне следовало об этом подумать || I should have thought of that
+Вы двое снова работаете вместе? || Do you two work together again?
+Давайте не будем терять время || Let's not waste time
+Он пишет письма своей матери || He writes letters to his mother
+Моя мать обязательно скажет нет || My mother will surely say no
+Ей может пользоваться кто угодно || Anyone can use it
+Можно мне одолжить этот стул? || Can I borrow this chair?
+Иногда чем меньше, тем лучше || Sometimes the less, the better
+Можем ли мы изменить историю? || Can we change the story?
+Мы будем держать вас в курсе || We will keep you posted
+Она видела, как он ел бутерброд || She saw him eating a sandwich
+Что это за большое новое здание? || What is this big new building?
+Над ним будут смеяться друзья || Friends will laugh at him
+Нам завтра утром рано вставать || We get up early tomorrow morning
+Вам решать, что с ними делать || You decide what to do with them
+Большая часть из них мои || Most of them are mine
+Обе женщины знают друг друга || Both women know each other
+Можете сесть за руль, если хотите || You can drive if you want
+У него есть большой грузовик || He has a big truck
+На вкус это молоко ужасно || This milk tastes terrible
+Это был всего лишь плохой сон || It was just a bad dream
+Мяч попал ей в глаз || The ball hit her eye
+Вам это должно быть известно || You should be aware of this
+Она не могла это сама написать || She could not write it herself
+Думаю, нам лучше оставаться внутри || I think we better stay inside
+У него было всего сто долларов || He had only a hundred dollars
+Ты должен сидеть в тюрьме || You must be in prison
+Папа сказал мне сидеть тихо || Dad told me to sit quietly
+Это должно остаться между нами || That should stay between us
+Я позвоню вам, когда буду уезжать || I will call you when I leave
+Приходи ко мне домой в восемь || Come to my house at eight
+Он пишет родителям раз в месяц || He writes to parents once a month
+Как этот суп на вкус? || How does this soup taste?
+Каждое утро он ходит в сад || Every morning he goes to the garden
+Мы можем съесть обед в автобусе || We can eat lunch on the bus
+Я не смог с ним связаться || I could not contact him
+У вас есть оружие, верно? || You have a weapon, right?
+Вы ходили сегодня в церковь? || Did you go to church today?
+Вы разве не водитель такси? || Aren't you a taxi driver?
+Я бы не стал вас об этом просить || I would not ask you about it
+Ты весьма богат, не так ли? || You are very rich, aren't you?
+Наша команда вряд ли выиграет || Our team is unlikely to win
+Вы в два раза сильнее меня || You are twice as strong as me
+Вы мой единственный настоящий друг || You are my only true friend
+Позволь мне заплатить за твой обед || Let me pay for your lunch
+Он отказался от этой идеи || He abandoned this idea
+Просто сделай это ради меня || Just do it for me
+Кошки мне нравятся больше собак || I like cats more than dogs
+У вас есть ручка или карандаш? || Do you have a pen or pencil?
+Ты нарочно это сделал, да? || You did it on purpose, right?
+Как ты могла об этом забыть? || How could you forget about this?
+Мне очень нравится твоя страна || I really like your country
+Внезапно к ней пришла хорошая идея || Suddenly, a good idea came to her
+В какую игру вы хотите поиграть? || What game do you want to play?
+Он недавно получил хорошую работу || He recently got a good job
+Я не могу понять его чувства || I cannot understand his feelings
+О, прошу тебя, не говори так! || Oh, please, don’t say that!
+На следующей неделе у меня отпуск || I have a vacation next week
+Теперь у тебя большие неприятности || Now you are in big trouble
+Он иногда приходит меня навестить || He sometimes comes to visit me
+Я почти каждый день хожу на пляж || I go to the beach almost every day
+Она верит, что он невиновен || She believes that he is innocent
+Им срочно нужна была вода || They urgently needed water
+Твоя школа далеко от твоего дома? || Is your school far from your home?
+Какая у тебя любимая музыка? || What is your favorite music?
+Мама делает торт для моего отца || Mom makes a cake for my father
+В нашей школе есть бассейн || Our school has a pool
+Я уже прочёл этот роман || I already read this novel
+Звучит невероятно, но это правда || That sounds incredible, but it's true
+Когда у вас первый урок? || When is your first lesson?
+У неё очень красивый почерк || She has a very beautiful handwriting
+Делай, как я сказал, ясно? || Do as I said, okay?
+Пьяный мужчина не мог идти прямо || A drunken man could not walk straight
+Мне будет не хватать этого места || I will miss this place
+В понедельник у меня выходной || Monday is my day off
+В этот раз моя очередь платить || This time it's my turn to pay
+Та рубашка очень большая для меня || That shirt is very big for me
+Что это за ужасный запах? || What is that terrible smell?
+Вы придёте ко мне в гости? || Will you come to visit me?
+Из комнаты никому не выходить || No one should leave the room
+Вы правда можете видеть будущее? || Can you really see the future?
+Женщины лучше в этом, чем мужчины || Women are better at this than men
+В тот день был сильный ветер || There was a strong wind that day
+Он потерял зрение в той аварии || He lost his sight in that accident
+Он хотел со мной познакомиться || He wanted to meet me
+Ей никак не больше тридцати || She is no more than thirty
+Тебе лично придётся этим заняться || You personally have to do this
+Люди говорят, что я сумасшедший || People say I'm crazy
+Где она была в тот момент? || Where was she at that moment?
+Почему бы тебе не закрыть рот? || Why don't you close your mouth?
+Дай мне взглянуть на твои руки || Let me look at your hands
+Почему вы не пытались бежать? || Why didn’t you try to run?
+Вы будете отвечать на мои вопросы? || Will you answer my questions?
+Где вы взяли эти фотографии? || Where did you get these photos?
+Нам нужно ещё три стола || We need three more tables
+Он должен был найти другой способ || He had to find another way
+Он бросил курить и начал бегать || He quit smoking and began to run
+Вы умеете кататься на лыжах? || Do you know how to ski?
+У всех есть право на жизнь || Everyone has the right to life
+Была и ещё одна причина || There was another reason
+Мы не должны терять терпение || We must not lose patience
+У нас для вас маленький сюрприз || We have a little surprise for you
+Держите свои идеи при себе || Keep your ideas to yourself
+Детям нужны любовь и внимание || Children need love and attention
+Его матери было стыдно за него || His mother was ashamed of him
+Вам надо продолжать без меня || You need to continue without me
+Перестаньте вести себя как идиот || Stop acting like an idiot
+Это моя самая большая мечта || This is my biggest dream
+Ты ешь рис каждый день? || Do you eat rice every day?
+Ты не можешь продать наше пианино! || You cannot sell our piano!
+Это был весьма красивый цветок || It was a very beautiful flower
+Давайте сделаем перерыв на чай || Let's take a tea break
+Я однажды видел его в поезде || I once saw him on a train
+Любой может сделать это легко || Anyone can do this easily
+Вот так мы делаем мороженое || That's how we make ice cream
+Память о нём будет жить вечно || His memory will live forever
+Без хлеба еда не еда || Without bread, food is not food
+Когда это ты начал любить бейсбол? || When did you start to love baseball?
+Меня не волнует его цена || I don't care about its price
+Мы знаем, что это был наш долг || We know that it was our duty
+Вам не следовало звонить мне || You shouldn't have called me
+Ты в самом деле такой тупой? || Are you really that stupid?
+В этой комнате скоро станет тепло || The room will soon become warm
+У тебя есть обувь и носки? || Do you have shoes and socks?
+Вы не сделаете звук потише? || Won't you make the sound quieter?
+Где вы нашли это кольцо? || Where did you find this ring?
+Вся страна говорит об этом || The whole country talks about this
+Мы начнём завтра в девять часов || We will start tomorrow at nine o’clock
+Дурак я был, что вам доверял || I was a fool that trusted you
+Всё та же старая песня! || All the same old song!
+Когда я был моложе, я вёл дневник || When I was younger, I kept a diary
+Эта птица не умеет летать || This bird cannot fly
+У меня есть к вам пара вопросов || I have a couple of questions for you
+У меня есть для тебя задание || I have a task for you
+Я могу научить вас писать || I can teach you to write
+Никогда не забуду то чувство || I will never forget that feeling
+Его машина упала в озеро || His car fell into a lake
+Эта картина была очень дорогой || This picture was very expensive
+Не стой у меня на пути || Do not stand in my way
+У меня аллергия на кошек || I'm allergic to cats
+Куда мы можем пойти купаться? || Where can we go swimming?
+Держись подальше от моего стола || Stay away from my table
+Зимой здесь редко идёт снег || It rarely snows here in winter
+Вчера дождь шёл целый день || Yesterday it rained all day
+В воскресенье я иду в церковь || On Sunday I go to church
+Вы бы не хотели зайти? || Would you like to stop by?
+На следующей неделе у меня тест || I have a test next week
+Она пошла с ним в зоопарк || She went with him to the zoo
+У меня была сломана нога || My leg was broken
+Жизнь в Японии очень дорога || Life in Japan is very expensive
+Ты обязан говорить мне правду || You must tell me the truth
+Мне нужно двадцать четыре часа || I need twenty four hours
+Почти для всех это был новый опыт || For almost everyone, it was a new experience
+У меня было плохое настроение || I was in a bad mood
+Никто не думает, что Вы трус || No one thinks you are a coward
+Позволь мне сказать одну вещь || Let me say one thing
+Кто я такая, чтобы жаловаться? || Who am I to complain?
+Какая работа у твоей жены? || What is your wife's job?
+Всё это может быть зря || All this may be in vain
+Вы можете вспомнить, что произошло? || Can you recall what happened?
+Я и одной рыбы не поймал || I didn’t catch one fish either
+Я не принимаю вашего извинения || I do not accept your apology
+Он ходил в музей по воскресеньям || He went to the museum on Sundays
+Вы не можете остаться надолго || You cannot stay for long
+Это как раз по моей части || This is precisely my part
+Я выше того, чтобы лгать || I am superior to lying | I'm superior to lying
+Они не могут Вас уволить || They cannot fire you
+Можно мне ещё ненадолго остаться? || Can I stay a while longer?
+Мы можем обсудить это позже || We can discuss this later
+Никто ничем никому не обязан || No one owes anything to anyone
+Есть ли рейс после обеда? || Is there a flight after lunch?
+Моя собака ходит за мной повсюду || My dog \u200b\u200bfollows me everywhere
+У них не всё в порядке с головой || They are not all right with the head
+Не похоже, что тебе удобно || It doesn't seem like you're comfortable
+Кто бросил камень в мою собаку? || Who threw a stone at my dog?
+Он покрасил дверь в синий цвет || He painted the door blue
+У меня есть лодка и машина || I have a boat and a car
+Вы не должны на него кричать || You must not shout at him
+Нам стоит обсудить это наедине || We should discuss this in private
+Это было бы хорошее начало || That would be a good start
+Какой твой любимый замок в Японии? || What is your favorite castle in Japan?
+Вам надо бы проверить зрение || You should check your vision
+Принеси мне ещё одно одеяло || Bring me another blanket
+У вас впереди трудный день || You have a difficult day ahead
+Это было не более чем совпадение || It was nothing more than a coincidence
+После этого он пошел домой || After that, he went home
+Надеюсь, у Вас есть алиби || I hope you have an alibi
+Вы должны отпустить меня домой || You must let me go home
+Должно быть, это было нечто || It must have been something
+Где вы были, когда начался пожар? || Where were you when the fire started?
+Я забыл, какая у тебя фамилия || I forgot your last name
+Вы можете опоздать в школу || You may be late for school
+Я принесу еще одно полотенце || I will bring another towel
+Мой дом недалеко от школы || My home is near the school
+Как я могу от него избавиться? || How can I get rid of him?
+Он не мог глубоко дышать || He could not breathe deeply
+В вашем доме есть лифт? || Does your home have an elevator?
+Ты должна выучить французский язык || You must learn French
+Какую помощь я могу получить? || What help can I get?
+Вам нравится ваша новая квартира? || Do you like your new apartment?
+Я никогда не забуду этот случай || I will never forget this incident
+Вы будете есть этот кусок пирога? || Will you eat this piece of cake?
+В том платье она выглядит красиво || In that dress, she looks beautiful
+Не могли бы вы принести нам кофе? || Could you bring us some coffee?
+У нас с Вами примерно один размер || We have approximately the same size with you
+Откуда у вас такая информация? || Where did you get this information?
+Я больше люблю молоко, чем сок || I like milk more than juice
+Мне до сих пор иногда одиноко || I am still sometimes lonely | I'm still sometimes lonely
+Он посоветовал ей перестать пить || He advised her to stop drinking
+Давай не будем никому рассказывать || Let's not tell anyone
+Вам не следует винить себя за это || You should not blame yourself for this
+Он забыл вернуть мой словарь || He forgot to return my vocabulary
+Давай не будем слишком спешить || Let's not rush too much
+Вы ведь не особенно голодны, так? || You're not particularly hungry, are you?
+Я думал, вы работаете допоздна || I thought you were working late
+Мы искали это везде и повсюду || We searched for it everywhere and everywhere
+Мы смотрели вниз на красивое море || We looked down at the beautiful sea
+Мне надоело играть в игры || I am tired of playing games | I'm tired of playing games
+У меня аллергия на морковь || I am allergic to carrots | I'm allergic to carrots
+Английский не простой для нас || English is not easy for us
+Он был ранен в плечо || He was wounded in the shoulder
+Как мы можем попасть внутрь? || How can we get inside?
+Он вернулся домой спустя три часа || He returned home three hours later
+Вам следует начинать уже сейчас || You should start now
+У меня есть лишь одно желание || I have only one desire
+Я не хотел тебя обидеть || I didn’t mean to offend you
+Вы всё ещё боитесь змей? || Are you still afraid of snakes?
+Завтра я должен посетить врача || Tomorrow I must visit a doctor
+Вы можете получить это бесплатно || You can get it for free
+Его тело так и не нашли || His body was never found
+Ты должен пройти через это || You have to go through this
+Мы не ждём от вас никакой помощи || We do not expect any help from you
+В те дни всё было иначе || In those days, everything was different
+Это может произойти в любой момент || This can happen at any time
+Все остальные дети делают это || All other children do this
+Прости, я не хотела тебя напугать || Sorry, I didn't mean to scare you
+В каком доме ты жила? || What house did you live in?
+Где вы сегодня будете обедать? || Where will you have lunch today?
+Я поехал в аэропорт на такси || I went to the airport by taxi
+Для них это был конец || For them, this was the end
+Где я могу получить свой багаж? || Where can I get my luggage?
+Я ем трижды в день || I eat three times a day
+Оставь документы у меня в офисе || Leave the documents in my office
+Я люблю быть среди людей || I like to be among people
+Вы не могли бы снять обувь? || Could you take off your shoes?
+Как часто ты ешь фрукты? || How often do you eat fruit?
+Человек не может жить без мечты || Man cannot live without a dream
+Он достаточно взрослый, чтобы пить || He is old enough to drink
+Почему у тебя такие большие уши? || Why do you have such big ears?
+Вы бы не могли выключить телевизор? || Could you turn off the TV?
+Ешь свой суп, пока он горячий || Eat your soup while it's hot
+Почему я должна давать вам деньги? || Why should I give you money?
+Будем надеяться, что вы ошибаетесь || Let’s hope that you are mistaken
+Он был пьяный и злой || He was drunk and evil
+Я буду помнить вас, пока я жив || I will remember you while I am alive | I will remember you while I'm alive
+Никто не может этого отрицать || No one can deny this
+На обед я съел салат || I ate salad for lunch
+Какой у тебя любимый город в США? || What is your favorite city in the USA?
+Её старший сын не женат || Her eldest son is not married
+Честно говоря, я не согласна || Honestly, I do not agree
+Некоторые дети не любят овощи || Some children do not like vegetables
+Я не могу вспомнить свой пароль || I cannot remember my password
+Кому нужна эта старая мебель? || Who needs this old furniture?
+Двигатель не работает как следует || Engine does not work as expected
+Как правило, я пью много молока || I usually drink a lot of milk
+Мой сосед по комнате сумасшедший || My roommate is crazy
+Вы сегодня не будете голосовать? || You won’t vote today?
+Клянусь, это была не моя вина || I swear it was not my fault
+Вы получили на это разрешение? || Did you get permission for this?
+Поначалу она ему не нравилась || At first, he didn’t like her
+Я старался вас не разбудить || I tried not to wake you
+Вы ведь не собираетесь сдаваться? || Aren't you going to give up?
+Разве ты больше не играешь джаз? || Don't you play jazz anymore?
+Из молока делают масло и сыр || Butter and cheese are made from milk
+Той ночью никто не мог уснуть || That night no one could fall asleep
+Думай, прежде чем открывать рот || Think Before You Open Your Mouth
+У меня в комнате полный бардак || I have a mess in my room
+У меня был с ней долгий разговор || I had a long conversation with her
+Ты имеешь право на счастье || You have the right to happiness
+Должно быть, он честный человек || He must be an honest man
+Прямо сейчас я не уставший || I'm not tired right now
+Мы ездили в Лондон в прошлом году || We went to London last year
+Он понятия не имел, чего ожидать || He had no idea what to expect
+Можно мне съесть ещё кусочек торта? || Can I eat another piece of cake?
+Мне не нравится наш новый тренер || I do not like our new coach
+Не могу вспомнить его объяснение || I can’t remember his explanation
+Я больше не мог выносить этот шум || I could no longer endure this noise
+Никто не может отрицать этот факт || No one can deny this fact
+Где я могу положить свои сумки? || Where can I put my bags?
+Кто заставил тебя съесть мышь? || Who made you eat the mouse?
+Вы должны были приехать на поезде || You should have arrived by train
+Я не один из твоих солдат || I am not one of your soldiers | I'm not one of your soldiers
+Результаты были не очень хорошие || The results were not very good
+Это ваша первая поездка в Японию? || Is this your first trip to Japan?
+Сколько примерно это будет стоить? || How much will it cost?
+Могу я задать глупый вопрос? || Can I ask a stupid question?
+Я люблю его, потому что он честный || I love him because he is honest
+Фома не может завести свою машину || Thomas cannot start his car
+К ней непременно придёт успех || Success will certainly come to her
+Я пришёл туда, чтобы встретить его || I came there to meet him
+В этот раз тебе нельзя опаздывать || This time you must not be late
+Нет никакой надежды на его успех || There is no hope of his success
+Вскоре она снова вышла замуж || She soon married again
+Мы должны защищать свою границу || We must defend our border
+Врачи ничего не смогли бы сделать || Doctors could not do anything
+Думаю, этот пиджак мне бы подошёл || I think this jacket would suit me
+Возможно, мне нужен новый помощник || Maybe I need a new assistant
+Приходите сюда ровно в шесть часов || Come here at exactly six o'clock
+Вы нигде не будете в безопасности || You will not be safe anywhere
+Вы хотите сказать, я лжец? || You mean I'm a liar?
+К счастью, я выиграл первый приз || Fortunately, I won the first prize
+Что у меня за болезнь? || What is my illness?
+Им следовало бы двигаться быстро || They should be moving fast
+Мы не можем просто сдаться || We cannot just give up
+Вряд ли стоит это обсуждать || It is hardly worth discussing
+Я не буду пытаться вас убедить || I will not try to convince you
+Я имел к этому мало отношения || I had little to do with this
+Вы хотели бы присоединиться к нам? || Would you like to join us?
+Обычно я ем вне дома || I usually eat out
+Это стоило мне триста долларов || It cost me three hundred dollars
+Врачи думали, что у него простуда || Doctors thought he had a cold
+На самом деле, я не эксперт || Actually, I am not an expert | Actually, I'm not an expert
+Мне нужно убраться в квартире || I need to clean the apartment
+Она выглядит мило в том платье || She looks cute in that dress
+Он попытался сдержать свой гнев || He tried to restrain his anger
+Он был очень старый и больной || He was very old and sick
+Мы бы не стали рисковать || We would not risk it
+Могу я принять ваш заказ? || Can I accept your order?
+Мне стыдно за поведение моего сына || I am ashamed of my son’s behavior | I'm ashamed of my son’s behavior
+Вчера я спал двенадцать часов || Yesterday I slept twelve hours
+Вы сегодня вечером идёте в театр? || Are you going to the theater tonight?
+У меня есть множество идей || I have many ideas
+Его состояние могло бы быть хуже || His condition could be worse
+Когда мы начнём брать уроки? || When do we start taking lessons?
+Мы, конечно, не можем вас обвинять || Of course, we cannot blame you
+Мой отец не может его поднять || My father cannot lift him
+Всё это произошло так неожиданно || All this happened so unexpectedly
+Благодарю за ваш быстрый ответ || Thank you for your prompt reply
+Я хочу сыграть в карты || I want to play cards
+Он мой самый младший брат || He is my youngest brother
+Он поедет на встречу вместо меня || He will go to meet me instead
+Вы не хотите прогуляться еще раз? || You do not want to walk again?
+Дверь открыта в данный момент || The door is currently open
+Вам незачем кричать во всё горло || You don’t have to scream out loud
+Какой ваш любимый горячий напиток? || What is your favorite hot drink?
+Вы помните свой первый поцелуй? || Do you remember your first kiss?
+Мы прибыли в Лондон к полуночи || We arrived in London by midnight
+Три недели назад я купил мотоцикл || Three weeks ago I bought a motorcycle
+Можно поставить здесь мою машину? || Can I put my car here?
+Вы уверены, что это безопасно? || Are you sure this is safe?
+Вход в метро на углу || Subway entrance at the corner
+Мне было очень себя жалко || I felt very sorry for myself
+Наш пациент приходит в себя || Our patient wakes up
+У меня вчера болел зуб || I had a toothache yesterday
+Мы думаем, что это несправедливо || We think this is unfair
+Мой дед любит читать книги || My grandfather likes to read books
+Мне пригласить его на свидание? || Should I invite him out?
+Мне негде спать этой ночью || I have nowhere to sleep tonight
+Я должен прочитать эту статью || I have to read this article
+Выбора у меня особо не было || I especially had no choice
+Какой у Вас рост и вес? || What is your height and weight?
+Мне песок в глаз попал || I got sand in my eye
+Он отправился в Лондон через Париж || He went to London through Paris
+Я хотел бы переехать в Австралию || I would like to move to Australia
+Мне надо это как следует обдумать || I need to think it over properly
+Мы начали нашу работу в полдень || We started our work at noon
+Мне удалось достать эту книгу || I managed to get this book
+Самое худшее было ещё впереди || The worst was yet to come
+Вы всё ещё хотите меня обнять? || Do you still want to hug me?
+Мы будем продавать свой дом || We will sell our house
+Мальчик умеет считать до десяти || A boy can count to ten
+На улице как будто лето || It's like summer on the street
+Она богата, а также очень красива || She is rich and also very beautiful
+В мой ботинок попал камень || A stone fell into my boot
+Кто у вас тут главный? || Who is your boss here?
+Шум не дал мне заснуть этой ночью || Noise prevented me from falling asleep tonight
+Мы упорно работаем над этим || We are working hard on this
+Желаю тебе хорошо провести время || I wish you a good time
+Ты сейчас смотришь это шоу? || Are you watching this show now?
+Как мне следует вас называть? || What should I call you?
+Она прошла через многие трудности || She went through many difficulties
+Она поехала в Чикаго на автобусе || She went to Chicago by bus
+Не могу выносить этот холод || I can not stand this cold
+Вы не хотели бы со мной пообедать? || Would you like to have lunch with me?
+Позволь мне об этом позаботиться || Let me take care of this
+Нисколько в этом не сомневаюсь || I have no doubt about this
+Что я могу дать вам взамен? || What can I give you in return?
+Я не могу отсюда выбраться || I cannot get out of here
+Он иногда приходит меня повидать || He sometimes comes to see me
+Никто не хочет выглядеть глупо || No one wants to look stupid
+Здесь недалеко был большой пруд || There was a large pond nearby
+Она положила ключ к себе в карман || She put the key in her pocket
+У нас очень хороший повар || We have a very good cook
+Я всё это сделала самостоятельно || I did all this myself
+Жаль, что я не могу так рисовать || I wish I could draw like that
+Какое у тебя любимое стихотворение? || What is your favorite poem?
+В те времена радио не было || There was no radio in those days
+Ты не мог бы меня сфотографировать? || Could you take a picture of me?
+Давай сходим в японский ресторан || Let's go to a Japanese restaurant
+Я знаю, что ты вегетарианец || I know you are a vegetarian
+Позвольте мне подвезти вас до дома || Let me give you a ride home
+Его бедный пёс ещё жив || His poor dog is still alive
+В моей машине закончился бензин || My car ran out of gas
+Где я должен подписать своё имя? || Where should I sign my name?
+Мне не было нужды ему говорить || I did not need to tell him
+Я заставил его покрасить дом || I made him paint the house
+Это и не очень вежливо || This is not very polite
+Ничего не могу вам обещать || I can not promise you anything
+Я вижу страх в ваших в глазах || I see fear in your eyes
+Можно мне съесть этот апельсин? || Can I eat this orange?
+Она приготовила нам вкусный ужин || She made us a delicious dinner
+Я мог потерять свою работу || I could lose my job
+Фильм был длинный и скучный || The film was long and boring
+На десерт я съел банан || I ate a banana for dessert
+Мне не нравится ваше отношение || I do not like your attitude
+Давай не будем себя обманывать || Let's not deceive ourselves
+Вы можете поменять её на другую || You can exchange it for another
+Он взял расходы на себя || He took the costs for himself
+Малыш пока не может ходить || The baby cannot walk yet
+Так что у тебя за тайна? || So what is your secret?
+Мы пойдем на этот риск || We will take this risk
+Ему было неохота туда идти || He was reluctant to go there
+Вам нельзя входить в эту комнату || You must not enter this room
+В какое время ты ходишь на рынок? || What time do you go to the market?
+В Японии сейчас сезон дождей || Japan is in the rainy season
+Моя бабушка дала мне это ожерелье || My grandmother gave me this necklace
+У Вас аллергия на арахис? || Are you allergic to peanuts?
+Мы сегодня чудесно провели время || Today we had a wonderful time
+Надеюсь, мы сможем этого избежать || I hope we can avoid this
+Он рассказал очень смешной анекдот || He told a very funny joke
+У тебя есть та бутылка? || Do you have that bottle?
+На мой взгляд, ты не прав || In my opinion, you are wrong
+Какой у вас любимый цвет волос? || What is your favorite hair color?
+Я не хочу зря тратить ваше время || I do not want to waste your time
+Мой старший брат носит усы || My older brother wears a mustache
+Вы хотите, чтобы я начала заново? || Do you want me to start over?
+Тебе не обязательно меня целовать || You don't have to kiss me
+Где я могу забрать свой багаж? || Where can I pick up my luggage?
+У меня нет твоей силы || I do not have your strength
+Мы только что закончили завтракать || We just finished having breakfast
+Ему удалось подняться на гору || He managed to climb a mountain
+Вчера у нас была буря || Yesterday we had a storm
+На ней была красная юбка || She was wearing a red skirt
+Ты сдал все свои экзамены? || Have you passed all your exams?
+Не заставляй меня стрелять в тебя || Don't make me shoot you
+Вы же знаете, что это нечестно || You know that this is dishonest
+Вы ведь не шпион, да? || You're not a spy, are you?
+Мне не следовало спрашивать вас || I should not have asked you
+Я изучаю китайский каждый день || I learn Chinese every day
+Боюсь, вы сели не в своё кресло || I'm afraid you didn’t sit in your chair
+Нам была нужна эта победа || We needed this victory
+Богатые люди не всегда счастливы || Rich people are not always happy
+Женщин надо любить, а не понимать || Women must be loved, not understood
+Почему бы вам не вздремнуть? || Why don't you take a nap?
+Джентльмен такого не сделал бы || A gentleman would not do that
+У меня вдруг пропал аппетит || I suddenly lost my appetite
+Я не хотел тебя расстраивать || I didn’t mean to upset you
+Мне стыдно за твое поведение || I am ashamed of your behavior | I'm ashamed of your behavior
+Мой портфель было нигде не найти || My portfolio was nowhere to be found
+Меня назвали в честь дяди || I was named after my uncle
+В чём Ваши сильные стороны? || What are your strengths?
+Тебе лучше сейчас лечь спать || You better go to bed now
+В поле зрения никого нет || No one is in sight
+Я люблю музыку, особенно рок || I love music, especially rock
+Это был просто несчастный случай || It was just an accident
+Как насчет закончить на сегодня? || How about finishing for today?
+Мне пришлось взять напрокат машину || I had to rent a car
+Какой поезд идёт в центр города? || Which train goes to the city center?
+В ту ночь была полная луна || There was a full moon that night
+В этой комнате есть кондиционер || This room has air conditioning
+Он посмотрел вверх на небо || He looked up at the sky
+Вы ведь не будете возражать? || You will not mind?
+Ну что ж, давайте обсудим это || Well then, let's discuss this
+Поставь свою сумку в багажник || Put your bag in the trunk
+Вы видели, как он выходил наружу? || Did you see how he went outside?
+Он был по колено в грязи || He was knee—deep in the mud
+Я испёк яблочный пирог на десерт || I baked an apple pie for dessert
+Как ты будешь проводить Рождество? || How will you spend Christmas?
+С какого дерева этот лист? || What tree is this leaf from?
+Эта дорога идёт до парка || This road goes to the park
+Вы можете передать мне соль? || Can you pass me the salt?
+Они сказали мне, что это бомба || They told me it was a bomb
+Вы хотите, чтобы я сделала перевод? || Do you want me to translate?
+Как же эта штука работает? || How does this thing work?
+Я потерял интерес к работе || I lost interest in work
+Даже ребенок может это прочесть || Even a child can read it
+Он не может отвести от неё глаз || He cannot take his eyes off her
+Разве я не великолепно выгляжу? || Don't I look great?
+Он подал своё заявление в офис || He submitted his application to the office
+Я искренне об этом сожалею || I sincerely regret it
+Ну что ты такой стеснительный? || Why are you so shy?
+Дом Джона стоит напротив церкви || John's house is opposite the church
+Могу я сдать обратно этот билет? || Can I return this ticket?
+Он бегло говорит на французском || He speaks French fluently
+Почему ж я такой сонный? || Why am I so sleepy?
+Кто твой любимый игрок в хоккей? || Who is your favorite hockey player?
+Сегодня у меня небольшой жар || Today I have a little fever
+Вы ведь намеренно это сделали? || You did it intentionally?
+Мне плевать на моё будущее || I don't care about my future
+Я вам сегодня попозже перезвоню || I’ll call you back later today
+Надеюсь, у вас есть страховка || I hope you have insurance
+Мы думаем, что сможем это уладить || We think we can fix it
+В этой деревне прошло моё детство || My childhood passed in this village
+Я пошёл в поход с моей семьёй || I went camping with my family
+Не заставляй меня повторять дважды || Do not make me repeat twice
+Я не могу оплатить аренду || I cannot pay the rent
+Где я могу пройтись по магазинам? || Where can I go shopping?
+Ты на самом деле хороший фотограф || You are actually a good photographer
+В этой стране мягкий климат || This country has a mild climate
+На столе стоят две тарелки || Two plates are on the table
+Мы прибыли на вокзал в шесть || We arrived at the station at six
+Откуда у тебя этот шрам? || Where did you get this scar?
+Мой сын всего лишь подросток || My son is just a teenager
+Шлем какого размера вам нужен? || What size helmet do you need?
+Ты не знал, что тебе нужна виза? || Didn't you know you need a visa?
+Шум действовал мне на нервы || The noise got on my nerves
+Я не думаю, что в этом суть || I do not think that is the point
+Когда он упал, он ушиб левую ногу || When he fell, he bruised his left leg
+Вы можете закончить работу в срок? || Can you finish the work on time?
+Я решил не переезжать в Австралию || I decided not to move to Australia
+Положите Ваши вещи в рюкзак || Put your things in a backpack
+Мы бы не стали ничего менять || We would not change anything
+Не мог бы ты сделать исключение? || Could you make an exception?
+Полиция не может вас арестовать || The police cannot arrest you
+У нас вчера была куча проблем || We had a bunch of problems yesterday
+Давай не будем тратить свое время || Let's not waste our time
+В этой бутылке есть немного виски || There is some whiskey in this bottle
+Больше всего мне нравится осень || Most of all I like autumn
+Есть ли книжный магазин в отеле? || Is there a bookstore in the hotel?
+Гора Фудзи была покрыта снегом || Mount Fuji was covered in snow
+Видимо, выбора у нас нет || Apparently, we have no choice
+Он богатый, но не счастливый || He is rich, but not happy
+Когда вы сделали этот снимок? || When did you take this picture?
+Я не могу дышать носом || I cannot breathe through my nose
+Как ты могла хотеть этого? || How could you want this?
+Я бы на эту тему шутить не стал || I would not joke on this subject
+Это будет стоить тридцать евро || It will cost thirty euros
+Он показал мне своё фото || He showed me his photo
+У меня пыль в глазах || I have dust in my eyes
+Зубы у него были белые || His teeth were white
+Они не дали никакого объяснения || They gave no explanation
+Он прочитал этот документ вслух || He read this document out loud
+Она показала мне свой альбом || She showed me her album
+Для чего нужен этот предмет? || Why is this item needed?
+Могу я задать личный вопрос? || May I ask a personal question?
+Он покрасил потолок в синий цвет || He painted the ceiling blue
+Как это может тебе не нравиться? || How might you not like this?
+Я не буду пытаться вас уговорить || I will not try to persuade you
+Мы молча сидели за столом || We sat silently at the table
+Вчера ночью я видел привидение || Last night I saw a ghost
+Я всего лишь хотел поздороваться || I just wanted to say hello
+Ты, вероятно, думаешь, я псих || You probably think I'm crazy
+У нас впереди насыщенный день || We have a busy day ahead
+У меня был слепой сосед || I had a blind neighbor
+Она не смогла удержаться от смеха || She could not help laughing
+Каждый должен запомнить эти слова || Everyone must remember these words
+Мои внуки ходят в эту школу || My grandchildren go to this school
+Я тоже завтра пойду в университет || I’m going to university tomorrow too
+Официант принёс мне мой напиток || The waiter brought me my drink
+Я не смог открыть сейф || I could not open the safe
+Добро пожаловать в ваш новый дом! || Welcome to your new home!
+Мне очень нравится эта певица || I really like this singer
+Я думал, что вы хотите развестись || I thought you wanted a divorce
+Давай не будем забывать про пиво || Let's not forget about beer
+Я не могла это предотвратить || I could not prevent this
+Мне не очень нравится математика || I don't really like math
+Он знает, как преподавать языки || He knows how to teach languages
+Тебе нельзя покидать эту комнату || You must not leave this room
+Его старый кот еще живой || His old cat is still alive
+Я смотрел матч по телевизору || I watched the match on TV
+Я больше не буду вам мешать || I will no longer bother you
+Ты можешь переплыть эту реку? || Can you cross this river?
+Я не могу с ним поладить || I cannot get along with him
+Как долго будет продолжаться буря? || How long will the storm last?
+Кто бы сделал такую глупость? || Who would do such stupid things?
+Ей, должно быть, около сорока || She must be around forty
+Он менее терпелив, чем его брат || He is less patient than his brother
+Я хочу сбросить пять килограмм || I want to lose five kilograms
+Я буду молиться за вашу семью || I will pray for your family
+Должно быть, это новый рекорд || This must be a new record
+Я получил его практически даром || I received it practically for nothing
+Вы думаете, у животных есть душа? || Do you think animals have a soul?
+Во сколько мне за вами заехать? || What time do I call for you?
+Им нужно кормить свои семьи || They need to feed their families
+Дай мне хорошенько это обдумать || Let me think it over carefully
+Какая книга легче : эта или та? || Which book is easier: this or that?
+В конце концов, это разумно || In the end, this is reasonable
+Он поцеловал свою дочь в лоб || He kissed his daughter on the forehead
+Почему Вам нравится крепкий кофе? || Why do you like strong coffee?
+Я говорю, что стоит рискнуть || I say it’s worth the risk
+
+Все школы закрыты в этот праздник || All schools are closed on this holiday
+В наши дни люди живут дольше || These days, people live longer
+
+
+Мне было холодно, и я был мокрый || I was cold and I was wet
+Мы пришли сюда, чтобы повеселиться || We came here to have fun
+Все её песни имели огромный успех || All her songs were a huge success
+Где я могу увидеть футбольный матч? || Where can I see a football match?
+Какая удача встретить Вас здесь! || What good luck meeting you here!
+Я должен не забыть это записать || I must remember to write this down
+Можно я съем это яблоко? || Can I eat this apple?
+Мне это занятие начинает надоедать || This activity begins to bother me
+Мы пели песни вокруг костра || We sang songs around the fire
+Нам надо с этим разобраться || We need to deal with this
+
+У его жены родились близнецы || Twins were born to his wife
+Положи его на мой письменный стол || Put it on my desk
+Он выпил яд по ошибке || He drank poison by mistake
+Оставляю это на твоё усмотрение || I leave it up to you
+Ну что ж, поговорим откровенно! || Well, let's talk frankly!
+Не заставляй меня доставать ремень || Don't make me get the belt
+
+Он сделал ей массаж ног || He gave her a foot massage
+
+Он недавно ходил повидаться с ней || He recently went to see her
+Строго говоря, так и есть || Strictly speaking, it is
+Ваш охранник меня бы не впустил || Your guard would not let me in
+Он пристально посмотрел на картину || He stared at the picture
+Магазин поднял цены на все товары || The store raised prices for all products
+Меня взяли на работу лишь временно || I was hired only temporarily
+Вас двоих подбросить до дома? || Throw the two of you home?
+
+Откуда вы знаете, что это подделка? || How do you know this is fake?
+Я закончил убираться в квартире || I finished cleaning up the apartment
+Он нежно положил руку на её плечо || He gently laid a hand on her shoulder
+Мы благодарны вам за содействие || We are grateful for your assistance
+Он показал мне свой фотоальбом || He showed me his photo album
+В ту ночь был шторм || There was a storm that night
+
+В одно мгновение всё было кончено || In an instant, everything was over
+С этой машиной легко обращаться || This machine is easy to handle
+
+Люди должны стараться изо всех сил || People should try their best
+Не могу здесь больше находиться || Can't stay here anymore
+Вот бы у меня был миллион долларов || I wish I had a million dollars
+Мы решили не увольнять тебя || We decided not to fire you
+Я вчера ездил в торговый центр || I went to the mall yesterday
+А теперь сделайте глубокий вдох || Now take a deep breath
+У нас был небольшой спор || We had a little argument
+Он как раз закончил колледж || He just graduated from college
+Хочу вновь с вами увидеться || I want to see you again
+Я совершенно уверен, что это был слон || I am pretty sure it was an elephant | I'm pretty sure it was an elephant
+Этот меч тяжелее, чем я думал || This sword is heavier than I thought
+Есть у вас сдача с одного доллара? || Do you have change with one dollar?
+Я не могу назвать вам их имён || I cannot give you their names
+Они шли бок о бок || They walked side by side
+В комнате был идеальный порядок || The room was in perfect order
+Я хочу изменить свою внешность || I want to change my appearance
+Мы должны его строго наказать || We must punish him severely
+У нас есть нечто общее || We have something in common
+Ваша репутация идёт впереди вас || Your reputation goes ahead of you
+Нельзя же каждый раз выигрывать || One cannot win every time
+Он был слишком стар, чтобы плыть || He was too old to swim
+Не давай им себя запугать || Don't let them scare you
+Я должен вернуть мои долги || I must repay my debts
+Письменный стол у меня деревянный || My desk is wooden
+Как мы будем это чинить? || How will we repair it?
+Ни одна кость не сломана || Not a single bone is broken
